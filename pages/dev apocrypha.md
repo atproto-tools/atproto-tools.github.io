@@ -11,7 +11,6 @@
 	- https://www.pfrazee.com/blog/why-not-p2p
 - general protocol
 	- This might be a dumb question but why can’t the relay and appview just keep the last 24 hours or week of content and drop the older signed events? Aren’t user feeds validated at ingestion and you could just check the signature instead of the merkle DAG no? Partial validation in SSB worked just fine. #relay #perf #bnewbold
-	  collapsed:: true
 	  https://bsky.app/profile/bnewbold.net/post/3ldwah3sg4s2d
 - moderation tooling
 	- Have there been any statements or analysis on why it's 20 labelers and not 200? 200 is a much more reasonable number imo #moderation #labelers #perf #jaz

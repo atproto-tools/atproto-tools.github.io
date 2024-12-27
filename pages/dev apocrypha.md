@@ -8,6 +8,7 @@
 	- https://github.com/bluesky-social/social-app/issues?q=is%3Aissue+sort%3Areactions-%2B1-desc+-label%3Ax%3Aon-the-roadmap+
 	- some sort of github graphql to search for dev responses comments filtered by length? idk
 - basic design
+	- https://www.pfrazee.com/blog/why-not-p2p
 	-
 - general protocol
 	- This might be a dumb question but why can’t the relay and appview just keep the last 24 hours or week of content and drop the older signed events? Aren’t user feeds validated at ingestion and you could just check the signature instead of the merkle DAG no? Partial validation in SSB worked just fine. #relay #perf #bnewbold

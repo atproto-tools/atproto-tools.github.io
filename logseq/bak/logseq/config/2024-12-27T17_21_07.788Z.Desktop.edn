@@ -256,7 +256,7 @@
  ;; - block title
  ;;   block content
  ;; Default value: false
- :outliner/block-title-collapse-enabled? true
+ :outliner/block-title-collapse-enabled? false
 
  ;; Macros replace texts and will make you more productive.
  ;; Example usage:

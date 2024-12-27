@@ -9,8 +9,8 @@
 		- https://github.com/miyuchina/mistletoe/blob/master/dev-guide.md
 		- https://graphql.org/learn/
 		- https://docs.github.com/en/graphql/overview/explorer
-		- https://github.com/github/docs/blob/main/content/search-github/searching-on-github/searching-issues-and-pull-requests.md
-		-
+		- https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests#using-search-to-filter-issues-and-pull-requests
+			- grabbing data from rss feeds of prs might be useful because they have more info about the author
 		- https://docs.github.com/en/graphql/guides/using-pagination-in-the-graphql-api
 		- https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
 	- updating

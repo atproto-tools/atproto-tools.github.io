@@ -18,6 +18,7 @@
 			- https://support.getgrist.com/api/#tag/records/operation/listRecords
 			- https://support.getgrist.com/code/modules/GristData/#cellvalue
 			- https://docs.getgrist.com/apiconsole
+			- https://py-grist-api.readthedocs.io/en/latest/grist_api.html seems kinda unergonomic tho. easier to just send json
 	- transform and prettify presentation
 		- possible ideas:
 			- https://support.getgrist.com/summary-tables/

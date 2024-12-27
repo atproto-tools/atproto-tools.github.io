@@ -4,6 +4,7 @@
 		- https://bsky.app/profile/bnewbold.net/post/3ldwah3sg4s2d
 - moderation tooling
 	- Have there been any statements or analysis on why it's 20 labelers and not 200? 200 is a much more reasonable number imo #moderation #labelers #perf
+	  collapsed:: true
 	  https://discord.com/channels/1097580399187738645/1102623788799107092/1255758658198048828
 		- scaling is the main answer here and need
 		  every request you make when subscribing to 20 labelers triggers a lookup for labels from 20 potential issuers on every entity hydrated (every actor, post, list, etc.) in the API response
@@ -16,7 +17,6 @@
 		  we use ScyllaDB which is great but means we don't have table joins and doing a lookup that results in a "not found" case is generally slower than looking up something that exists in our experience
 		  so being able to short-circuit that 99% case of a label not existing is very desirable
 	- Reply gating is great but would it be too much overhead to have reply gating for individual replies as well as root posts? #moderation #perf 
-	  collapsed:: true
 	  https://discord.com/channels/1097580399187738645/1098906064960880801/1210333025221738568
 		- the implementation as it is is already pretty hacky as is and creates a data dependency (you should try to index reply gates before indexing replies). I don't see reply gating as being easily doable on non-root-posts tbh
 		  And you do have control over what shows up directly under your post if you block the person who replies to you

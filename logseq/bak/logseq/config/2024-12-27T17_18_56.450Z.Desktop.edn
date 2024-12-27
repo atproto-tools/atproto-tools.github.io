@@ -54,7 +54,7 @@
 
  ;; Enable Block timestamps.
  ;; Default value: false
- :feature/enable-block-timestamps? true
+ :feature/enable-block-timestamps? false
 
  ;; Disable accent marks when searching.
  ;; After changing this setting, rebuild the search index by pressing (^C ^S).
@@ -67,7 +67,7 @@
 
  ;; Enable flashcards.
  ;; Default value: true
- ;; :feature/enable-flashcards? fa
+ ;; :feature/enable-flashcards? true
 
  ;; Enable whiteboards.
  ;; Default value: true
@@ -421,5 +421,4 @@
  :file/name-format :triple-lowbar
  :feature/enable-journals? false
  :default-home {:page "contents"}
- :publishing/all-pages-public? true
- :feature/enable-flashcards? false}
+ :publishing/all-pages-public? true}

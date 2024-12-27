@@ -9,6 +9,8 @@
 		- https://github.com/miyuchina/mistletoe/blob/master/dev-guide.md
 		- https://graphql.org/learn/
 		- https://docs.github.com/en/graphql/overview/explorer
+		- https://github.com/github/docs/blob/main/content/search-github/searching-on-github/searching-issues-and-pull-requests.md
+		-
 		- https://docs.github.com/en/graphql/guides/using-pagination-in-the-graphql-api
 		- https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
 	- updating

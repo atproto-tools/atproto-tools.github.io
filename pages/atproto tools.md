@@ -1,11 +1,6 @@
-- links:
-- background docs
-	- https://graphql.org/learn/
-	- https://pipedream.com/docs/
-	- grist
-		- https://support.getgrist.com/api/#tag/records/operation/listRecords
-		- https://support.getgrist.com/code/modules/GristData/#cellvalue
-		- https://docs.getgrist.com/apiconsole
+- link: https://atproto-tools.getgrist.com/t6bKvzR97jxB/main-list/m/fork
+  (dm if you want to help contriubte)
+	- you can also just fork or export the db from the link (green button in the corner)
 - tasks
 	- scraping
 		- https://requests.readthedocs.io/en/latest/user/quickstart/
@@ -21,10 +16,17 @@
 			- https://public.getgrist.com/2g1mnjbiUXCd/Cross-tabulation-table/p/4
 			- https://public.getgrist.com/71GRe6EuiRtm/Combined-Tables/m/fork
 			- https://community.getgrist.com/t/how-to-combine-two-tables-into-single-one/257/8
-	- access control
+	- access control for everyone
 		- from grist to make it a volunteer thing
 		- https://support.getgrist.com/access-rules/
 		- https://templates.getgrist.com/doc/dKztiPYamcCp~nBCSFZ8tuCyUMQybsE37Ye~68125/p/1
+- background docs for contributing
+	- https://graphql.org/learn/
+	- https://pipedream.com/docs/
+	- grist
+		- https://support.getgrist.com/api/#tag/records/operation/listRecords
+		- https://support.getgrist.com/code/modules/GristData/#cellvalue
+		- https://docs.getgrist.com/apiconsole
 - mood:
   collapsed:: true
 	- ![image.png](../assets/image_1735320252579_0.png) 

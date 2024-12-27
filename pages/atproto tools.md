@@ -1,17 +1,17 @@
 - link: https://atproto-tools.getgrist.com/t6bKvzR97jxB/main-list/m/fork
-  (dm if you want to help contriubte)
+  (pm me if you want to help contriubte)
 	- you can also just fork or export the db from the link (green button in the corner)
 - tasks
-	- scraping
+	- getting data
+		- https://pipedream.com/docs/
 		- https://requests.readthedocs.io/en/latest/user/quickstart/
 		- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 		- https://github.com/miyuchina/mistletoe/blob/master/dev-guide.md
-	- updating
 		- https://graphql.org/learn/
 		- https://docs.github.com/en/graphql/overview/explorer
 		- https://docs.github.com/en/graphql/guides/using-pagination-in-the-graphql-api
 		- https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
-		- https://pipedream.com/docs/
+	- updating
 		- grist
 			- https://support.getgrist.com/api/#tag/records/operation/listRecords
 			- https://support.getgrist.com/code/modules/GristData/#cellvalue
@@ -26,7 +26,6 @@
 	- access control for everyone
 		- template https://templates.getgrist.com/doc/dKztiPYamcCp~nBCSFZ8tuCyUMQybsE37Ye~68125/p/1
 		- https://support.getgrist.com/access-rules/
-- background docs for contributing
 - mood:
   collapsed:: true
 	- ![image.png](../assets/image_1735320252579_0.png) 

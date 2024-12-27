@@ -1,3 +1,7 @@
+- NOW
+  :LOGBOOK:
+  CLOCK: [2024-12-27 Fri 22:00:37]
+  :END:
 - general protocol
 	- This might be a dumb question but why can’t the relay and appview just keep the last 24 hours or week of content and drop the older signed events? Aren’t user feeds validated at ingestion and you could just check the signature instead of the merkle DAG no? Partial validation in SSB worked just fine. #relay #perf #bnewbold
 	  collapsed:: true

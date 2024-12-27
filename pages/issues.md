@@ -1,1 +1,0 @@
-- [Don't unnecessarily convert images to jpg · Issue #5855 · bluesky-social/social-app · GitHub](https://github.com/bluesky-social/social-app/issues/5855)

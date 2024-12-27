@@ -7,26 +7,26 @@
 		- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 		- https://github.com/miyuchina/mistletoe/blob/master/dev-guide.md
 	- updating
+		- https://graphql.org/learn/
 		- https://docs.github.com/en/graphql/overview/explorer
 		- https://docs.github.com/en/graphql/guides/using-pagination-in-the-graphql-api
 		- https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
+		- https://pipedream.com/docs/
+		- grist
+			- https://support.getgrist.com/api/#tag/records/operation/listRecords
+			- https://support.getgrist.com/code/modules/GristData/#cellvalue
+			- https://docs.getgrist.com/apiconsole
 	- transform and prettify presentation
-		- https://support.getgrist.com/summary-tables/
-		- https://community.getgrist.com/t/summary-table-with-dynamic-columns/1604/2
-			- https://public.getgrist.com/2g1mnjbiUXCd/Cross-tabulation-table/p/4
-			- https://public.getgrist.com/71GRe6EuiRtm/Combined-Tables/m/fork
-			- https://community.getgrist.com/t/how-to-combine-two-tables-into-single-one/257/8
+		- possible ideas:
+			- https://support.getgrist.com/summary-tables/
+			- https://community.getgrist.com/t/summary-table-with-dynamic-columns/1604/2
+				- https://public.getgrist.com/2g1mnjbiUXCd/Cross-tabulation-table/p/4
+				- https://public.getgrist.com/71GRe6EuiRtm/Combined-Tables/m/fork
+				- https://community.getgrist.com/t/how-to-combine-two-tables-into-single-one/257/8
 	- access control for everyone
-		- from grist to make it a volunteer thing
+		- template https://templates.getgrist.com/doc/dKztiPYamcCp~nBCSFZ8tuCyUMQybsE37Ye~68125/p/1
 		- https://support.getgrist.com/access-rules/
-		- https://templates.getgrist.com/doc/dKztiPYamcCp~nBCSFZ8tuCyUMQybsE37Ye~68125/p/1
 - background docs for contributing
-	- https://graphql.org/learn/
-	- https://pipedream.com/docs/
-	- grist
-		- https://support.getgrist.com/api/#tag/records/operation/listRecords
-		- https://support.getgrist.com/code/modules/GristData/#cellvalue
-		- https://docs.getgrist.com/apiconsole
 - mood:
   collapsed:: true
 	- ![image.png](../assets/image_1735320252579_0.png) 

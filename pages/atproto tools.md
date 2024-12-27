@@ -1,3 +1,4 @@
+- links:
 - background docs
 	- https://graphql.org/learn/
 	- https://pipedream.com/docs/
@@ -21,7 +22,7 @@
 			- https://public.getgrist.com/71GRe6EuiRtm/Combined-Tables/m/fork
 			- https://community.getgrist.com/t/how-to-combine-two-tables-into-single-one/257/8
 	- access control
-		- from grist ((676c2fd7-b004-46d2-8d5b-ee3a962f7e75)) to make it a volunteer thing
+		- from grist to make it a volunteer thing
 		- https://support.getgrist.com/access-rules/
 		- https://templates.getgrist.com/doc/dKztiPYamcCp~nBCSFZ8tuCyUMQybsE37Ye~68125/p/1
 - mood:

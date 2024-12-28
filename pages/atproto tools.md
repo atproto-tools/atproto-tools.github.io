@@ -6,6 +6,7 @@
 		- https://pipedream.com/docs/
 		- https://requests.readthedocs.io/en/latest/user/quickstart/
 		- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+			- js equivalent https://www.npmjs.com/package/node-html-parser
 		- https://github.com/miyuchina/mistletoe/blob/master/dev-guide.md
 		- https://graphql.org/learn/
 		- https://docs.github.com/en/graphql/overview/explorer

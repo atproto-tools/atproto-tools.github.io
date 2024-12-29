@@ -4,7 +4,7 @@
 - tasks
 	- getting data
 		- https://pipedream.com/docs/
-		- https://requests.readthedocs.io/en/latest/user/quickstart/
+		- https://requests.readthedocs.io/en/stable/user/quickstart/
 		- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 			- js equivalent? https://github.com/taoqf/node-html-parser
 		- https://github.com/miyuchina/mistletoe/blob/master/dev-guide.md

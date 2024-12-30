@@ -10,8 +10,8 @@
 						- string, string, ref list (needs to be assigned in second iteration), float
 				- first iteration: grab everything, build sets/dicts of tags/authors/repos
 					- write separate full table (if wanted) here
-					- tag is not
-				- second iteration (new step) pass in repos, authors, tags- convert to keys
+					- tags are sometimes enumerated upfront so we can convert them right away
+				- second iteration (new step) pass in repos, authors, tags- map/convert to keys
 					- TODO third loop through main array to write the keys, then write to db. this is where we need to learn the fine grained api to automate setting up links. for now do this manually
 		- https://pipedream.com/docs/
 		- https://requests.readthedocs.io/en/stable/user/quickstart/

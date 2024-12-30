@@ -15,6 +15,11 @@
 		- https://docs.github.com/en/graphql/guides/using-pagination-in-the-graphql-api
 		- https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
 		- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=
+		- schema for normalized data:
+			- repo set
+			- author set
+			- normalized records
+				- four standard fields:
 	- updating
 		- grist
 			- https://support.getgrist.com/api/#tag/records/operation/listRecords

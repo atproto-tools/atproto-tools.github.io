@@ -23,6 +23,7 @@
 			- https://github.com/ben-pr-p/grist-js
 	- transform and prettify presentation
 		- possible ideas:
+			- https://support.getgrist.com/widget-custom/
 			- https://support.getgrist.com/summary-tables/
 			- https://community.getgrist.com/t/summary-table-with-dynamic-columns/1604/2
 				- https://public.getgrist.com/2g1mnjbiUXCd/Cross-tabulation-table/p/4

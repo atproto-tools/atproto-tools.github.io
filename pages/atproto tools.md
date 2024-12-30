@@ -25,7 +25,6 @@
 				- second iterations (new block)
 					- pass in repos, authors, tags convert to keys
 					- loop through main array replacing everything, then write to db
-				-
 	- updating
 		- grist
 			- https://support.getgrist.com/api/#tag/records/operation/listRecords

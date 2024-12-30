@@ -22,7 +22,9 @@
 				- fields = [name_field, desc_field, tags_field, rating_field]
 					- string, string, ref list (needs to be assigned in second iteration), float
 				- first iteration: grab everything
-					- second iterations:
+				- second iterations (new block)
+					- pass in repos, authors, tags convert to keys
+					- loop through main array replacing everything, then write to db
 				-
 	- updating
 		- grist

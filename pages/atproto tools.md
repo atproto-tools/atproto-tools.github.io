@@ -21,9 +21,9 @@
 			- normalized records
 				- fields = [name_field, desc_field, tags_field, rating_field]
 					- string, string, ref list (needs to be assigned in second iteration), float
-				- first iteration: grab everything, build set of tags/authors/repos
+				- first iteration: grab everything, build sets/dicts of tags/authors/repos
 				- second iterations (new block) pass in repos, authors, tags- convert to keys
-				- third loop through main array to write the keys, then write to db
+					- TODO third loop through main array to write the keys, then write to db. this is where we need to learn the fine grained api to automate setting up links. for now do this manually
 	- updating
 		- grist
 			- https://support.getgrist.com/api/#tag/records/operation/listRecords

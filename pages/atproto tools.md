@@ -4,15 +4,13 @@
 - tasks
 	- getting data
 		- schema for normalized data:
-			- repo set
-			- author set
 			- normalized records
 				- record = {url: fields, url:fields, ...}
 					- fields = [name_field, desc_field, tags_field, rating_field]
 						- string, string, ref list (needs to be assigned in second iteration), float
 				- first iteration: grab everything, build sets/dicts of tags/authors/repos
 					- write original file (if wanted) here
-				- second iterations (new block) pass in repos, authors, tags- convert to keys
+				- second iteration (new step) pass in repos, authors, tags- convert to keys
 					- TODO third loop through main array to write the keys, then write to db. this is where we need to learn the fine grained api to automate setting up links. for now do this manually
 		- https://pipedream.com/docs/
 		- https://requests.readthedocs.io/en/stable/user/quickstart/
@@ -28,9 +26,9 @@
 		- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=
 	- updating
 		- grist
-			- https://support.getgrist.com/api/#tag/records/operation/listRecords
-			- https://support.getgrist.com/code/modules/GristData/#cellvalue
+			- https://support.getgrist.com/api/
 			- https://docs.getgrist.com/apiconsole
+			- https://support.getgrist.com/code/modules/GristData/#cellvalue
 			- https://github.com/ben-pr-p/grist-js
 	- transform and prettify presentation
 		- possible ideas:

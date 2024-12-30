@@ -30,6 +30,8 @@
 				- https://community.getgrist.com/t/how-to-combine-two-tables-into-single-one/257/8
 			- https://community.getgrist.com/t/lookuprecords-where-column-value-in-multiple-value/1656/2
 			- https://github.com/gristlabs/grist-core/issues/195
+			- https://community.getgrist.com/t/many-to-any-relationships/650/4
+				- https://github.com/gristlabs/grist-core/issues/45#issuecomment-897678034
 	- access control for everyone
 		- template https://templates.getgrist.com/doc/dKztiPYamcCp~nBCSFZ8tuCyUMQybsE37Ye~68125/p/1
 		- https://support.getgrist.com/access-rules/

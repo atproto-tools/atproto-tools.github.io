@@ -21,10 +21,9 @@
 			- normalized records
 				- fields = [name_field, desc_field, tags_field, rating_field]
 					- string, string, ref list (needs to be assigned in second iteration), float
-				- first iteration: grab everything
-				- second iterations (new block)
-					- pass in repos, authors, tags convert to keys
-					- loop through main array replacing everything, then write to db
+				- first iteration: grab everything, build set of tags/authors/repos
+				- second iterations (new block) pass in repos, authors, tags- convert to keys
+				- third loop through main array to write the keys, then write to db
 	- updating
 		- grist
 			- https://support.getgrist.com/api/#tag/records/operation/listRecords

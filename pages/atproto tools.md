@@ -19,7 +19,11 @@
 			- repo set
 			- author set
 			- normalized records
-				- four standard fields:
+				- fields = [name_field, desc_field, tags_field, rating_field]
+					- string, string, ref list (needs to be assigned in second iteration), float
+				- first iteration: grab everything
+					- second iterations:
+				-
 	- updating
 		- grist
 			- https://support.getgrist.com/api/#tag/records/operation/listRecords

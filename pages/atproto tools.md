@@ -28,6 +28,8 @@
 				- https://public.getgrist.com/2g1mnjbiUXCd/Cross-tabulation-table/p/4
 				- https://public.getgrist.com/71GRe6EuiRtm/Combined-Tables/m/fork
 				- https://community.getgrist.com/t/how-to-combine-two-tables-into-single-one/257/8
+			- https://community.getgrist.com/t/lookuprecords-where-column-value-in-multiple-value/1656/2
+			- https://github.com/gristlabs/grist-core/issues/195
 	- access control for everyone
 		- template https://templates.getgrist.com/doc/dKztiPYamcCp~nBCSFZ8tuCyUMQybsE37Ye~68125/p/1
 		- https://support.getgrist.com/access-rules/

@@ -16,6 +16,7 @@
 						- TODO third loop through main array to write the keys, then write to db. this is where we need to learn the fine grained api to automate setting up links. for now do this manually
 		- https://pipedream.com/docs/
 		- https://requests.readthedocs.io/en/stable/user/quickstart/
+			- https://docs.python-requests.org/en/latest/user/advanced/#session-objects
 		- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 			- js equivalent? https://github.com/taoqf/node-html-parser
 		- https://github.com/miyuchina/mistletoe/blob/master/dev-guide.md

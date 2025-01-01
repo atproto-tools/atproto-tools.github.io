@@ -29,7 +29,7 @@
 					- bsky profile
 					- other (website)
 			- "table": table_name, (str)
-			- "entry_columns": {name_field, desc_field, tags_field, rating_field} # optional (both table and all individual columns)
+			- "entry columns": {name_field, desc_field, tags_field, rating_field} # optional (both table and all individual columns)
 		- https://pipedream.com/docs/
 		- https://requests.readthedocs.io/en/stable/user/quickstart/
 			- https://docs.python-requests.org/en/latest/user/advanced/#session-objects

@@ -10,9 +10,7 @@
 					- tags are sometimes enumerated upfront so we can convert them right away, or right after initial ingestion (for convenience)
 					- schema for passing to next step
 						- "records": entry_records, (list of db records)
-						  collapsed:: true
 							- record :
-							  collapsed:: true
 								- require: str # specifically url field
 								- fields : str
 									- name_field :

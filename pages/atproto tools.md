@@ -4,6 +4,7 @@
 - tasks
 	- getting data
 		- schema for normalized data:
+		-
 			- steps
 				- normalize records
 					- record = {url: fields, url:fields, ...}

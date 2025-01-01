@@ -10,10 +10,17 @@
 					- tags are sometimes enumerated upfront so we can convert them right away
 				- second iteration (new step) pass in repos, authors, tags- map/convert to keys
 					- TODO third loop through main array to write the keys, then write to db. this is where we need to learn the fine grained api to automate setting up links. for now do this manually
-		- schema for normalized data:
-			- record : str/url
-				- require
+		- schema for record
+			- "entries": entry_records,
+			- "repos": repo_records,
+			- "authors": authors,
+			- "table": table_name,
+			- "entry_columns": {name_field, desc_field, tags_field, rating_field} # these are all optional
+			- record :
+			  collapsed:: true
+				- require: str # specifically url field
 				- fields : str
+					- name_field :
 					- desc_field : str,
 					- tags_field : ["L", *str],
 					- rating_field : any] # but prefer 0-1 float for rating

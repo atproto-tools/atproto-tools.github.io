@@ -23,9 +23,10 @@
 						- rating_field : any] # but prefer 0-1 float for rating
 			- "repos": repo_records (list of urls),
 			- "authors": authors, (dict with str keys,or list) key is url, val is column
+			  collapsed:: true
 				- TODO clarify possible columns. for now:
 					- DID (displayed as pure did, links to bsky.app)
-					- Handle/bsky profile
+					- bsky profile
 					- other (website)
 			- "table": table_name, (str)
 			- "entry_columns": {name_field, desc_field, tags_field, rating_field} # optional (both table and all individual columns)

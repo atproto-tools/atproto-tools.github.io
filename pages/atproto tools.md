@@ -8,28 +8,29 @@
 				- first iteration: grab everything, build sets/dicts of tags/authors/repos
 					- write separate full table (if wanted) here
 					- tags are sometimes enumerated upfront so we can convert them right away
+					- schema for passing to next step
+						- "records": entry_records, (list of db records)
+						  collapsed:: true
+							- record :
+							  collapsed:: true
+								- require: str # specifically url field
+								- fields : str
+									- name_field :
+									- desc_field : str,
+									- tags_field : ["L", *str],
+									- rating_field : any] # but prefer 0-1 float for rating
+						- "repos": repo_records (list of urls),
+						- "authors": authors, (dict with str keys,or list) key is url, val is column
+						  collapsed:: true
+							- TODO clarify possible columns. for now:
+								- DID (displayed as pure did, links to bsky.app)
+								- bsky profile
+								- other (website)
+						- "table": table_name, (str)
+						- "entry columns": {name_field, desc_field, tags_field, rating_field} # optional (both table and all individual columns)
 				- second iteration (new step) pass in repos, authors, tags- map/convert to keys
 					- TODO third loop through main array to write the keys, then write to db. this is where we need to learn the fine grained api to automate setting up refs. for now do this manually
-		- schema for passing to next step
-			- "records": entry_records, (list of db records)
-			  collapsed:: true
-				- record :
-				  collapsed:: true
-					- require: str # specifically url field
-					- fields : str
-						- name_field :
-						- desc_field : str,
-						- tags_field : ["L", *str],
-						- rating_field : any] # but prefer 0-1 float for rating
-			- "repos": repo_records (list of urls),
-			- "authors": authors, (dict with str keys,or list) key is url, val is column
-			  collapsed:: true
-				- TODO clarify possible columns. for now:
-					- DID (displayed as pure did, links to bsky.app)
-					- bsky profile
-					- other (website)
-			- "table": table_name, (str)
-			- "entry columns": {name_field, desc_field, tags_field, rating_field} # optional (both table and all individual columns)
+		-
 		- https://pipedream.com/docs/
 		- https://requests.readthedocs.io/en/stable/user/quickstart/
 			- https://docs.python-requests.org/en/latest/user/advanced/#session-objects

@@ -21,9 +21,9 @@
 						- desc_field : str,
 						- tags_field : ["L", *str],
 						- rating_field : any] # but prefer 0-1 float for rating
-			- "repos": repo_records (dict converted into list for processing),
-			- "authors": authors, (dict with str keys,or list) may have metadata in fields. or list like repos)
-			- "table": table_name, str
+			- "repos": repo_records (list of urls),
+			- "authors": authors, (dict with str keys,or list) may have metadata in fields. or list like repos
+			- "table": table_name, (str)
 			- "entry_columns": {name_field, desc_field, tags_field, rating_field} # optional (both table and all individual columns)
 		- https://pipedream.com/docs/
 		- https://requests.readthedocs.io/en/stable/user/quickstart/

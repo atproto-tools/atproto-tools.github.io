@@ -9,9 +9,10 @@
 					- write separate full table (if wanted) here
 					- tags are sometimes enumerated upfront so we can convert them right away
 				- second iteration (new step) pass in repos, authors, tags- map/convert to keys
-					- TODO third loop through main array to write the keys, then write to db. this is where we need to learn the fine grained api to automate setting up links. for now do this manually
+					- TODO third loop through main array to write the keys, then write to db. this is where we need to learn the fine grained api to automate setting up refs. for now do this manually
 		- schema for passing to next step
-			- "entries": entry_records, (list of formatted records)
+			- "entries": entry_records, (list of db records)
+			  collapsed:: true
 				- record :
 				  collapsed:: true
 					- require: str # specifically url field
@@ -22,7 +23,7 @@
 						- rating_field : any] # but prefer 0-1 float for rating
 			- "repos": repo_records (dict converted into list for processing),
 			- "authors": authors, (dict with str keys,or list) may have metadata in fields. or list like repos)
-			- "table": table_name,
+			- "table": table_name, st
 			- "entry_columns": {name_field, desc_field, tags_field, rating_field} # optional (both table and all individual columns)
 		- https://pipedream.com/docs/
 		- https://requests.readthedocs.io/en/stable/user/quickstart/

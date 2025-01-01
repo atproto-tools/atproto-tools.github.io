@@ -11,7 +11,7 @@
 				- second iteration (new step) pass in repos, authors, tags- map/convert to keys
 					- TODO third loop through main array to write the keys, then write to db. this is where we need to learn the fine grained api to automate setting up refs. for now do this manually
 		- schema for passing to next step
-			- "entries": entry_records, (list of db records)
+			- "records": entry_records, (list of db records)
 			  collapsed:: true
 				- record :
 				  collapsed:: true

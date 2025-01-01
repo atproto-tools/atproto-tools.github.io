@@ -11,8 +11,12 @@
 				- second iteration (new step) pass in repos, authors, tags- map/convert to keys
 					- TODO third loop through main array to write the keys, then write to db. this is where we need to learn the fine grained api to automate setting up links. for now do this manually
 		- schema for normalized data:
-			- record = {url: fields, url2:fields, ...}
-				- `fields = [name_field : str, desc_field : str, tags_field : ["L", *str], rating_field : any] # but prefer 0-1 float for rating`
+			- record : str/url
+				- require
+				- fields : str
+					- desc_field : str,
+					- tags_field : ["L", *str],
+					- rating_field : any] # but prefer 0-1 float for rating
 		- https://pipedream.com/docs/
 		- https://requests.readthedocs.io/en/stable/user/quickstart/
 			- https://docs.python-requests.org/en/latest/user/advanced/#session-objects

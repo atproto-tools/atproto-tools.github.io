@@ -21,7 +21,7 @@
 						- tags_field : ["L", *str],
 						- rating_field : any] # but prefer 0-1 float for rating
 			- "repos": repo_records (dict converted into list for processing),
-			- "authors": authors, (dict, )
+			- "authors": authors, (dict with str keys, may have metadata in fields)
 			- "table": table_name,
 			- "entry_columns": {name_field, desc_field, tags_field, rating_field} # optional (both table and all individual columns)
 		- https://pipedream.com/docs/

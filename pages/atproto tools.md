@@ -10,20 +10,20 @@
 					- tags are sometimes enumerated upfront so we can convert them right away
 				- second iteration (new step) pass in repos, authors, tags- map/convert to keys
 					- TODO third loop through main array to write the keys, then write to db. this is where we need to learn the fine grained api to automate setting up links. for now do this manually
-		- schema for record
-			- "entries": entry_records,
-			- "repos": repo_records,
-			- "authors": authors,
+		- schema for passing to next step
+			- "entries": entry_records, (list of formatted records)
+				- record :
+				  collapsed:: true
+					- require: str # specifically url field
+					- fields : str
+						- name_field :
+						- desc_field : str,
+						- tags_field : ["L", *str],
+						- rating_field : any] # but prefer 0-1 float for rating
+			- "repos": repo_records (dict converted into list for processing),
+			- "authors": authors, (dict, )
 			- "table": table_name,
-			- "entry_columns": {name_field, desc_field, tags_field, rating_field} # these are all optional
-			- record :
-			  collapsed:: true
-				- require: str # specifically url field
-				- fields : str
-					- name_field :
-					- desc_field : str,
-					- tags_field : ["L", *str],
-					- rating_field : any] # but prefer 0-1 float for rating
+			- "entry_columns": {name_field, desc_field, tags_field, rating_field} # optional (both table and all individual columns)
 		- https://pipedream.com/docs/
 		- https://requests.readthedocs.io/en/stable/user/quickstart/
 			- https://docs.python-requests.org/en/latest/user/advanced/#session-objects

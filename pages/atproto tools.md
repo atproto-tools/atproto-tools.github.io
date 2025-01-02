@@ -6,6 +6,7 @@
 	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
 		- Datasource # optional
 		  id:: 677672fd-d514-4780-9a0c-ca7342a71a6f
+		  collapsed:: true
 			- URL = grist.Reference('Sites', reverse_of='URL') # two-way
 			- Name = grist.Text()
 			- Description = grist.Text()
@@ -38,6 +39,7 @@
 			  id:: 67767f18-833b-4669-a645-dc696b0e2725
 		- Authors
 		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
+		  collapsed:: true
 			- VCS_Profiles = grist.ChoiceList()
 			- DID = grist.Text()
 			- Repos = grist.ReferenceList('Repos', reverse_of='Owner')

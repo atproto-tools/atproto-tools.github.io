@@ -2,6 +2,8 @@
 	- link is to a forkable version aka [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can fork or download the db from the green share button in the top left
 	- (pm me if you want to help contribute)
 - tasks
+	- db schema
+		-
 	- getting data
 		- steps
 			- normalize records
@@ -28,7 +30,6 @@
 						- "entry columns": {name_field, desc_field, tags_field, rating_field} # optional (both table and all individual columns)
 				- second iteration (new step) pass in repos, authors, tags- map/convert to keys
 					- TODO third loop through main array to write the keys, then write to db. this is where we need to learn the fine grained api to automate setting up refs. for now do this manually
-		-
 		- https://pipedream.com/docs/
 		- https://requests.readthedocs.io/en/stable/user/quickstart/
 			- https://docs.python-requests.org/en/latest/user/advanced/#session-objects
@@ -43,12 +44,14 @@
 		- https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
 		- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=
 	- updating
+	  collapsed:: true
 		- grist
 			- https://support.getgrist.com/api/
 			- https://docs.getgrist.com/apiconsole
 			- https://support.getgrist.com/code/modules/GristData/#cellvalue
 			- https://github.com/ben-pr-p/grist-js
 	- transform and prettify presentation
+	  collapsed:: true
 		- possible ideas:
 			- https://support.getgrist.com/widget-custom/
 			- https://support.getgrist.com/summary-tables/

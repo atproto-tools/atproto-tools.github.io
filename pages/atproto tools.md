@@ -34,6 +34,8 @@
 			- Stars = grist.Int()
 			- Last_Release_Date = grist.Date()
 			- Forks = grist.Int()
+			- Sites = grist.Reference('Sites, reverse_of='Repos')
+			  id:: 67767f18-833b-4669-a645-dc696b0e2725
 		- Authors
 		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
 			- VCS_Profiles = grist.ChoiceList()

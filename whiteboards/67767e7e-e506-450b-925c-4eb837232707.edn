@@ -373,12 +373,12 @@
 {:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"
 :block/properties 
 {}
-:block/updated-at 1735822007804
+:block/updated-at 1735822010090
 :block/left 
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
-:block/created-at 1735822007804
+:block/created-at 1735822010090
 :block/format :markdown
-:block/content "put datasource\nget keys\nput sites - write link to original\nget site keys\nput repos - write link to original and sites\nget \nput authors - write link to original, sites, and repos (if applicable)"
+:block/content "put datasource\nget keys\nput sites - write link to original\nget site keys\nput repos - write link to original and sites\nget repos\nput authors - write link to original, sites, and repos (if applicable)"
 :block/parent 
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}} 
 {:block/created-at 1735822000995
@@ -467,7 +467,7 @@
 :italic false
 :text "2g"}}
 :block/updated-at 1735821965622} 
-{:block/created-at 1735821819888
+{:block/created-at 1735822030953
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -479,7 +479,7 @@
 :scaleLevel "xl"
 :fill ""
 :type "text"
-:size [42 68]
+:size [72 68]
 :fontFamily "var(--ls-font-family)"
 :strokeType "line"
 :strokeWidth 2
@@ -488,14 +488,14 @@
 :padding 4
 :fontWeight 400
 :noFill true
-:point [1016 1824]
+:point [1024 1808]
 :lineHeight 1.2
 :fontSize 48
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735821795942
+:nonce 1735821795973
 :italic false
-:text "4"}}
-:block/updated-at 1735821819888} 
+:text "4g"}}
+:block/updated-at 1735822030953} 
 {:block/created-at 1735821837026
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -632,7 +632,7 @@
 :nonce 1
 :assets []
 :shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "e3167ee2-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "262f5082-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd" "10d049c2-c905-11ef-aa99-53d29ba04ccd" "cc1fa4a0-c905-11ef-aa99-53d29ba04ccd" "039efd80-c907-11ef-aa99-53d29ba04ccd" "10486a30-c907-11ef-aa99-53d29ba04ccd" "22e6f490-c907-11ef-aa99-53d29ba04ccd" "3a67cd10-c907-11ef-aa99-53d29ba04ccd")}}
-:block/updated-at 1735822007804
+:block/updated-at 1735822030953
 :block/created-at 1735818878073
 :block/type "whiteboard"
 :block/name "67767e7e-e506-450b-925c-4eb837232707"

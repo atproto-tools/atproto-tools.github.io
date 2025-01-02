@@ -185,7 +185,7 @@
 :nonce 1735819066981
 :italic false}}
 :block/updated-at 1735821817204} 
-{:block/created-at 1735821132556
+{:block/created-at 1735821847291
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -198,7 +198,7 @@
 :strokeType "line"
 :strokeWidth 1
 :opacity 1
-:label ""
+:label "5"
 :id "e3167ee2-c900-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
@@ -219,9 +219,9 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819112146
+:nonce 1735819112147
 :italic false}}
-:block/updated-at 1735821132556} 
+:block/updated-at 1735821847291} 
 {:block/created-at 1735821808374
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -259,7 +259,7 @@
 :nonce 1735819207854
 :italic false}}
 :block/updated-at 1735821808374} 
-{:block/created-at 1735821808368
+{:block/created-at 1735821841953
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -272,7 +272,7 @@
 :strokeType "line"
 :strokeWidth 1
 :opacity 1
-:label ""
+:label "5"
 :id "262f5082-c901-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
@@ -293,10 +293,10 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819224807
+:nonce 1735819224808
 :italic false}}
-:block/updated-at 1735821808368} 
-{:block/created-at 1735821047528
+:block/updated-at 1735821841953} 
+{:block/created-at 1735821843555
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -309,7 +309,7 @@
 :strokeType "line"
 :strokeWidth 1
 :opacity 1
-:label ""
+:label "5"
 :id "85379f62-c901-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
@@ -330,9 +330,9 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819384090
+:nonce 1735819384091
 :italic false}}
-:block/updated-at 1735821047528} 
+:block/updated-at 1735821843555} 
 {:block/created-at 1735821821138
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -373,20 +373,21 @@
 {:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"
 :block/properties 
 {}
-:block/updated-at 1735821686298
+:block/updated-at 1735822007804
 :block/left 
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
-:block/created-at 1735821686298
+:block/created-at 1735822007804
 :block/format :markdown
-:block/content "put datasource - get keys\nput sites - write link to original - get site keys\nput repos - write link to original and sites\nput authors - write link to original, sites, and repos (if applicable)\nget all written to get their keys\nwrite datasource again with keys\nthen write (but only 2) others with keys"
+:block/content "put datasource\nget keys\nput sites - write link to original\nget site keys\nput repos - write link to original and sites\nget \nput authors - write link to original, sites, and repos (if applicable)"
 :block/parent 
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}} 
-{:block/created-at 1735821682226
+{:block/created-at 1735822000995
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "B"
 :stroke ""
+:rotation 0
 :collapsed false
 :borderRadius 8
 :index 11
@@ -397,7 +398,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 208.9999477559156]
+:size [536 184.9999866040809]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -406,9 +407,9 @@
 :point [1312 1832]
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
-:nonce 1735821220944}}
-:block/updated-at 1735821682226} 
-{:block/created-at 1735821754155
+:nonce 1735821221000}}
+:block/updated-at 1735822000995} 
+{:block/created-at 1735821962968
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -420,7 +421,7 @@
 :scaleLevel "xl"
 :fill ""
 :type "text"
-:size [34 68]
+:size [63 68]
 :fontFamily "var(--ls-font-family)"
 :strokeType "line"
 :strokeWidth 2
@@ -433,11 +434,11 @@
 :lineHeight 1.2
 :fontSize 48
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735821743484
+:nonce 1735821743489
 :italic false
-:text "1"}}
-:block/updated-at 1735821754155} 
-{:block/created-at 1735821768791
+:text "1g"}}
+:block/updated-at 1735821962968} 
+{:block/created-at 1735821965622
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -449,7 +450,7 @@
 :scaleLevel "xl"
 :fill ""
 :type "text"
-:size [41 68]
+:size [70 68]
 :fontFamily "var(--ls-font-family)"
 :strokeType "line"
 :strokeWidth 2
@@ -462,10 +463,10 @@
 :lineHeight 1.2
 :fontSize 48
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735821764707
+:nonce 1735821764712
 :italic false
-:text "2"}}
-:block/updated-at 1735821768791} 
+:text "2g"}}
+:block/updated-at 1735821965622} 
 {:block/created-at 1735821819888
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -631,7 +632,7 @@
 :nonce 1
 :assets []
 :shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "e3167ee2-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "262f5082-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd" "10d049c2-c905-11ef-aa99-53d29ba04ccd" "cc1fa4a0-c905-11ef-aa99-53d29ba04ccd" "039efd80-c907-11ef-aa99-53d29ba04ccd" "10486a30-c907-11ef-aa99-53d29ba04ccd" "22e6f490-c907-11ef-aa99-53d29ba04ccd" "3a67cd10-c907-11ef-aa99-53d29ba04ccd")}}
-:block/updated-at 1735821837026
+:block/updated-at 1735822007804
 :block/created-at 1735818878073
 :block/type "whiteboard"
 :block/name "67767e7e-e506-450b-925c-4eb837232707"

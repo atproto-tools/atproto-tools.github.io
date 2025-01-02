@@ -71,6 +71,7 @@
 					- "table": table_name, (str)
 					- "entry columns": {name_field, desc_field, tags_field, rating_field} # optional (both table and all individual columns)
 		- https://pipedream.com/docs/
+		- https://pygrister.readthedocs.io/en/stable/intro.html
 		- https://requests.readthedocs.io/en/stable/user/quickstart/
 			- https://docs.python-requests.org/en/latest/user/advanced/#session-objects
 		- https://www.crummy.com/software/BeautifulSoup/bs4/doc/

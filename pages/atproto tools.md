@@ -7,7 +7,7 @@
 			- URL = grist.Reference('Sites', reverse_of='URL') # two-way
 			- Name = grist.Text()
 			- Description = grist.Text()
-			- Author = grist.Reference()
+			- Author = grist.Reference('Authors')
 			- Tags = grist.ReferenceList('Datasource_Tags')
 			- ...
 		- Datasource_tags

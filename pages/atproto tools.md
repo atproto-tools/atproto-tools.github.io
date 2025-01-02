@@ -4,9 +4,9 @@
 - tasks
 	- db schema
 	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
+	  collapsed:: true
 		- Datasource # optional
 		  id:: 677672fd-d514-4780-9a0c-ca7342a71a6f
-		  collapsed:: true
 			- URL = grist.Reference('Sites', reverse_of='URL') # two-way
 			- Name = grist.Text()
 			- Description = grist.Text()
@@ -49,6 +49,7 @@
 			- Github_Social_Accounts = grist.Text()
 			- Generic_Website = grist.Text()
 	- getting data
+	  collapsed:: true
 		- steps
 			- normalize records
 				- first iteration: grab everything, build sets/dicts of tags/authors/repos
@@ -88,7 +89,26 @@
 		- https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
 		- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=
 	- updating
-	  collapsed:: true
+		- order of operations:
+			- put datasource - get keys
+			  logseq.order-list-type:: number
+			- put sites - write link to datasource - get site keys
+			  logseq.order-list-type:: number
+			- if repos:
+			  logseq.order-list-type:: number
+				- put repos - write link to datasource and sites
+				  logseq.order-list-type:: number
+			- if authors:
+			  logseq.order-list-type:: number
+				- put repos - write link to datasource and sites
+				  logseq.order-list-type:: number
+			- if both authors and repos:
+			  logseq.order-list-type:: number
+				- put repos - write link to datasource and sites - get repos
+				  logseq.order-list-type:: number
+				- put authors - write link to datasource, sites, and repos
+				  logseq.order-list-type:: number
+			- TODO low priority: make this more elegant, some kind of iteration instead of if clauses
 		- grist
 			- https://support.getgrist.com/api/
 			- https://docs.getgrist.com/apiconsole

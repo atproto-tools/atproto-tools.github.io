@@ -381,7 +381,7 @@
 :block/content "order of operations:"
 :block/parent 
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}} 
-{:block/created-at 1735823443990
+{:block/created-at 1735823550653
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -398,7 +398,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [536 323.00000937714333]
+:size [536 469.00003817836927]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -407,8 +407,8 @@
 :point [1288 1856]
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
-:nonce 1735821221045}}
-:block/updated-at 1735823443990} 
+:nonce 1735821221056}}
+:block/updated-at 1735823550653} 
 {:block/created-at 1735821962968
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -530,7 +530,7 @@
 {}
 :block/updated-at 1735823292429
 :block/left 
-{:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"}
+{:block/uuid #uuid "677690ab-f7b0-4faa-8ddc-745d156d9c02"}
 :block/created-at 1735823292429
 :block/collapsed? true
 :block/format :markdown
@@ -598,23 +598,25 @@
 {:block/uuid #uuid "67769040-23f1-48ab-9dbe-9804e797d3f8"
 :block/properties 
 {}
-:block/updated-at 1735823424940
+:block/updated-at 1735823488666
 :block/left 
 {:block/uuid #uuid "6776904b-89a0-479a-9344-29595f026b2d"}
-:block/created-at 1735823424940
+:block/created-at 1735823488666
 :block/format :markdown
-:block/content "put repos - write link to original and sites - get repos"
+:block/content "put repos - write link to original and sites"
 :block/parent 
 {:block/uuid #uuid "6776904b-89a0-479a-9344-29595f026b2d"}} 
-{:block/content "put authors - write link to datasource, sites, and repos (if any)"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "67769053-443d-42ee-8346-d388c497e52b"}
-:block/parent 
-{:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"}
+{:block/uuid #uuid "67769040-d8b7-44d0-adf0-f0dec20144e3"
 :block/properties 
 {}
-:block/uuid #uuid "67769040-d8b7-44d0-adf0-f0dec20144e3"} 
+:block/updated-at 1735823470883
+:block/left 
+{:block/uuid #uuid "6776906a-173e-42bf-b427-f1fc71f366ee"}
+:block/created-at 1735823470883
+:block/format :markdown
+:block/content "put authors - write link to datasource, sites, and repos"
+:block/parent 
+{:block/uuid #uuid "6776905a-85bf-45c6-890a-69ef352a6704"}} 
 {:block/uuid #uuid "6776904b-89a0-479a-9344-29595f026b2d"
 :block/properties 
 {}
@@ -635,6 +637,59 @@
 :block/created-at 1735823447883
 :block/format :markdown
 :block/content "if authors:"
+:block/parent 
+{:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"}} 
+{:block/uuid #uuid "67769059-b484-4b91-b60b-c70020d6aca6"
+:block/properties 
+{}
+:block/updated-at 1735823486811
+:block/left 
+{:block/uuid #uuid "67769053-443d-42ee-8346-d388c497e52b"}
+:block/created-at 1735823486811
+:block/format :markdown
+:block/content "put repos - write link to original and sites"
+:block/parent 
+{:block/uuid #uuid "67769053-443d-42ee-8346-d388c497e52b"}} 
+{:block/uuid #uuid "6776905a-85bf-45c6-890a-69ef352a6704"
+:block/properties 
+{}
+:block/updated-at 1735823461585
+:block/left 
+{:block/uuid #uuid "67769053-443d-42ee-8346-d388c497e52b"}
+:block/created-at 1735823461585
+:block/format :markdown
+:block/content "if both authors and repos:"
+:block/parent 
+{:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"}} 
+{:block/uuid #uuid "6776906a-173e-42bf-b427-f1fc71f366ee"
+:block/properties 
+{}
+:block/updated-at 1735823467785
+:block/left 
+{:block/uuid #uuid "6776905a-85bf-45c6-890a-69ef352a6704"}
+:block/created-at 1735823467785
+:block/format :markdown
+:block/content "put repos - write link to original and sites - get repos"
+:block/parent 
+{:block/uuid #uuid "6776905a-85bf-45c6-890a-69ef352a6704"}} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"}
+:block/parent 
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
+:block/properties 
+{}
+:block/uuid #uuid "677690ab-f7b0-4faa-8ddc-745d156d9c02"} 
+{:block/uuid #uuid "677690ae-e7f2-48f6-9d1b-888f9f0e2953"
+:block/properties 
+{}
+:block/updated-at 1735823564452
+:block/left 
+{:block/uuid #uuid "6776905a-85bf-45c6-890a-69ef352a6704"}
+:block/created-at 1735823564452
+:block/format :markdown
+:block/content "TODO low priority: make this more elegant, some kind of iteration rather than if clauses"
 :block/parent 
 {:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"}})
 :pages (
@@ -744,7 +799,7 @@
 :nonce 1
 :assets []
 :shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "e3167ee2-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "262f5082-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd" "10d049c2-c905-11ef-aa99-53d29ba04ccd" "cc1fa4a0-c905-11ef-aa99-53d29ba04ccd" "039efd80-c907-11ef-aa99-53d29ba04ccd" "10486a30-c907-11ef-aa99-53d29ba04ccd" "22e6f490-c907-11ef-aa99-53d29ba04ccd" "3a67cd10-c907-11ef-aa99-53d29ba04ccd" "a0d53d00-c90a-11ef-aa99-53d29ba04ccd")}}
-:block/updated-at 1735823447883
+:block/updated-at 1735823564452
 :block/created-at 1735818878073
 :block/type "whiteboard"
 :block/name "schema diagram"

@@ -222,14 +222,14 @@
 :nonce 1735819112146
 :italic false}}
 :block/updated-at 1735821132556} 
-{:block/created-at 1735821110968
+{:block/created-at 1735821640501
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
 :index 6
 :scale [1 1]
-:scaleLevel "xxl"
+:scaleLevel "md"
 :fill ""
 :type "line"
 :strokeType "line"
@@ -240,7 +240,7 @@
 :fontWeight 400
 :noFill true
 :point [1132 1311.33]
-:fontSize 60
+:fontSize 20
 :handles 
 {:start 
 {:id "start"
@@ -256,9 +256,9 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819207814
+:nonce 1735819207815
 :italic false}}
-:block/updated-at 1735821110968} 
+:block/updated-at 1735821640501} 
 {:block/created-at 1735820530057
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -373,15 +373,15 @@
 {:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"
 :block/properties 
 {}
-:block/updated-at 1735821529527
+:block/updated-at 1735821646279
 :block/left 
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
-:block/created-at 1735821529527
+:block/created-at 1735821646279
 :block/format :markdown
-:block/content "put sites\nput repos\nput authors\nput datasource\nget all 4 to get their keys\nwrite datasource again with keys\nthen write (but only 2)2 others with keys"
+:block/content "put datasource - get keys\nput sites - write link to original - get site keys\n\nget all written to get their keys\nwrite datasource again with keys\nthen write (but only 2) others with keys"
 :block/parent 
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}} 
-{:block/created-at 1735821381431
+{:block/created-at 1735821627564
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -397,7 +397,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 184.9999866040809]
+:size [400 161.0000254522462]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -406,8 +406,8 @@
 :point [1312 1832]
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
-:nonce 1735821220936}}
-:block/updated-at 1735821381431})
+:nonce 1735821220942}}
+:block/updated-at 1735821627564})
 :pages (
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"
 :block/properties 
@@ -515,7 +515,7 @@
 :nonce 1
 :assets []
 :shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "e3167ee2-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "262f5082-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd" "10d049c2-c905-11ef-aa99-53d29ba04ccd" "cc1fa4a0-c905-11ef-aa99-53d29ba04ccd")}}
-:block/updated-at 1735821529527
+:block/updated-at 1735821646279
 :block/created-at 1735818878073
 :block/type "whiteboard"
 :block/name "67767e7e-e506-450b-925c-4eb837232707"

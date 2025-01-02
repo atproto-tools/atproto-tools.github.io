@@ -30,6 +30,10 @@
 			- Stars = grist.Int()
 			- Last_Release_Date = grist.Date()
 			- Forks = grist.Int()
+		- Authors
+			- VCS_Profiles = grist.ChoiceList()
+			    DID = grist.Text()
+			    Repos = grist.ReferenceList('Repos', reverse_of='Owner')
 	- getting data
 		- steps
 			- normalize records

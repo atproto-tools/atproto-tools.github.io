@@ -32,8 +32,13 @@
 			- Forks = grist.Int()
 		- Authors
 			- VCS_Profiles = grist.ChoiceList()
-			    DID = grist.Text()
-			    Repos = grist.ReferenceList('Repos', reverse_of='Owner')
+			- DID = grist.Text()
+			- Repos = grist.ReferenceList('Repos', reverse_of='Owner')
+			- Organization = grist.Bool()
+			- Bluesky_Name = grist.Text()
+			- Bluesky_Handle = grist.Text()
+			- Github_Social_Accounts = grist.Text()
+			- Generic_Website = grist.Text()
 	- getting data
 		- steps
 			- normalize records

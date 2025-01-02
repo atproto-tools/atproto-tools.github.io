@@ -180,7 +180,7 @@
 :block/parent 
 {:block/uuid #uuid "6776915c-d8bd-4b53-b0e2-8945b2861fd9"}
 :block/uuid #uuid "6776915c-e724-4792-99c1-8db35f6e2593"} 
-{:block/created-at 1735830705172
+{:block/created-at 1735832793676
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -214,9 +214,9 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819224896
+:nonce 1735819224902
 :italic false}}
-:block/updated-at 1735830705172} 
+:block/updated-at 1735832793676} 
 {:block/created-at 1735830698384
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -575,7 +575,7 @@
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
 :block/updated-at 1735823782420
 :block/uuid #uuid "67769182-1628-4554-a6d5-cdfbc4bff20f"} 
-{:block/created-at 1735830705172
+{:block/created-at 1735832793678
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -601,8 +601,8 @@
 :point [824 1016]
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
-:nonce 1735818904393}}
-:block/updated-at 1735830705172} 
+:nonce 1735818904435}}
+:block/updated-at 1735832793678} 
 {:block/created-at 1735830698384
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -654,7 +654,7 @@
 :block/parent 
 {:block/uuid #uuid "1dc0115d-8628-4ef3-837b-53dd39a4996d"}
 :block/uuid #uuid "9d2e5aea-7f44-4cef-b442-cf93c07aef94"} 
-{:block/created-at 1735830705171
+{:block/created-at 1735832793678
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -688,9 +688,9 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735820906776
+:nonce 1735820906782
 :italic false}}
-:block/updated-at 1735830705171} 
+:block/updated-at 1735832793678} 
 {:block/content "put repos - write link to datasource and sites"
 :block/format :markdown
 :block/left 
@@ -1026,7 +1026,7 @@
 :collapsedHeight 0
 :nonce 1735818944369}}
 :block/updated-at 1735830576495} 
-{:block/created-at 1735830705172
+{:block/created-at 1735832793678
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1060,9 +1060,9 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819207909
+:nonce 1735819207915
 :italic false}}
-:block/updated-at 1735830705172} 
+:block/updated-at 1735832793678} 
 {:block/content "put authors - write link to datasource, sites, and repos"
 :block/format :markdown
 :block/left 
@@ -1295,7 +1295,7 @@
 :nonce 1
 :assets []
 :shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "e3167ee2-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "262f5082-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd" "10d049c2-c905-11ef-aa99-53d29ba04ccd" "039efd80-c907-11ef-aa99-53d29ba04ccd" "10486a30-c907-11ef-aa99-53d29ba04ccd" "22e6f490-c907-11ef-aa99-53d29ba04ccd" "3a67cd10-c907-11ef-aa99-53d29ba04ccd" "a0d53d00-c90a-11ef-aa99-53d29ba04ccd" "d08ad080-c911-11ef-9c18-6336dbc4b70b")}}
-:block/updated-at 1735830705171
+:block/updated-at 1735832793676
 :block/created-at 1735818878073
 :block/type "whiteboard"
 :block/name "schema diagram"

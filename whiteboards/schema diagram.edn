@@ -180,7 +180,7 @@
 :block/parent 
 {:block/uuid #uuid "6776915c-d8bd-4b53-b0e2-8945b2861fd9"}
 :block/uuid #uuid "6776915c-e724-4792-99c1-8db35f6e2593"} 
-{:block/created-at 1735826388829
+{:block/created-at 1735830586234
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -214,9 +214,9 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819224808
+:nonce 1735819224837
 :italic false}}
-:block/updated-at 1735826388829} 
+:block/updated-at 1735830586234} 
 {:block/created-at 1735826388829
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -575,7 +575,7 @@
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
 :block/updated-at 1735823782420
 :block/uuid #uuid "67769182-1628-4554-a6d5-cdfbc4bff20f"} 
-{:block/created-at 1735826388829
+{:block/created-at 1735830586234
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -601,9 +601,9 @@
 :point [816 1048]
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
-:nonce 1735818904161}}
-:block/updated-at 1735826388829} 
-{:block/created-at 1735826388829
+:nonce 1735818904273}}
+:block/updated-at 1735830586234} 
+{:block/created-at 1735830576493
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -620,7 +620,7 @@
 :id "e3167ee2-c900-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
-:point [540 1790.12]
+:point [540 1800.25]
 :fontSize 20
 :handles 
 {:start 
@@ -631,15 +631,15 @@
 :end 
 {:id "end"
 :canBind true
-:point [256 203.07]
+:point [224 190.6]
 :bindingId "e3167ee1-c900-11ef-aa99-53d29ba04ccd"}}
 :decorations 
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819112147
+:nonce 1735819112166
 :italic false}}
-:block/updated-at 1735826388829} 
+:block/updated-at 1735830576493} 
 {:block/content "if repos:"
 :block/format :markdown
 :block/left 
@@ -654,7 +654,7 @@
 :block/parent 
 {:block/uuid #uuid "1dc0115d-8628-4ef3-837b-53dd39a4996d"}
 :block/uuid #uuid "9d2e5aea-7f44-4cef-b442-cf93c07aef94"} 
-{:block/created-at 1735826388829
+{:block/created-at 1735830586234
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -671,26 +671,26 @@
 :id "10d049c2-c905-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
-:point [984 1397]
+:point [960.83 1397]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [23.28 0]
+:point [40.32 0]
 :bindingId "10d049c0-c905-11ef-aa99-53d29ba04ccd"}
 :end 
 {:id "end"
 :canBind true
-:point [0 471]
+:point [0 479]
 :bindingId "10d049c1-c905-11ef-aa99-53d29ba04ccd"}}
 :decorations 
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735820906702
+:nonce 1735820906750
 :italic false}}
-:block/updated-at 1735826388829} 
+:block/updated-at 1735830586234} 
 {:block/content "put repos - write link to datasource and sites"
 :block/format :markdown
 :block/left 
@@ -825,7 +825,7 @@
 :block/parent 
 {:block/uuid #uuid "6776915c-0a8d-4544-97fd-ac57b5d0b33c"}
 :block/uuid #uuid "6776915c-e2fc-4c4f-841e-134ad161222f"} 
-{:block/created-at 1735826388829
+{:block/created-at 1735830005770
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -842,7 +842,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 307.0000542534722]
+:size [400 306.99998575161334]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -852,8 +852,8 @@
 :point [296 1040]
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
-:nonce 1735823296194}}
-:block/updated-at 1735826388829} 
+:nonce 1735823296196}}
+:block/updated-at 1735830005770} 
 {:block/uuid #uuid "6776903e-acb9-4180-ac65-79fe084c7fb5"
 :block/properties 
 {}
@@ -937,7 +937,7 @@
 :collapsedHeight 0
 :nonce 1735818923800}}
 :block/updated-at 1735826388829} 
-{:block/created-at 1735826388829
+{:block/created-at 1735830576495
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -955,26 +955,26 @@
 :id "c7ece9b2-c900-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
-:point [1145.13 1653.93]
+:point [1125.15 1647.34]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 214.07]
+:point [0 228.66]
 :bindingId "d959f8f1-c900-11ef-aa99-53d29ba04ccd"}
 :end 
 {:id "end"
 :canBind true
-:point [170.87 0]
+:point [190.85 0]
 :bindingId "dd42a4d1-c900-11ef-aa99-53d29ba04ccd"}}
 :decorations 
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819066981
+:nonce 1735819067000
 :italic false}}
-:block/updated-at 1735826388829} 
+:block/updated-at 1735830576495} 
 {:block/content "TODO low priority: make this more elegant, some kind of iteration instead of if clauses"
 :block/format :markdown
 :block/left 
@@ -998,7 +998,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "6cbe5024-d5eb-4f99-aeaf-edb1123016f4"} 
-{:block/created-at 1735826388829
+{:block/created-at 1735830576495
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1021,12 +1021,12 @@
 :id "7ee3b550-c900-11ef-aa99-53d29ba04ccd"
 :noFill false
 :isLocked false
-:point [800 1872]
+:point [768 1880]
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
-:nonce 1735818944287}}
-:block/updated-at 1735826388829} 
-{:block/created-at 1735826388829
+:nonce 1735818944369}}
+:block/updated-at 1735830576495} 
+{:block/created-at 1735830586233
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1060,9 +1060,9 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819207854
+:nonce 1735819207883
 :italic false}}
-:block/updated-at 1735826388829} 
+:block/updated-at 1735830586233} 
 {:block/content "put authors - write link to datasource, sites, and repos"
 :block/format :markdown
 :block/left 
@@ -1295,7 +1295,7 @@
 :nonce 1
 :assets []
 :shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "e3167ee2-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "262f5082-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd" "10d049c2-c905-11ef-aa99-53d29ba04ccd" "039efd80-c907-11ef-aa99-53d29ba04ccd" "10486a30-c907-11ef-aa99-53d29ba04ccd" "22e6f490-c907-11ef-aa99-53d29ba04ccd" "3a67cd10-c907-11ef-aa99-53d29ba04ccd" "a0d53d00-c90a-11ef-aa99-53d29ba04ccd" "d08ad080-c911-11ef-9c18-6336dbc4b70b")}}
-:block/updated-at 1735826536080
+:block/updated-at 1735830586233
 :block/created-at 1735818878073
 :block/type "whiteboard"
 :block/name "schema diagram"

@@ -1161,7 +1161,7 @@
 :block/parent 
 {:block/uuid #uuid "6776915d-9458-472b-abe5-5f639d36c517"}
 :block/uuid #uuid "6776915d-a0fc-4f7e-aede-9d7fd56be839"} 
-{:block/created-at 1735826394870
+{:block/created-at 1735826536080
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1183,11 +1183,11 @@
 :opacity 1
 :id "d08ad080-c911-11ef-9c18-6336dbc4b70b"
 :noFill false
-:point [1312 1792]
+:point [1280 1808]
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
-:nonce 1735826382309}}
-:block/updated-at 1735826394870})
+:nonce 1735826382331}}
+:block/updated-at 1735826536080})
 :pages (
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"
 :block/properties 
@@ -1295,7 +1295,7 @@
 :nonce 1
 :assets []
 :shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "e3167ee2-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "262f5082-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd" "10d049c2-c905-11ef-aa99-53d29ba04ccd" "039efd80-c907-11ef-aa99-53d29ba04ccd" "10486a30-c907-11ef-aa99-53d29ba04ccd" "22e6f490-c907-11ef-aa99-53d29ba04ccd" "3a67cd10-c907-11ef-aa99-53d29ba04ccd" "a0d53d00-c90a-11ef-aa99-53d29ba04ccd" "d08ad080-c911-11ef-9c18-6336dbc4b70b")}}
-:block/updated-at 1735826394870
+:block/updated-at 1735826536080
 :block/created-at 1735818878073
 :block/type "whiteboard"
 :block/name "schema diagram"

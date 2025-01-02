@@ -4,24 +4,31 @@
 - tasks
 	- db schema
 		- Datasource
-			- title = grist.Text()
-			- description = grist.Text()
-			- website = grist.Text()
-			- source = grist.Text()
+			- Name = grist.Text()
+			- Description = grist.Text()
+			- URL = grist.Text()
 			- author = grist.Text()
 			- tags = grist.ReferenceList(Datasource_Tags')
 		- Datasource_tags
 			- Tag = grist.Text()
 			- ...
+		- Sites
+			- URL = grist.Text()
+			    Lexicons = grist.ReferenceList('Lexicons')
+			    Skeet_Tools = grist.Reference('Skeet_Tools', reverse_of='URL')
+			    Skeet_Tools_Name = grist.Text()
+			    Skeet_Tools_Description = grist.Text()
+			    Skeet_Tools_Tags = grist.ReferenceList('Skeet_Tools_Tags')
+			    Skeet_Tools_Rating = grist.Numeric()
 		- Repos
 			- URL = grist.Text()
-			    Last_Commit = grist.Date()
-			    Open_Issues = grist.Int()
-			    Owner = grist.Reference('Authors', reverse_of='Repos')
-			    Open_PRs = grist.Int()
-			    Stars = grist.Int()
-			    Last_Release_Date = grist.Date()
-			    Forks = grist.Int()
+			- Last_Commit = grist.Date()
+			- Open_Issues = grist.Int()
+			- Owner = grist.Reference('Authors', reverse_of='Repos')
+			- Open_PRs = grist.Int()
+			- Stars = grist.Int()
+			- Last_Release_Date = grist.Date()
+			- Forks = grist.Int()
 	- getting data
 		- steps
 			- normalize records

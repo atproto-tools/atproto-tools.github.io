@@ -5,11 +5,23 @@
 	- db schema
 		- Datasource
 			- title = grist.Text()
-			    description = grist.Text()
-			    website = grist.Text()
-			    source = grist.Text()
-			    author = grist.Text()
-			    tags = grist.ReferenceList('Official_Showcase_Tags')
+			- description = grist.Text()
+			- website = grist.Text()
+			- source = grist.Text()
+			- author = grist.Text()
+			- tags = grist.ReferenceList(Datasource_Tags')
+		- Datasource_tags
+			- Tag = grist.Text()
+			- ...
+		- Repos
+			- URL = grist.Text()
+			    Last_Commit = grist.Date()
+			    Open_Issues = grist.Int()
+			    Owner = grist.Reference('Authors', reverse_of='Repos')
+			    Open_PRs = grist.Int()
+			    Stars = grist.Int()
+			    Last_Release_Date = grist.Date()
+			    Forks = grist.Int()
 	- getting data
 		- steps
 			- normalize records

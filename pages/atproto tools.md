@@ -50,9 +50,8 @@
 			- Generic_Website = grist.Text()
 	- getting data
 		- normalize records
+		  collapsed:: true
 			- first iteration: grab everything, build sets/dicts of tags/authors/repos
-				- write separate full table (if wanted) here
-				- tags are sometimes enumerated upfront so we can convert them right away, or right after initial ingestion (for convenience)
 				- schema for passing to next step
 					- "records": entry_records, (list of db records)
 						- record :
@@ -85,9 +84,8 @@
 		- https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
 		- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=
 	- updating
-		- order of operations:
+		- order of ops:
 		  id:: 67769af6-1b12-4df3-9d70-75c680b32eba
-		  collapsed:: true
 			- put datasource - get keys
 			- put sites - write link to datasource - get site keys
 			- if repos:

@@ -3,10 +3,10 @@
 	- (pm me if you want to help contribute)
 - tasks
 	- db schema
-		- Datasource
+		- Datasource # optional
 			- Name = grist.Text()
 			- Description = grist.Text()
-			- URL = grist.Text()
+			- URL = grist.Reference('Sites') # two-way
 			- author = grist.Text()
 			- tags = grist.ReferenceList(Datasource_Tags')
 		- Datasource_tags
@@ -14,12 +14,12 @@
 			- ...
 		- Sites
 			- URL = grist.Text()
-			    Lexicons = grist.ReferenceList('Lexicons')
-			    Skeet_Tools = grist.Reference('Skeet_Tools', reverse_of='URL')
-			    Skeet_Tools_Name = grist.Text()
-			    Skeet_Tools_Description = grist.Text()
-			    Skeet_Tools_Tags = grist.ReferenceList('Skeet_Tools_Tags')
-			    Skeet_Tools_Rating = grist.Numeric()
+			- Lexicons = grist.ReferenceList('Lexicons')
+			- Skeet_Tools = grist.Reference('Datasource', reverse_of='URL')
+			- Skeet_Tools_Name = grist.Text()
+			- Skeet_Tools_Description = grist.Text()
+			- Skeet_Tools_Tags = grist.ReferenceList('Skeet_Tools_Tags')
+			- Skeet_Tools_Rating = grist.Numeric()
 		- Repos
 			- URL = grist.Text()
 			- Last_Commit = grist.Date()

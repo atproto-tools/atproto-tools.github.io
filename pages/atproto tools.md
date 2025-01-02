@@ -90,8 +90,8 @@
 		- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=
 	- updating
 		- order of operations:
-		  logseq.order-list-type:: number
 		  id:: 67769af6-1b12-4df3-9d70-75c680b32eba
+		  collapsed:: true
 			- put datasource - get keys
 			- put sites - write link to datasource - get site keys
 			- if repos:

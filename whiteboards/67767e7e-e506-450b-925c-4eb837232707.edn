@@ -27,7 +27,7 @@
 :collapsedHeight 0
 :nonce 1735818904011}}
 :block/updated-at 1735820530057} 
-{:block/created-at 1735820802226
+{:block/created-at 1735820821856
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -51,11 +51,11 @@
 :id "726ddbc0-c900-11ef-aa99-53d29ba04ccd"
 :noFill false
 :isLocked false
-:point [1344 1392]
+:point [1280 1344]
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
-:nonce 1735818923326}}
-:block/updated-at 1735820802226} 
+:nonce 1735818923770}}
+:block/updated-at 1735820821856} 
 {:block/created-at 1735819371266
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -147,7 +147,7 @@
 :nonce 1735819064611
 :italic false}}
 :block/updated-at 1735819066495} 
-{:block/created-at 1735820802226
+{:block/created-at 1735820821856
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -165,26 +165,26 @@
 :id "c7ece9b2-c900-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
-:point [1161.74 1677.29]
+:point [1112.06 1656.4]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 198.71]
+:point [0 219.6]
 :bindingId "d959f8f1-c900-11ef-aa99-53d29ba04ccd"}
 :end 
 {:id "end"
 :canBind true
-:point [178.26 0]
+:point [163.94 0]
 :bindingId "dd42a4d1-c900-11ef-aa99-53d29ba04ccd"}}
 :decorations 
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819066830
+:nonce 1735819066926
 :italic false}}
-:block/updated-at 1735820802226} 
+:block/updated-at 1735820821856} 
 {:block/created-at 1735819371294
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -222,7 +222,7 @@
 :nonce 1735819112101
 :italic false}}
 :block/updated-at 1735819371294} 
-{:block/created-at 1735820802226
+{:block/created-at 1735820821856
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -239,7 +239,7 @@
 :id "1becaaa2-c901-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
-:point [1132 1318.96]
+:point [1132 1319.14]
 :fontSize 20
 :handles 
 {:start 
@@ -250,15 +250,15 @@
 :end 
 {:id "end"
 :canBind true
-:point [208 157.5]
+:point [144 109.15]
 :bindingId "1becaaa1-c901-11ef-aa99-53d29ba04ccd"}}
 :decorations 
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819207693
+:nonce 1735819207789
 :italic false}}
-:block/updated-at 1735820802226} 
+:block/updated-at 1735820821856} 
 {:block/created-at 1735820530057
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -296,7 +296,7 @@
 :nonce 1735819224773
 :italic false}}
 :block/updated-at 1735820530057} 
-{:block/created-at 1735820802223
+{:block/created-at 1735820821853
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -313,26 +313,63 @@
 :id "85379f62-c901-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
-:point [540 1587.42]
+:point [540 1549.72]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 51.7]
+:point [0 81.33]
 :bindingId "85379f60-c901-11ef-aa99-53d29ba04ccd"}
 :end 
 {:id "end"
 :canBind true
-:point [800 0]
+:point [736 0]
 :bindingId "85379f61-c901-11ef-aa99-53d29ba04ccd"}}
 :decorations 
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819383986
+:nonce 1735819384082
 :italic false}}
-:block/updated-at 1735820802223})
+:block/updated-at 1735820821853} 
+{:block/created-at 1735820910159
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 10
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "10d049c2-c905-11ef-aa99-53d29ba04ccd"
+:fontWeight 400
+:noFill true
+:point [933.02 1341]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "10d049c0-c905-11ef-aa99-53d29ba04ccd"}
+:end 
+{:id "end"
+:canBind true
+:point [15.2 535]
+:bindingId "10d049c1-c905-11ef-aa99-53d29ba04ccd"}}
+:decorations 
+{:start "arrow"
+:end "arrow"}
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:nonce 1735820906621
+:italic false}}
+:block/updated-at 1735820910159})
 :pages (
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"
 :block/properties 
@@ -373,6 +410,14 @@
 :handleId "end"
 :point [0.54 0.43]
 :distance 4}
+:10d049c1-c905-11ef-aa99-53d29ba04ccd 
+{:id "10d049c1-c905-11ef-aa99-53d29ba04ccd"
+:type "line"
+:fromId "10d049c2-c905-11ef-aa99-53d29ba04ccd"
+:toId "7ee3b550-c900-11ef-aa99-53d29ba04ccd"
+:handleId "end"
+:point [0.43 0.57]
+:distance 4}
 :262f5081-c901-11ef-aa99-53d29ba04ccd 
 {:id "262f5081-c901-11ef-aa99-53d29ba04ccd"
 :type "line"
@@ -385,6 +430,14 @@
 {:id "262f5080-c901-11ef-aa99-53d29ba04ccd"
 :type "line"
 :fromId "262f5082-c901-11ef-aa99-53d29ba04ccd"
+:toId "66be5f70-c900-11ef-aa99-53d29ba04ccd"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:10d049c0-c905-11ef-aa99-53d29ba04ccd 
+{:id "10d049c0-c905-11ef-aa99-53d29ba04ccd"
+:type "line"
+:fromId "10d049c2-c905-11ef-aa99-53d29ba04ccd"
 :toId "66be5f70-c900-11ef-aa99-53d29ba04ccd"
 :handleId "start"
 :point [0.5 0.5]
@@ -423,8 +476,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "e3167ee2-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "262f5082-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd")}}
-:block/updated-at 1735820802223
+:shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "e3167ee2-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "262f5082-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd" "10d049c2-c905-11ef-aa99-53d29ba04ccd")}}
+:block/updated-at 1735820910175
 :block/created-at 1735818878073
 :block/type "whiteboard"
 :block/name "67767e7e-e506-450b-925c-4eb837232707"

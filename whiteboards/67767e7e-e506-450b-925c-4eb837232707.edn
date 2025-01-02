@@ -27,12 +27,13 @@
 :collapsedHeight 0
 :nonce 1735818904011}}
 :block/updated-at 1735820530057} 
-{:block/created-at 1735819300700
+{:block/created-at 1735820802226
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "B"
 :stroke ""
+:rotation 0
 :collapsed false
 :borderRadius 8
 :index 1
@@ -43,18 +44,18 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 422.0000542534722]
+:size [408 421.9999186197917]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "726ddbc0-c900-11ef-aa99-53d29ba04ccd"
 :noFill false
 :isLocked false
-:point [1328 1456]
+:point [1344 1392]
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
-:nonce 1735818923211}}
-:block/updated-at 1735819300700} 
+:nonce 1735818923326}}
+:block/updated-at 1735820802226} 
 {:block/created-at 1735819371266
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -146,7 +147,7 @@
 :nonce 1735819064611
 :italic false}}
 :block/updated-at 1735819066495} 
-{:block/created-at 1735819371298
+{:block/created-at 1735820802226
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -164,26 +165,26 @@
 :id "c7ece9b2-c900-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
-:point [1183.27 1729.76]
+:point [1161.74 1677.29]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 146.24]
+:point [0 198.71]
 :bindingId "d959f8f1-c900-11ef-aa99-53d29ba04ccd"}
 :end 
 {:id "end"
 :canBind true
-:point [140.73 0]
+:point [178.26 0]
 :bindingId "dd42a4d1-c900-11ef-aa99-53d29ba04ccd"}}
 :decorations 
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819066793
+:nonce 1735819066830
 :italic false}}
-:block/updated-at 1735819371298} 
+:block/updated-at 1735820802226} 
 {:block/created-at 1735819371294
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -221,7 +222,7 @@
 :nonce 1735819112101
 :italic false}}
 :block/updated-at 1735819371294} 
-{:block/created-at 1735820530053
+{:block/created-at 1735820802226
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -238,7 +239,7 @@
 :id "1becaaa2-c901-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
-:point [1125.98 1341]
+:point [1132 1318.96]
 :fontSize 20
 :handles 
 {:start 
@@ -249,15 +250,15 @@
 :end 
 {:id "end"
 :canBind true
-:point [198.02 176.54]
+:point [208 157.5]
 :bindingId "1becaaa1-c901-11ef-aa99-53d29ba04ccd"}}
 :decorations 
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819207656
+:nonce 1735819207693
 :italic false}}
-:block/updated-at 1735820530053} 
+:block/updated-at 1735820802226} 
 {:block/created-at 1735820530057
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -295,7 +296,7 @@
 :nonce 1735819224773
 :italic false}}
 :block/updated-at 1735820530057} 
-{:block/created-at 1735819385468
+{:block/created-at 1735820802223
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -312,26 +313,26 @@
 :id "85379f62-c901-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
-:point [540 1639.44]
+:point [540 1587.42]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 9.03]
+:point [0 51.7]
 :bindingId "85379f60-c901-11ef-aa99-53d29ba04ccd"}
 :end 
 {:id "end"
 :canBind true
-:point [784 0]
+:point [800 0]
 :bindingId "85379f61-c901-11ef-aa99-53d29ba04ccd"}}
 :decorations 
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819383949
+:nonce 1735819383986
 :italic false}}
-:block/updated-at 1735819385468})
+:block/updated-at 1735820802223})
 :pages (
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"
 :block/properties 
@@ -423,7 +424,7 @@
 :nonce 1
 :assets []
 :shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "e3167ee2-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "262f5082-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd")}}
-:block/updated-at 1735820530053
+:block/updated-at 1735820802223
 :block/created-at 1735818878073
 :block/type "whiteboard"
 :block/name "67767e7e-e506-450b-925c-4eb837232707"

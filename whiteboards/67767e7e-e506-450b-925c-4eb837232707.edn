@@ -1,0 +1,130 @@
+{:blocks (
+{:block/created-at 1735818981599
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "677672fd-d514-4780-9a0c-ca7342a71a6f"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 345]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "66be5f70-c900-11ef-aa99-53d29ba04ccd"
+:noFill false
+:isLocked false
+:point [910.5 1039]
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:collapsedHeight 0
+:nonce 1735818903273}}
+:block/updated-at 1735818981599} 
+{:block/created-at 1735818986490
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "67767469-542f-48c0-b2a5-188b3fea1232"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 422.0000542534722]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "726ddbc0-c900-11ef-aa99-53d29ba04ccd"
+:noFill false
+:isLocked false
+:point [1192 1520]
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:collapsedHeight 0
+:nonce 1735818922933}}
+:block/updated-at 1735818986490} 
+{:block/created-at 1735818985361
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "67767430-00f2-4a86-81b0-84828fbfc695"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 385.00016577449844]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "7ee3b550-c900-11ef-aa99-53d29ba04ccd"
+:noFill false
+:isLocked false
+:point [728 1816]
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:collapsedHeight 0
+:nonce 1735818943820}}
+:block/updated-at 1735818985361} 
+{:block/created-at 1735818984021
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 3
+:scale [1 1]
+:pageId "67767acd-45f5-41d7-b260-b2ca44dc3dd8"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 385.0000904224537]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "822c0280-c900-11ef-aa99-53d29ba04ccd"
+:noFill false
+:isLocked false
+:point [192 1424]
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:collapsedHeight 0
+:nonce 1735818949359}}
+:block/updated-at 1735818984021})
+:pages (
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "67767e7e-e506-450b-925c-4eb837232707"
+:name "67767e7e-e506-450b-925c-4eb837232707"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd")}}
+:block/updated-at 1735818986490
+:block/created-at 1735818878073
+:block/type "whiteboard"
+:block/name "67767e7e-e506-450b-925c-4eb837232707"
+:block/original-name "67767e7e-e506-450b-925c-4eb837232707"})}

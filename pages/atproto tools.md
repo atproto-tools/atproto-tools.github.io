@@ -3,7 +3,9 @@
 	- (pm me if you want to help contribute)
 - tasks
 	- db schema
+	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
 		- Datasource # optional
+		  id:: 677672fd-d514-4780-9a0c-ca7342a71a6f
 			- URL = grist.Reference('Sites', reverse_of='URL') # two-way
 			- Name = grist.Text()
 			- Description = grist.Text()
@@ -14,6 +16,7 @@
 			- Tag = grist.Text()
 			- ...
 		- Sites
+		  id:: 67767469-542f-48c0-b2a5-188b3fea1232
 			- URL = grist.Text()
 			- Lexicons = grist.ReferenceList('Lexicons')
 			- Skeet_Tools = grist.Reference('Datasource', reverse_of='URL')
@@ -22,6 +25,7 @@
 			- Skeet_Tools_Tags = grist.ReferenceList('Skeet_Tools_Tags')
 			- Skeet_Tools_Rating = grist.Numeric()
 		- Repos
+		  id:: 67767430-00f2-4a86-81b0-84828fbfc695
 			- URL = grist.Text()
 			- Last_Commit = grist.Date()
 			- Open_Issues = grist.Int()
@@ -31,6 +35,7 @@
 			- Last_Release_Date = grist.Date()
 			- Forks = grist.Int()
 		- Authors
+		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
 			- VCS_Profiles = grist.ChoiceList()
 			- DID = grist.Text()
 			- Repos = grist.ReferenceList('Repos', reverse_of='Owner')

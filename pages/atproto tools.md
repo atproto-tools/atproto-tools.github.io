@@ -4,11 +4,12 @@
 - tasks
 	- db schema
 		- Datasource # optional
+			- URL = grist.Reference('Sites', reverse_of='URL') # two-way
 			- Name = grist.Text()
 			- Description = grist.Text()
-			- URL = grist.Reference('Sites') # two-way
-			- author = grist.Text()
-			- tags = grist.ReferenceList(Datasource_Tags')
+			- Author = grist.Reference()
+			- Tags = grist.ReferenceList('Datasource_Tags')
+			- ...
 		- Datasource_tags
 			- Tag = grist.Text()
 			- ...

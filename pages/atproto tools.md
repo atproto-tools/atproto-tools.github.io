@@ -3,7 +3,13 @@
 	- (pm me if you want to help contribute)
 - tasks
 	- db schema
-		-
+		- Datasource
+			- title = grist.Text()
+			    description = grist.Text()
+			    website = grist.Text()
+			    source = grist.Text()
+			    author = grist.Text()
+			    tags = grist.ReferenceList('Official_Showcase_Tags')
 	- getting data
 		- steps
 			- normalize records

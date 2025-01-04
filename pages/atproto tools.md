@@ -97,6 +97,17 @@
 				- put repos - write link to datasource and sites - get repos
 				- put authors - write link to datasource, sites, and repos
 			- TODO low priority: make this more elegant, some kind of iteration instead of if clauses
+		- order of ops (single table):
+		  id:: 677957dd-04b1-42af-8b7e-982a17690f30
+			- put sites- get site keys
+			- if repos:
+				- put repos - write link to sites
+			- if authors:
+				- put repos - write link to repos and sites
+			- if both authors and repos:
+				- put repos - write link to sites - get repos
+				- put authors - write link to datasource and repos
+			- TODO low priority: make this more elegant, some kind of iteration instead of if clauses
 		- grist
 			- https://support.getgrist.com/api/
 			- https://docs.getgrist.com/apiconsole

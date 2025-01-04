@@ -105,7 +105,7 @@
 			- if authors:
 				- put repos - write link to repos and sites
 			- if both authors and repos:
-				- put repos - write link to sites - get repos
+				- put repos - get repos
 				- put authors - write link to datasource and repos
 			- TODO low priority: make this more elegant, some kind of iteration instead of if clauses
 		- grist

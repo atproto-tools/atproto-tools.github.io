@@ -169,7 +169,7 @@
 :block/parent 
 {:block/uuid #uuid "6776915c-d8bd-4b53-b0e2-8945b2861fd9"}
 :block/uuid #uuid "6776915c-e724-4792-99c1-8db35f6e2593"} 
-{:block/created-at 1736069863617
+{:block/created-at 1736070689871
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -182,7 +182,7 @@
 :strokeType "line"
 :strokeWidth 1
 :opacity 1
-:label "many to many"
+:label "many to many 2)"
 :id "85379f62-c901-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
@@ -203,9 +203,9 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819384347
+:nonce 1735819384352
 :italic false}}
-:block/updated-at 1736069863617} 
+:block/updated-at 1736070689871} 
 {:block/content "put repos - write link to datasource and sites"
 :block/format :markdown
 :block/left 
@@ -511,7 +511,7 @@
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
 :block/updated-at 1735823782420
 :block/uuid #uuid "67769182-1628-4554-a6d5-cdfbc4bff20f"} 
-{:block/created-at 1736067638305
+{:block/created-at 1736096146126
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -534,11 +534,11 @@
 :id "66be5f70-c900-11ef-aa99-53d29ba04ccd"
 :noFill false
 :isLocked false
-:point [824 984]
+:point [744 992]
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
-:nonce 1735818904711}}
-:block/updated-at 1736067638305} 
+:nonce 1735818904763}}
+:block/updated-at 1736096146126} 
 {:block/content "if repos:"
 :block/format :markdown
 :block/left 
@@ -770,7 +770,7 @@
 :collapsedHeight 0
 :nonce 1735818924243}}
 :block/updated-at 1736069863616} 
-{:block/created-at 1736069863617
+{:block/created-at 1736070718592
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -784,7 +784,7 @@
 :strokeType "line"
 :strokeWidth 1
 :opacity 1
-:label "many to many"
+:label "many to many 2)"
 :id "c7ece9b2-c900-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
@@ -805,9 +805,9 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819067185
+:nonce 1735819067210
 :italic false}}
-:block/updated-at 1736069863617} 
+:block/updated-at 1736070718592} 
 {:block/content "TODO low priority: make this more elegant, some kind of iteration instead of if clauses"
 :block/format :markdown
 :block/left 
@@ -859,7 +859,7 @@
 :collapsedHeight 0
 :nonce 1735818944713}}
 :block/updated-at 1736069848832} 
-{:block/created-at 1736070622887
+{:block/created-at 1736096146125
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -876,7 +876,7 @@
 :id "1becaaa2-c901-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
-:point [1155.84 1333]
+:point [1107.2 1341]
 :fontSize 20
 :handles 
 {:start 
@@ -887,15 +887,15 @@
 :end 
 {:id "end"
 :canBind true
-:point [59.02 79]
+:point [88.8 96.04]
 :bindingId "1becaaa1-c901-11ef-aa99-53d29ba04ccd"}}
 :decorations 
 {:start nil
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819208100
+:nonce 1735819208112
 :italic false}}
-:block/updated-at 1736070622887} 
+:block/updated-at 1736096146125} 
 {:block/content "put authors - write link to datasource, sites, and repos"
 :block/format :markdown
 :block/left 
@@ -994,7 +994,7 @@
 :block/parent 
 {:block/uuid #uuid "6776915d-9458-472b-abe5-5f639d36c517"}
 :block/uuid #uuid "6776915d-a0fc-4f7e-aede-9d7fd56be839"} 
-{:block/created-at 1736069931257
+{:block/created-at 1736096146126
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1011,26 +1011,26 @@
 :id "5f383492-cb3c-11ef-90b8-b3e8fd6eb007"
 :fontWeight 400
 :noFill true
-:point [604 1315.62]
+:point [604 1338]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [219 0]
+:point [146.51 0]
 :bindingId "5f383490-cb3c-11ef-90b8-b3e8fd6eb007"}
 :end 
 {:id "end"
 :canBind true
-:point [0 173.36]
+:point [0 131.38]
 :bindingId "5f383491-cb3c-11ef-90b8-b3e8fd6eb007"}}
 :decorations 
 {:end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1736064562948
+:nonce 1736064562960
 :italic false}}
-:block/updated-at 1736069931257} 
-{:block/created-at 1736069937129
+:block/updated-at 1736096146126} 
+{:block/created-at 1736096146126
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1047,25 +1047,25 @@
 :id "660514a2-cb3c-11ef-90b8-b3e8fd6eb007"
 :fontWeight 400
 :noFill true
-:point [994.19 1330]
+:point [947.94 1338]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [20.24 0]
+:point [0 0]
 :bindingId "6792e091-cb3c-11ef-90b8-b3e8fd6eb007"}
 :end 
 {:id "end"
 :canBind true
-:point [0 666]
+:point [29.23 658]
 :bindingId "6bd14d91-cb3c-11ef-90b8-b3e8fd6eb007"}}
 :decorations 
 {:end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1736064574491
+:nonce 1736064574503
 :italic false}}
-:block/updated-at 1736069937129} 
+:block/updated-at 1736096146126} 
 {:block/created-at 1736069793149
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -1238,7 +1238,7 @@
 :nonce 1
 :assets []
 :shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd" "3a67cd10-c907-11ef-aa99-53d29ba04ccd" "a0d53d00-c90a-11ef-aa99-53d29ba04ccd" "d08ad080-c911-11ef-9c18-6336dbc4b70b" "5f383492-cb3c-11ef-90b8-b3e8fd6eb007" "f59cd4e2-cb46-11ef-90b8-b3e8fd6eb007" "05291630-cb47-11ef-90b8-b3e8fd6eb007" "660514a2-cb3c-11ef-90b8-b3e8fd6eb007")}}
-:block/updated-at 1736070622897
+:block/updated-at 1736096146125
 :block/created-at 1735818878073
 :block/type "whiteboard"
 :block/name "schema diagram"

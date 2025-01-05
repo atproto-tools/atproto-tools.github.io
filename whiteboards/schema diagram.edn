@@ -565,7 +565,7 @@
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
 :block/updated-at 1735823782420
 :block/uuid #uuid "67769182-1628-4554-a6d5-cdfbc4bff20f"} 
-{:block/created-at 1736064579783
+{:block/created-at 1736067638305
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -588,11 +588,11 @@
 :id "66be5f70-c900-11ef-aa99-53d29ba04ccd"
 :noFill false
 :isLocked false
-:point [800 976]
+:point [824 984]
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
-:nonce 1735818904679}}
-:block/updated-at 1736064579783} 
+:nonce 1735818904711}}
+:block/updated-at 1736067638305} 
 {:block/content "if repos:"
 :block/format :markdown
 :block/left 
@@ -942,7 +942,7 @@
 :collapsedHeight 0
 :nonce 1735818944465}}
 :block/updated-at 1735832888683} 
-{:block/created-at 1736064579782
+{:block/created-at 1736067638304
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -959,7 +959,7 @@
 :id "1becaaa2-c901-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
-:point [1204 1310.38]
+:point [1228 1322.59]
 :fontSize 20
 :handles 
 {:start 
@@ -970,15 +970,15 @@
 :end 
 {:id "end"
 :canBind true
-:point [160 126.97]
+:point [136 110.73]
 :bindingId "1becaaa1-c901-11ef-aa99-53d29ba04ccd"}}
 :decorations 
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819208040
+:nonce 1735819208045
 :italic false}}
-:block/updated-at 1736064579782} 
+:block/updated-at 1736067638304} 
 {:block/content "put authors - write link to datasource, sites, and repos"
 :block/format :markdown
 :block/left 
@@ -1077,7 +1077,7 @@
 :block/parent 
 {:block/uuid #uuid "6776915d-9458-472b-abe5-5f639d36c517"}
 :block/uuid #uuid "6776915d-a0fc-4f7e-aede-9d7fd56be839"} 
-{:block/created-at 1736064579783
+{:block/created-at 1736067638305
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1094,26 +1094,26 @@
 :id "5f383492-cb3c-11ef-90b8-b3e8fd6eb007"
 :fontWeight 400
 :noFill true
-:point [596 1311.93]
+:point [596 1310.93]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [203 0]
+:point [227 0]
 :bindingId "5f383490-cb3c-11ef-90b8-b3e8fd6eb007"}
 :end 
 {:id "end"
 :canBind true
-:point [0 165.05]
+:point [0 174.4]
 :bindingId "5f383491-cb3c-11ef-90b8-b3e8fd6eb007"}}
 :decorations 
 {:end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1736064562904
+:nonce 1736064562909
 :italic false}}
-:block/updated-at 1736064579783} 
-{:block/created-at 1736064585661
+:block/updated-at 1736067638305} 
+{:block/created-at 1736067638305
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1130,25 +1130,25 @@
 :id "660514a2-cb3c-11ef-90b8-b3e8fd6eb007"
 :fontWeight 400
 :noFill true
-:point [1000.3 1322]
+:point [1019.43 1330]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 0]
+:point [0.37 0]
 :bindingId "6792e091-cb3c-11ef-90b8-b3e8fd6eb007"}
 :end 
 {:id "end"
 :canBind true
-:point [13.46 554]
+:point [0 546]
 :bindingId "6bd14d91-cb3c-11ef-90b8-b3e8fd6eb007"}}
 :decorations 
 {:end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1736064574421
+:nonce 1736064574426
 :italic false}}
-:block/updated-at 1736064585661})
+:block/updated-at 1736067638305})
 :pages (
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"
 :block/properties 
@@ -1256,7 +1256,7 @@
 :nonce 1
 :assets []
 :shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd" "039efd80-c907-11ef-aa99-53d29ba04ccd" "10486a30-c907-11ef-aa99-53d29ba04ccd" "22e6f490-c907-11ef-aa99-53d29ba04ccd" "3a67cd10-c907-11ef-aa99-53d29ba04ccd" "a0d53d00-c90a-11ef-aa99-53d29ba04ccd" "d08ad080-c911-11ef-9c18-6336dbc4b70b" "5f383492-cb3c-11ef-90b8-b3e8fd6eb007" "660514a2-cb3c-11ef-90b8-b3e8fd6eb007")}}
-:block/updated-at 1736064595857
+:block/updated-at 1736067638304
 :block/created-at 1735818878073
 :block/type "whiteboard"
 :block/name "schema diagram"

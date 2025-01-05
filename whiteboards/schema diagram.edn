@@ -63,7 +63,7 @@
 :block/parent 
 {:block/uuid #uuid "6776915c-a5c2-40f6-8925-18c4bd0de092"}
 :block/uuid #uuid "6776915c-2ad6-459f-bf54-8429cf39873a"} 
-{:block/created-at 1736069107239
+{:block/created-at 1736069535868
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -80,7 +80,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [344 452.99994574652777]
+:size [344 452.9999997160621]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -90,8 +90,8 @@
 :point [256 1424]
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
-:nonce 1735818949630}}
-:block/updated-at 1736069107239} 
+:nonce 1735818949634}}
+:block/updated-at 1736069535868} 
 {:block/content "if both authors and repos:"
 :block/format :markdown
 :block/left 
@@ -169,7 +169,7 @@
 :block/parent 
 {:block/uuid #uuid "6776915c-d8bd-4b53-b0e2-8945b2861fd9"}
 :block/uuid #uuid "6776915c-e724-4792-99c1-8db35f6e2593"} 
-{:block/created-at 1736069107237
+{:block/created-at 1736069535876
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -203,9 +203,9 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819384245
+:nonce 1735819384249
 :italic false}}
-:block/updated-at 1736069107237} 
+:block/updated-at 1736069535876} 
 {:block/content "put repos - write link to datasource and sites"
 :block/format :markdown
 :block/left 
@@ -445,13 +445,17 @@
 :block/parent 
 {:block/uuid #uuid "67769159-a89a-4d48-ae0f-330f09abcd19"}
 :block/uuid #uuid "67769159-1ebe-41cb-9414-402bd613a63b"} 
-{:block/content "![pepe-silvia](https://wac-cdn.atlassian.com/dam/jcr:08d5b957-818c-4c4e-a140-fd4cccaaa599/meme.png?cdnVersion=2484)"
-:block/format :markdown
+{:block/uuid #uuid "67768fbf-6d98-4f0e-8346-9e8d8aee81c5"
+:block/properties 
+{}
+:block/updated-at 1736069559811
 :block/left 
 {:block/uuid #uuid "67768eda-bc18-49f4-94c9-31002a16bad9"}
+:block/created-at 1736069559811
+:block/format :markdown
+:block/content "mood ![pepe-silvia](https://wac-cdn.atlassian.com/dam/jcr:08d5b957-818c-4c4e-a140-fd4cccaaa599/meme.png?cdnVersion=2484)"
 :block/parent 
-{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
-:block/uuid #uuid "67768fbf-6d98-4f0e-8346-9e8d8aee81c5"} 
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}} 
 {:block/content "put repos - write link to datasource and sites"
 :block/format :markdown
 :block/left 
@@ -741,7 +745,7 @@
 :block/parent 
 {:block/uuid #uuid "6776915c-0a8d-4544-97fd-ac57b5d0b33c"}
 :block/uuid #uuid "6776915c-e2fc-4c4f-841e-134ad161222f"} 
-{:block/created-at 1736064545942
+{:block/created-at 1736069564437
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -758,7 +762,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 307.0000320795178]
+:size [400 331.0000377221917]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -768,8 +772,8 @@
 :point [296 1040]
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
-:nonce 1735823296200}}
-:block/updated-at 1736064545942} 
+:nonce 1735823296210}}
+:block/updated-at 1736069564437} 
 {:block/uuid #uuid "6776903e-acb9-4180-ac65-79fe084c7fb5"
 :block/properties 
 {}
@@ -1077,7 +1081,7 @@
 :block/parent 
 {:block/uuid #uuid "6776915d-9458-472b-abe5-5f639d36c517"}
 :block/uuid #uuid "6776915d-a0fc-4f7e-aede-9d7fd56be839"} 
-{:block/created-at 1736069107239
+{:block/created-at 1736069535875
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1110,9 +1114,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1736064562942
+:nonce 1736064562946
 :italic false}}
-:block/updated-at 1736069107239} 
+:block/updated-at 1736069535875} 
 {:block/created-at 1736067638305
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -1321,7 +1325,7 @@
 :nonce 1
 :assets []
 :shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd" "039efd80-c907-11ef-aa99-53d29ba04ccd" "10486a30-c907-11ef-aa99-53d29ba04ccd" "22e6f490-c907-11ef-aa99-53d29ba04ccd" "3a67cd10-c907-11ef-aa99-53d29ba04ccd" "a0d53d00-c90a-11ef-aa99-53d29ba04ccd" "d08ad080-c911-11ef-9c18-6336dbc4b70b" "5f383492-cb3c-11ef-90b8-b3e8fd6eb007" "660514a2-cb3c-11ef-90b8-b3e8fd6eb007" "f59cd4e2-cb46-11ef-90b8-b3e8fd6eb007" "05291630-cb47-11ef-90b8-b3e8fd6eb007")}}
-:block/updated-at 1736069240249
+:block/updated-at 1736069564437
 :block/created-at 1735818878073
 :block/type "whiteboard"
 :block/name "schema diagram"

@@ -6,14 +6,14 @@
 :block/parent 
 {:block/uuid #uuid "6776916c-0a09-4af0-92d5-1cc8c64dd3bb"}
 :block/uuid #uuid "6776916c-7af6-4f7f-84d0-40864364498a"} 
-{:block/created-at 1736064187127
+{:block/created-at 1736069692490
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:isSizeLocked true
 :stroke ""
 :borderRadius 0
-:index 11
+:index 8
 :scale [1 1]
 :scaleLevel "xl"
 :fill ""
@@ -34,7 +34,7 @@
 :nonce 1735821835369
 :italic false
 :text "5"}}
-:block/updated-at 1736064187127} 
+:block/updated-at 1736069692490} 
 {:block/content "order of operations:"
 :block/format :markdown
 :block/left 
@@ -169,7 +169,7 @@
 :block/parent 
 {:block/uuid #uuid "6776915c-d8bd-4b53-b0e2-8945b2861fd9"}
 :block/uuid #uuid "6776915c-e724-4792-99c1-8db35f6e2593"} 
-{:block/created-at 1736069535876
+{:block/created-at 1736069600536
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -186,26 +186,26 @@
 :id "85379f62-c901-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
-:point [604 1562.11]
+:point [604 1517.4]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 71.77]
+:point [0 107.64]
 :bindingId "85379f60-c901-11ef-aa99-53d29ba04ccd"}
 :end 
 {:id "end"
 :canBind true
-:point [760 0]
+:point [744 0]
 :bindingId "85379f61-c901-11ef-aa99-53d29ba04ccd"}}
 :decorations 
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819384249
+:nonce 1735819384256
 :italic false}}
-:block/updated-at 1736069535876} 
+:block/updated-at 1736069600536} 
 {:block/content "put repos - write link to datasource and sites"
 :block/format :markdown
 :block/left 
@@ -213,35 +213,6 @@
 :block/parent 
 {:block/uuid #uuid "67769159-7dfe-48b2-b785-d18da32b6289"}
 :block/uuid #uuid "67769159-c7af-4b16-b165-fb2d4b9edb46"} 
-{:block/created-at 1736064187129
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:isSizeLocked true
-:stroke ""
-:borderRadius 0
-:index 8
-:scale [1 1]
-:scaleLevel "xl"
-:fill ""
-:type "text"
-:size [63 68]
-:fontFamily "var(--ls-font-family)"
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "039efd80-c907-11ef-aa99-53d29ba04ccd"
-:padding 4
-:fontWeight 400
-:noFill true
-:point [1224 1160]
-:lineHeight 1.2
-:fontSize 48
-:parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735821743509
-:italic false
-:text "1g"}}
-:block/updated-at 1736064187129} 
 {:block/uuid #uuid "6776906a-173e-42bf-b427-f1fc71f366ee"
 :block/properties 
 {}
@@ -253,35 +224,6 @@
 :block/content "put repos - write link to original and sites - get repos"
 :block/parent 
 {:block/uuid #uuid "6776905a-85bf-45c6-890a-69ef352a6704"}} 
-{:block/created-at 1736064187129
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:isSizeLocked true
-:stroke ""
-:borderRadius 0
-:index 9
-:scale [1 1]
-:scaleLevel "xl"
-:fill ""
-:type "text"
-:size [70 68]
-:fontFamily "var(--ls-font-family)"
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "10486a30-c907-11ef-aa99-53d29ba04ccd"
-:padding 4
-:fontWeight 400
-:noFill true
-:point [1416 1280]
-:lineHeight 1.2
-:fontSize 48
-:parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735821764756
-:italic false
-:text "2g"}}
-:block/updated-at 1736064187129} 
 {:block/content "if both authors and repos:"
 :block/format :markdown
 :block/left 
@@ -382,7 +324,7 @@
 :block/content "[[atproto tools]] a second-order awesome-atproto list (in database form)"
 :block/parent 
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}} 
-{:block/created-at 1736064187129
+{:block/created-at 1736069692491
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -390,7 +332,7 @@
 :stroke ""
 :collapsed false
 :borderRadius 8
-:index 13
+:index 10
 :scale [1 1]
 :pageId "67769af6-1b12-4df3-9d70-75c680b32eba"
 :scaleLevel "md"
@@ -408,7 +350,7 @@
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
 :nonce 1735826382367}}
-:block/updated-at 1736064187129} 
+:block/updated-at 1736069692491} 
 {:block/content "put repos - write link to datasource and sites - get repos"
 :block/format :markdown
 :block/left 
@@ -618,35 +560,6 @@
 :block/parent 
 {:block/uuid #uuid "6776915d-a0fc-4f7e-aede-9d7fd56be839"}
 :block/uuid #uuid "6776915d-11b1-4f16-afca-85ca4458d113"} 
-{:block/created-at 1736064187129
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:isSizeLocked true
-:stroke ""
-:borderRadius 0
-:index 10
-:scale [1 1]
-:scaleLevel "xl"
-:fill ""
-:type "text"
-:size [72 68]
-:fontFamily "var(--ls-font-family)"
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "22e6f490-c907-11ef-aa99-53d29ba04ccd"
-:padding 4
-:fontWeight 400
-:noFill true
-:point [1024 1808]
-:lineHeight 1.2
-:fontSize 48
-:parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735821795975
-:italic false
-:text "4g"}}
-:block/updated-at 1736064187129} 
 {:block/uuid #uuid "67769040-23f1-48ab-9dbe-9804e797d3f8"
 :block/properties 
 {}
@@ -745,7 +658,7 @@
 :block/parent 
 {:block/uuid #uuid "6776915c-0a8d-4544-97fd-ac57b5d0b33c"}
 :block/uuid #uuid "6776915c-e2fc-4c4f-841e-134ad161222f"} 
-{:block/created-at 1736069564437
+{:block/created-at 1736069692491
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -754,7 +667,7 @@
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 12
+:index 9
 :scale [1 1]
 :pageId "67768fbf-6d98-4f0e-8346-9e8d8aee81c5"
 :scaleLevel "md"
@@ -773,7 +686,7 @@
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
 :nonce 1735823296210}}
-:block/updated-at 1736069564437} 
+:block/updated-at 1736069692491} 
 {:block/uuid #uuid "6776903e-acb9-4180-ac65-79fe084c7fb5"
 :block/properties 
 {}
@@ -828,7 +741,7 @@
 :block/content "put datasource - get keys"
 :block/parent 
 {:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"}} 
-{:block/created-at 1735832876721
+{:block/created-at 1736069600536
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -852,12 +765,12 @@
 :id "726ddbc0-c900-11ef-aa99-53d29ba04ccd"
 :noFill false
 :isLocked false
-:point [1368 1360]
+:point [1352 1304]
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :collapsedHeight 0
-:nonce 1735818924011}}
-:block/updated-at 1735832876721} 
-{:block/created-at 1736064182381
+:nonce 1735818924057}}
+:block/updated-at 1736069600536} 
+{:block/created-at 1736069600536
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -875,26 +788,26 @@
 :id "c7ece9b2-c900-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
-:point [1197.33 1664.15]
+:point [1170.95 1625.49]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 211.85]
+:point [0 250.51]
 :bindingId "d959f8f1-c900-11ef-aa99-53d29ba04ccd"}
 :end 
 {:id "end"
 :canBind true
-:point [166.67 0]
+:point [177.05 0]
 :bindingId "dd42a4d1-c900-11ef-aa99-53d29ba04ccd"}}
 :decorations 
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819067069
+:nonce 1735819067076
 :italic false}}
-:block/updated-at 1736064182381} 
+:block/updated-at 1736069600536} 
 {:block/content "TODO low priority: make this more elegant, some kind of iteration instead of if clauses"
 :block/format :markdown
 :block/left 
@@ -946,7 +859,7 @@
 :collapsedHeight 0
 :nonce 1735818944465}}
 :block/updated-at 1735832888683} 
-{:block/created-at 1736067638304
+{:block/created-at 1736069600535
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -963,7 +876,7 @@
 :id "1becaaa2-c901-11ef-aa99-53d29ba04ccd"
 :fontWeight 400
 :noFill true
-:point [1228 1322.59]
+:point [1228 1305.71]
 :fontSize 20
 :handles 
 {:start 
@@ -974,15 +887,15 @@
 :end 
 {:id "end"
 :canBind true
-:point [136 110.73]
+:point [120 87.78]
 :bindingId "1becaaa1-c901-11ef-aa99-53d29ba04ccd"}}
 :decorations 
 {:start "arrow"
 :end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1735819208045
+:nonce 1735819208052
 :italic false}}
-:block/updated-at 1736067638304} 
+:block/updated-at 1736069600535} 
 {:block/content "put authors - write link to datasource, sites, and repos"
 :block/format :markdown
 :block/left 
@@ -1081,12 +994,12 @@
 :block/parent 
 {:block/uuid #uuid "6776915d-9458-472b-abe5-5f639d36c517"}
 :block/uuid #uuid "6776915d-a0fc-4f7e-aede-9d7fd56be839"} 
-{:block/created-at 1736069535875
+{:block/created-at 1736069692491
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
-:index 14
+:index 11
 :scale [1 1]
 :scaleLevel "md"
 :fill ""
@@ -1094,7 +1007,7 @@
 :strokeType "line"
 :strokeWidth 1
 :opacity 1
-:label ""
+:label "1"
 :id "5f383492-cb3c-11ef-90b8-b3e8fd6eb007"
 :fontWeight 400
 :noFill true
@@ -1114,15 +1027,15 @@
 :decorations 
 {:end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1736064562946
+:nonce 1736064562947
 :italic false}}
-:block/updated-at 1736069535875} 
-{:block/created-at 1736067638305
+:block/updated-at 1736069692491} 
+{:block/created-at 1736069692491
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
-:index 15
+:index 12
 :scale [1 1]
 :scaleLevel "md"
 :fill ""
@@ -1130,7 +1043,7 @@
 :strokeType "line"
 :strokeWidth 1
 :opacity 1
-:label ""
+:label "1"
 :id "660514a2-cb3c-11ef-90b8-b3e8fd6eb007"
 :fontWeight 400
 :noFill true
@@ -1150,15 +1063,15 @@
 :decorations 
 {:end "arrow"}
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1736064574426
+:nonce 1736064574427
 :italic false}}
-:block/updated-at 1736067638305} 
-{:block/created-at 1736069125390
+:block/updated-at 1736069692491} 
+{:block/created-at 1736069692491
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
-:index 16
+:index 13
 :scale [1 1]
 :scaleLevel "md"
 :fill ""
@@ -1188,15 +1101,15 @@
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
 :nonce 1736069110080
 :italic false}}
-:block/updated-at 1736069125390} 
-{:block/created-at 1736069240249
+:block/updated-at 1736069692491} 
+{:block/created-at 1736069692491
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:isSizeLocked true
 :stroke ""
 :borderRadius 0
-:index 17
+:index 14
 :scale [1 1]
 :scaleLevel "md"
 :fill ""
@@ -1217,7 +1130,7 @@
 :nonce 1736069136499
 :italic false
 :text "Repos do not inherently have authors!\nthey are linked through sites\nand one-way through repo crawl -> author"}}
-:block/updated-at 1736069240249})
+:block/updated-at 1736069692491})
 :pages (
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"
 :block/properties 
@@ -1324,8 +1237,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd" "039efd80-c907-11ef-aa99-53d29ba04ccd" "10486a30-c907-11ef-aa99-53d29ba04ccd" "22e6f490-c907-11ef-aa99-53d29ba04ccd" "3a67cd10-c907-11ef-aa99-53d29ba04ccd" "a0d53d00-c90a-11ef-aa99-53d29ba04ccd" "d08ad080-c911-11ef-9c18-6336dbc4b70b" "5f383492-cb3c-11ef-90b8-b3e8fd6eb007" "660514a2-cb3c-11ef-90b8-b3e8fd6eb007" "f59cd4e2-cb46-11ef-90b8-b3e8fd6eb007" "05291630-cb47-11ef-90b8-b3e8fd6eb007")}}
-:block/updated-at 1736069564437
+:shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd" "3a67cd10-c907-11ef-aa99-53d29ba04ccd" "a0d53d00-c90a-11ef-aa99-53d29ba04ccd" "d08ad080-c911-11ef-9c18-6336dbc4b70b" "5f383492-cb3c-11ef-90b8-b3e8fd6eb007" "660514a2-cb3c-11ef-90b8-b3e8fd6eb007" "f59cd4e2-cb46-11ef-90b8-b3e8fd6eb007" "05291630-cb47-11ef-90b8-b3e8fd6eb007")}}
+:block/updated-at 1736069692489
 :block/created-at 1735818878073
 :block/type "whiteboard"
 :block/name "schema diagram"

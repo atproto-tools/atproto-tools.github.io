@@ -1185,7 +1185,7 @@
 :nonce 1736069110080
 :italic false}}
 :block/updated-at 1736069125390} 
-{:block/created-at 1736069200586
+{:block/created-at 1736069240249
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1210,10 +1210,10 @@
 :lineHeight 1.2
 :fontSize 20
 :parentId "67767e7e-e506-450b-925c-4eb837232707"
-:nonce 1736069136478
+:nonce 1736069136499
 :italic false
-:text "Repos do not have authors!\nthey are linked through sites\nand one-way through repo crawl -> author"}}
-:block/updated-at 1736069200586})
+:text "Repos do not inherently have authors!\nthey are linked through sites\nand one-way through repo crawl -> author"}}
+:block/updated-at 1736069240249})
 :pages (
 {:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"
 :block/properties 
@@ -1321,7 +1321,7 @@
 :nonce 1
 :assets []
 :shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd" "039efd80-c907-11ef-aa99-53d29ba04ccd" "10486a30-c907-11ef-aa99-53d29ba04ccd" "22e6f490-c907-11ef-aa99-53d29ba04ccd" "3a67cd10-c907-11ef-aa99-53d29ba04ccd" "a0d53d00-c90a-11ef-aa99-53d29ba04ccd" "d08ad080-c911-11ef-9c18-6336dbc4b70b" "5f383492-cb3c-11ef-90b8-b3e8fd6eb007" "660514a2-cb3c-11ef-90b8-b3e8fd6eb007" "f59cd4e2-cb46-11ef-90b8-b3e8fd6eb007" "05291630-cb47-11ef-90b8-b3e8fd6eb007")}}
-:block/updated-at 1736069200585
+:block/updated-at 1736069240249
 :block/created-at 1735818878073
 :block/type "whiteboard"
 :block/name "schema diagram"

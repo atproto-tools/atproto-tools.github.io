@@ -85,7 +85,7 @@
 		- https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
 		- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=
 	- updating
-		- order of ops:
+		- order of ops per datasource:
 		  id:: 67769af6-1b12-4df3-9d70-75c680b32eba
 			- put datasource - get keys
 			- put sites - write link to datasource - get site keys
@@ -97,13 +97,14 @@
 				- put repos - write link to datasource and sites - get repos
 				- put authors - write link to datasource, sites, and repos
 			- TODO low priority: make this more elegant, some kind of iteration instead of if clauses
-		- order of ops (single table):
+		- order of ops per datasource (single table):
 		  id:: 677957dd-04b1-42af-8b7e-982a17690f30
 			- put sites- get site keys
 			- if both authors and repos:
 				- put repos - get repos
 				- put authors - write link to datasource and repos
 			- TODO low priority: make this more elegant, some kind of iteration instead of if clauses
+		-
 		- grist
 			- https://support.getgrist.com/api/
 			- https://docs.getgrist.com/apiconsole

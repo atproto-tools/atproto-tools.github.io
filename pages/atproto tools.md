@@ -2,42 +2,17 @@
 	- link is to a forkable version aka [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can fork or download the db from the green share button in the top left
 	- (pm me if you want to help contribute)
 - tasks
-	- db schema
+	- [db schema]([[triangle schema]])
 	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
-		- Datasource_tags
-			- Tag = grist.Text()
-			- ...
 		- Sites
 		  id:: 67767469-542f-48c0-b2a5-188b3fea1232
-			- URL = grist.Text()
-			- Lexicons = grist.ReferenceList('Lexicons')
-			- Skeet_Tools = grist.Reference('Datasource', reverse_of='URL')
-			- Skeet_Tools_Name = grist.Text()
-			- Skeet_Tools_Description = grist.Text()
-			- Skeet_Tools_Tags = grist.ReferenceList('Skeet_Tools_Tags')
-			- Skeet_Tools_Rating = grist.Numeric()
+			- primary key URL of service/project homepage
 		- Repos
 		  id:: 67767430-00f2-4a86-81b0-84828fbfc695
-			- URL = grist.Text()
-			- Last_Commit = grist.Date()
-			- Open_Issues = grist.Int()
-			- Owner = grist.Reference('Authors', reverse_of='Repos')
-			- Open_PRs = grist.Int()
-			- Stars = grist.Int()
-			- Last_Release_Date = grist.Date()
-			- Forks = grist.Int()
-			- Sites = grist.Reference('Sites, reverse_of='Repos')
-			  id:: 67767f18-833b-4669-a645-dc696b0e2725
+			- primary key source code repo
+				- try to autodetect
 		- Authors
 		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
-			- VCS_Profiles = grist.ChoiceList()
-			- DID = grist.Text()
-			- Repos = grist.ReferenceList('Repos', reverse_of='Owner')
-			- Organization = grist.Bool()
-			- Bluesky_Name = grist.Text()
-			- Bluesky_Handle = grist.Text()
-			- Github_Social_Accounts = grist.Text()
-			- Generic_Website = grist.Text()
 	- getting data
 		- https://pipedream.com/docs/
 		- https://pygrister.readthedocs.io/en/stable/intro.html

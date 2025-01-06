@@ -40,6 +40,23 @@
 			- Github_Social_Accounts = grist.Text()
 			- Generic_Website = grist.Text()
 	- getting data
+		- https://pipedream.com/docs/
+		- https://pygrister.readthedocs.io/en/stable/intro.html
+		- https://requests.readthedocs.io/en/stable/user/quickstart/
+		- html
+			- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+				- js equivalent? https://github.com/taoqf/node-html-parser
+		- markdown
+			- https://github.com/miyuchina/mistletoe/blob/master/dev-guide.md
+		- graphql
+			- https://graphql.org/learn/
+			- https://docs.github.com/en/graphql/overview/explorer
+			- https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests#using-search-to-filter-issues-and-pull-requests
+				- grabbing data from rss feeds of prs might be useful because they have more info about the author
+			- https://docs.github.com/en/graphql/guides/using-pagination-in-the-graphql-api
+			- https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
+		- bsky
+			- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=
 		- normalize records
 			- schema for passing to next step
 				- "records": entry_records, (list of db records)
@@ -52,20 +69,6 @@
 						- other (website)
 				- "table": table_name, (str)
 				- "entry columns": {name_field, desc_field, tags_field, rating_field} # optional (both table and all individual columns)
-		- https://pipedream.com/docs/
-		- https://pygrister.readthedocs.io/en/stable/intro.html
-		- https://requests.readthedocs.io/en/stable/user/quickstart/
-			- https://docs.python-requests.org/en/latest/user/advanced/#session-objects
-		- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-			- js equivalent? https://github.com/taoqf/node-html-parser
-		- https://github.com/miyuchina/mistletoe/blob/master/dev-guide.md
-		- https://graphql.org/learn/
-		- https://docs.github.com/en/graphql/overview/explorer
-		- https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests#using-search-to-filter-issues-and-pull-requests
-			- grabbing data from rss feeds of prs might be useful because they have more info about the author
-		- https://docs.github.com/en/graphql/guides/using-pagination-in-the-graphql-api
-		- https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
-		- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=
 	- updating
 		- order of ops per datasource (single table):
 		  id:: 677957dd-04b1-42af-8b7e-982a17690f30
@@ -83,15 +86,17 @@
 		- possible ideas:
 			- for formulas https://support.getgrist.com/functions/#record
 			- alt presentation
+			  collapsed:: true
 				- https://support.getgrist.com/summary-tables/
 					- https://community.getgrist.com/t/summary-table-with-dynamic-columns/1604/2
 						- https://public.getgrist.com/2g1mnjbiUXCd/Cross-tabulation-table/p/4
 						- https://public.getgrist.com/71GRe6EuiRtm/Combined-Tables/m/fork
 						- https://community.getgrist.com/t/how-to-combine-two-tables-into-single-one/257/8
 				- https://community.getgrist.com/t/lookuprecords-where-column-value-in-multiple-value/1656/2
-			- https://github.com/gristlabs/grist-core/issues/45#issuecomment-897678034
-			- https://support.getgrist.com/widget-custom/
+				- https://support.getgrist.com/widget-custom/
 			- load into an alternate db?
+			  collapsed:: true
+				- https://github.com/gristlabs/grist-core/issues/45#issuecomment-897678034
 				- https://github.com/gristlabs/grist-core/issues/195
 	- access control for everyone
 		- template https://templates.getgrist.com/doc/dKztiPYamcCp~nBCSFZ8tuCyUMQybsE37Ye~68125/p/1

@@ -61,16 +61,15 @@
 			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=<did>
 		- output format
 			- schema for passing to next step
-				- "records": entry_records, (list of db records)
-				- "repos": repo_records (dict of ),
-				- "authors": authors, (dict with str keys,or list) key is url, val is column
-				  collapsed:: true
-					- TODO clarify possible columns. for now:
-						- DID (displayed as pure did, links to bsky.app)
-						- bsky profile
-						- other (website)
-				- "table": table_name, (str)
-				- "entry columns": {name_field, desc_field, tags_field, rating_field} # optional (both table and all individual columns)
+			- ```python
+			  return {
+			    "records": entry_records, # {url: {columns}, ...} 
+			              "repos": repos, # {url: [repo_urls], ...}
+			              "authors": authors, # {url: [author_dids], ...}
+			              "source": source_name, # str
+			              # "columns": [name_field, desc_field, tags_field, rating_field], # any extra besides the four hardcoded standard ones
+			              }
+			  ```
 	- updating
 		- order of ops per datasource (single table):
 		  id:: 677957dd-04b1-42af-8b7e-982a17690f30

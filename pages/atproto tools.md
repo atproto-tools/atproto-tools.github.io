@@ -46,8 +46,9 @@
 		- html
 			- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 				- js equivalent? https://github.com/taoqf/node-html-parser
+				- https://scrapfly.io/web-scraping-tools/css-xpath-tester
 		- markdown
-			-
+			- https://mistune.lepture.com/en/latest/guide.html
 		- graphql
 		  collapsed:: true
 			- https://graphql.org/learn/

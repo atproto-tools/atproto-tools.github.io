@@ -47,7 +47,7 @@
 			- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 				- js equivalent? https://github.com/taoqf/node-html-parser
 		- markdown
-			- https://github.com/miyuchina/mistletoe/blob/master/dev-guide.md
+			-
 		- graphql
 		  collapsed:: true
 			- https://graphql.org/learn/

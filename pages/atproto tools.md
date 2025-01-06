@@ -49,15 +49,17 @@
 		- markdown
 			- https://github.com/miyuchina/mistletoe/blob/master/dev-guide.md
 		- graphql
+		  collapsed:: true
 			- https://graphql.org/learn/
 			- https://docs.github.com/en/graphql/overview/explorer
 			- https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests#using-search-to-filter-issues-and-pull-requests
 				- grabbing data from rss feeds of prs might be useful because they have more info about the author
 			- https://docs.github.com/en/graphql/guides/using-pagination-in-the-graphql-api
 			- https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
-		- bsky
-			- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=
-		- normalize records
+		- bsky api
+			- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=<handle>
+			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=<did>
+		- output format
 			- schema for passing to next step
 				- "records": entry_records, (list of db records)
 				- "repos": repo_records (dict of ),

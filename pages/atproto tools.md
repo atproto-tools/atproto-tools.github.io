@@ -5,14 +5,6 @@
 	- db schema
 	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
 	  collapsed:: true
-		- Datasource # optional
-		  id:: 677672fd-d514-4780-9a0c-ca7342a71a6f
-			- URL = grist.Reference('Sites', reverse_of='URL') # two-way
-			- Name = grist.Text()
-			- Description = grist.Text()
-			- Author = grist.Reference('Authors')
-			- Tags = grist.ReferenceList('Datasource_Tags')
-			- ...
 		- Datasource_tags
 			- Tag = grist.Text()
 			- ...
@@ -39,7 +31,6 @@
 			  id:: 67767f18-833b-4669-a645-dc696b0e2725
 		- Authors
 		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
-		  collapsed:: true
 			- VCS_Profiles = grist.ChoiceList()
 			- DID = grist.Text()
 			- Repos = grist.ReferenceList('Repos', reverse_of='Owner')
@@ -50,26 +41,24 @@
 			- Generic_Website = grist.Text()
 	- getting data
 		- normalize records
-		  collapsed:: true
-			- first iteration: grab everything, build sets/dicts of tags/authors/repos
-				- schema for passing to next step
-					- "records": entry_records, (list of db records)
-						- record :
-							- require: str # specifically url field
-							- fields : str
-								- name_field :
-								- desc_field : str,
-								- tags_field : ["L", *str],
-								- rating_field : any] # but prefer 0-1 float for rating
-					- "repos": repo_records (list of urls),
-					- "authors": authors, (dict with str keys,or list) key is url, val is column
-					  collapsed:: true
-						- TODO clarify possible columns. for now:
-							- DID (displayed as pure did, links to bsky.app)
-							- bsky profile
-							- other (website)
-					- "table": table_name, (str)
-					- "entry columns": {name_field, desc_field, tags_field, rating_field} # optional (both table and all individual columns)
+			- schema for passing to next step
+				- "records": entry_records, (list of db records)
+					- record :
+						- require: str # specifically url field
+						- fields : str
+							- name_field :
+							- desc_field : str,
+							- tags_field : ["L", *str],
+							- rating_field : any] # but prefer 0-1 float for rating
+				- "repos": repo_records (list of urls),
+				- "authors": authors, (dict with str keys,or list) key is url, val is column
+				  collapsed:: true
+					- TODO clarify possible columns. for now:
+						- DID (displayed as pure did, links to bsky.app)
+						- bsky profile
+						- other (website)
+				- "table": table_name, (str)
+				- "entry columns": {name_field, desc_field, tags_field, rating_field} # optional (both table and all individual columns)
 		- https://pipedream.com/docs/
 		- https://pygrister.readthedocs.io/en/stable/intro.html
 		- https://requests.readthedocs.io/en/stable/user/quickstart/

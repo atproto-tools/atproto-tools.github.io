@@ -287,44 +287,15 @@
 :italic false
 :text "2g"}}
 :block/updated-at 1736096384765} 
-{:block/created-at 1736096384766
+{:block/created-at 1736165627229
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "B"
 :stroke ""
-:rotation 0
 :collapsed false
 :borderRadius 8
 :index 9
-:scale [1 1]
-:pageId "67768fbf-6d98-4f0e-8346-9e8d8aee81c5"
-:scaleLevel "md"
-:fill ""
-:compact true
-:isAutoResizing true
-:type "logseq-portal"
-:size [400 330.99992961354127]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "edf105cf-cab2-11ef-90b8-b3e8fd6eb007"
-:noFill false
-:isLocked false
-:point [256 144]
-:parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
-:collapsedHeight 0
-:nonce 1735823296248}}
-:block/updated-at 1736096384766} 
-{:block/created-at 1736096384766
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "B"
-:stroke ""
-:collapsed false
-:borderRadius 8
-:index 10
 :scale [1 1]
 :pageId "677957dd-04b1-42af-8b7e-982a17690f30"
 :scaleLevel "md"
@@ -342,7 +313,42 @@
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
 :collapsedHeight 0
 :nonce 1736005615491}}
-:block/updated-at 1736096384766})
+:block/updated-at 1736165627229} 
+{:block/content "![pepe-silvia](https://wac-cdn.atlassian.com/dam/jcr:08d5b957-818c-4c4e-a140-fd4cccaaa599/meme.png?cdnVersion=2484)"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6779579a-8cf6-4c3c-9bc7-381c809b267a"}
+:block/parent 
+{:block/uuid #uuid "6779579a-8cf6-4c3c-9bc7-381c809b267a"}
+:block/uuid #uuid "677bc8fb-fce2-4301-9d11-bf98f9e84b67"} 
+{:block/created-at 1736165630388
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 10
+:scale [1 1]
+:pageId "677bc8fb-fce2-4301-9d11-bf98f9e84b67"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 306.99997467203394]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "ae5372b0-cc27-11ef-b528-4109217eb9c1"
+:noFill false
+:isLocked false
+:point [592 160]
+:parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
+:collapsedHeight 0
+:nonce 1736165627303}}
+:block/updated-at 1736165630388})
 :pages (
 {:block/uuid #uuid "6779579a-8cf6-4c3c-9bc7-381c809b267a"
 :block/properties 
@@ -385,8 +391,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("edf105c1-cab2-11ef-90b8-b3e8fd6eb007" "edf105c2-cab2-11ef-90b8-b3e8fd6eb007" "edf105c3-cab2-11ef-90b8-b3e8fd6eb007" "edf105c4-cab2-11ef-90b8-b3e8fd6eb007" "edf105c8-cab2-11ef-90b8-b3e8fd6eb007" "edf105c9-cab2-11ef-90b8-b3e8fd6eb007" "edf105cc-cab2-11ef-90b8-b3e8fd6eb007" "edf105cd-cab2-11ef-90b8-b3e8fd6eb007" "edf105ce-cab2-11ef-90b8-b3e8fd6eb007" "edf105cf-cab2-11ef-90b8-b3e8fd6eb007" "1fd4ef20-cab3-11ef-90b8-b3e8fd6eb007")}}
-:block/updated-at 1736096384765
+:shapes-index ("edf105c1-cab2-11ef-90b8-b3e8fd6eb007" "edf105c2-cab2-11ef-90b8-b3e8fd6eb007" "edf105c3-cab2-11ef-90b8-b3e8fd6eb007" "edf105c4-cab2-11ef-90b8-b3e8fd6eb007" "edf105c8-cab2-11ef-90b8-b3e8fd6eb007" "edf105c9-cab2-11ef-90b8-b3e8fd6eb007" "edf105cc-cab2-11ef-90b8-b3e8fd6eb007" "edf105cd-cab2-11ef-90b8-b3e8fd6eb007" "edf105ce-cab2-11ef-90b8-b3e8fd6eb007" "1fd4ef20-cab3-11ef-90b8-b3e8fd6eb007" "ae5372b0-cc27-11ef-b528-4109217eb9c1")}}
+:block/updated-at 1736165630388
 :block/created-at 1736005530930
 :block/type "whiteboard"
 :block/name "triangle schema"

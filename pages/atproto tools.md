@@ -61,14 +61,14 @@
 			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=<did>
 		- output format
 			- schema for passing to next step
-			- ```python
+			  ```python
 			  return {
-			    "records": entry_records, # {url: {columns}, ...} 
-			              "repos": repos, # {url: [repo_urls], ...}
-			              "authors": authors, # {url: [author_dids], ...}
-			              "source": source_name, # str
-			              # "columns": [name_field, desc_field, tags_field, rating_field], # any extra besides the four hardcoded standard ones
-			              }
+			          "records": entry_records, # {url: {columns}, ...} 
+			          "repos": repos, # {url: [repo_urls], ...}
+			          "authors": authors, # {url: [author_dids], ...}
+			          "source": source_name, # str
+			          # "columns": [name_field, desc_field, tags_field, rating_field], # any extra besides the four hardcoded standard ones
+			      }
 			  ```
 	- updating
 		- order of ops per datasource (single table):

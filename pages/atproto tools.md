@@ -4,7 +4,6 @@
 - tasks
 	- db schema
 	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
-	  collapsed:: true
 		- Datasource_tags
 			- Tag = grist.Text()
 			- ...
@@ -68,7 +67,7 @@
 			          "repos": repos, # {url: [repo_urls], ...}
 			          "authors": authors, # {url: [author_dids], ...}
 			          "source": source_name, # str
-			          # "columns": [name_field, desc_field, tags_field, rating_field], # any extra besides the four hardcoded standard ones
+			          "columns": [name_field, desc_field, tags_field, rating_field], # these are the default ones, all optional
 			      }
 			  ```
 	- updating

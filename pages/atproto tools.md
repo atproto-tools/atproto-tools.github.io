@@ -43,14 +43,7 @@
 		- normalize records
 			- schema for passing to next step
 				- "records": entry_records, (list of db records)
-					- record :
-						- require: str # specifically url field
-						- fields : str
-							- name_field :
-							- desc_field : str,
-							- tags_field : ["L", *str],
-							- rating_field : any] # but prefer 0-1 float for rating
-				- "repos": repo_records (list of urls),
+				- "repos": repo_records (dict of ),
 				- "authors": authors, (dict with str keys,or list) key is url, val is column
 				  collapsed:: true
 					- TODO clarify possible columns. for now:

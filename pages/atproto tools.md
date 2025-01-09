@@ -1,6 +1,5 @@
 - link: https://atproto-tools.getgrist.com/t6bKvzR97jxB/main-list/m/fork/p/9
 	- link is to a forkable version aka [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can fork or download the db from the green share button in the top left
-	-
 - tasks
 	- [db schema]([[triangle schema]])
 	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a

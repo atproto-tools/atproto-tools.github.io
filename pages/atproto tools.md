@@ -1,6 +1,7 @@
 - link: https://atproto-tools.getgrist.com/t6bKvzR97jxB/main-list/m/fork/p/9
 	- link is to a forkable version aka [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can fork or download the db from the green share button in the top left
 - tasks
+  collapsed:: true
 	- [db schema]([[triangle schema]])
 	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
 		- Sites
@@ -81,3 +82,7 @@
   collapsed:: true
 	- ![image.png](../assets/image_1735320252579_0.png) 
 	  source: https://x.com/gf_256/status/1514131084702797827
+- individual tools i found
+	- https://www.bluesky-labelers.io/
+	- https://sill.social/
+	-

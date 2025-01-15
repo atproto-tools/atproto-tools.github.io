@@ -1,7 +1,6 @@
 - link: https://atproto-tools.getgrist.com/t6bKvzR97jxB/main-list/m/fork/p/9
 	- link is to a forkable version aka [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can fork or download the db from the green share button in the top left
 - tasks
-  collapsed:: true
 	- [db schema]([[triangle schema]])
 	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
 		- Sites
@@ -25,13 +24,13 @@
 		- markdown
 			- https://mistune.lepture.com/en/latest/guide.html
 		- graphql
-		  collapsed:: true
 			- https://graphql.org/learn/
 			- https://docs.github.com/en/graphql/overview/explorer
 			- https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests#using-search-to-filter-issues-and-pull-requests
 				- grabbing data from rss feeds of prs might be useful because they have more info about the author
 			- https://docs.github.com/en/graphql/guides/using-pagination-in-the-graphql-api
 			- https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
+			- https://gql.readthedocs.io/en/stable/usage/variables.html
 		- bsky api
 			- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=<handle>
 			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=<did>

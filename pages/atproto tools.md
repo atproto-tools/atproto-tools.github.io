@@ -30,7 +30,7 @@
 				- grabbing data from rss feeds of prs might be useful because they have more info about the author
 			- https://docs.github.com/en/graphql/guides/using-pagination-in-the-graphql-api
 			- https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
-			- https://gql.readthedocs.io/en/stable/usage/variables.html
+			- https://gql.readthedocs.io/en/stable/usage/
 		- bsky api
 			- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=<handle>
 			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=<did>
@@ -84,4 +84,5 @@
 - individual tools i found
 	- https://www.bluesky-labelers.io/
 	- https://sill.social/
-	-
+	- https://github.com/kristojorg/bsky-label-watcher
+		- by https://bsky.app/profile/kris.to/post/3lfpcev2i7c22

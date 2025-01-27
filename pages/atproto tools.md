@@ -18,18 +18,13 @@
 		- windmill
 			- local dev
 				- launch config:
-					- add __init
-					- ```json
+					- locally add __init__.py to all project folders for module includes
+					- add to launch.json config:
+					  ```json
 					  {
-					  	"name": "Python Debugger: Current File",
-					  	"type": "debugpy",
-					  	"request": "launch",
-					  	"program": "${file}",
-					  	"console": "integratedTerminal",
-					  	"justMyCode": false,
 					  	"env": {
 					  		"BASE_INTERNAL_URL": "https://app.windmill.dev",
-					  		"WM_TOKEN": <your token>,
+					  		"WM_TOKEN": "your token",
 					  		"WM_WORKSPACE": "atproto-tools-scripts",
 					  		"PYTHONPATH": "${workspaceFolder}"
 					  	}

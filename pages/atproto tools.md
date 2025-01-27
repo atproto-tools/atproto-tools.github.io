@@ -18,16 +18,14 @@
 		- windmill
 			- local dev
 				- launch config:
-					- locally add __init__.py to all project folders for module includes
-					- add to launch.json config:
+					- locally add `__init__.py` to all project folders for module includes. don't forget to add `- "**/__init__.py"` to excludes in wmill.yaml
+					- add to launch.json launch config:
 					  ```json
-					  {
-					  	"env": {
-					  		"BASE_INTERNAL_URL": "https://app.windmill.dev",
-					  		"WM_TOKEN": "your token",
-					  		"WM_WORKSPACE": "atproto-tools-scripts",
-					  		"PYTHONPATH": "${workspaceFolder}"
-					  	}
+					  "env": {
+					    "BASE_INTERNAL_URL": "https://app.windmill.dev",
+					    "WM_TOKEN": "your token",
+					    "WM_WORKSPACE": "atproto-tools-scripts",
+					    "PYTHONPATH": "${workspaceFolder}"
 					  }
 					  ```
 		- https://pygrister.readthedocs.io/en/stable/intro.html

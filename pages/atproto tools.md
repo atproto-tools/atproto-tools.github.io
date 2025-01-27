@@ -15,7 +15,7 @@
 		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
 			- primary key DID
 	- [windmill](https://www.windmill.dev/docs/intro)
-		- [local dev](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
+		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
 		  collapsed:: true
 			- launch config:
 				- locally add `__init__.py` to all project folders for project module includes. don't forget to add `- "**/__init__.py"` to excludes in wmill.yaml

@@ -3,7 +3,6 @@
 - tasks
 	- [db schema]([[triangle schema]])
 	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
-	  collapsed:: true
 		- Sites
 		  id:: 67767469-542f-48c0-b2a5-188b3fea1232
 			- primary key URL of service/project homepage
@@ -14,22 +13,20 @@
 		- Authors
 		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
 			- primary key DID
+	- [windmill](https://www.windmill.dev/docs/intro)
+		- [local dev](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
+			- launch config:
+				- locally add `__init__.py` to all project folders for project module includes. don't forget to add `- "**/__init__.py"` to excludes in wmill.yaml
+				- add to launch.json launch config:
+				  ```json
+				  "env": {
+				    "BASE_INTERNAL_URL": "https://app.windmill.dev",
+				    "WM_TOKEN": "your token",
+				    "WM_WORKSPACE": "atproto-tools-scripts",
+				    "PYTHONPATH": "${workspaceFolder}"
+				  }
+				  ```
 	- getting data
-		- [windmill](https://www.windmill.dev/docs/intro)
-			- [local dev](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
-				- launch config:
-					- locally add `__init__.py` to all project folders for project module includes. don't forget to add `- "**/__init__.py"` to excludes in wmill.yaml
-					- add to launch.json launch config:
-					  ```json
-					  "env": {
-					    "BASE_INTERNAL_URL": "https://app.windmill.dev",
-					    "WM_TOKEN": "your token",
-					    "WM_WORKSPACE": "atproto-tools-scripts",
-					    "PYTHONPATH": "${workspaceFolder}"
-					  }
-					  ```
-		- https://pygrister.readthedocs.io/en/stable/intro.html
-		- https://requests.readthedocs.io/en/stable/user/quickstart/
 		- html
 			- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 				- js equivalent? https://github.com/taoqf/node-html-parser
@@ -48,19 +45,10 @@
 			- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=<handle>
 			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=<did>
 	- updating
-	  collapsed:: true
-		- order of ops per datasource (single table):
-		  id:: 677957dd-04b1-42af-8b7e-982a17690f30
-			- put sites- get site keys
-			- if both authors and repos:
-				- put repos - get repos
-				- put authors - write link to datasource and repos
-			- TODO low priority: make this more elegant, some kind of iteration instead of if clauses
 		- grist
 			- https://support.getgrist.com/api/
 			- https://docs.getgrist.com/apiconsole
-			- https://support.getgrist.com/code/modules/GristData/#cellvalue
-			- https://github.com/ben-pr-p/grist-js
+			- https://pygrister.readthedocs.io/en/stable/intro.html
 	- transform and prettify presentation
 	  collapsed:: true
 		- possible ideas:

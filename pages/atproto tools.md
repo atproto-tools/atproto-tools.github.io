@@ -15,8 +15,26 @@
 		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
 			- primary key DID
 	- getting data
-	  collapsed:: true
-		-
+		- windmill
+			- local dev
+				- launch config:
+					- add __init
+					- ```json
+					  {
+					  	"name": "Python Debugger: Current File",
+					  	"type": "debugpy",
+					  	"request": "launch",
+					  	"program": "${file}",
+					  	"console": "integratedTerminal",
+					  	"justMyCode": false,
+					  	"env": {
+					  		"BASE_INTERNAL_URL": "https://app.windmill.dev",
+					  		"WM_TOKEN": <your token>,
+					  		"WM_WORKSPACE": "atproto-tools-scripts",
+					  		"PYTHONPATH": "${workspaceFolder}"
+					  	}
+					  }
+					  ```
 		- https://pygrister.readthedocs.io/en/stable/intro.html
 		- https://requests.readthedocs.io/en/stable/user/quickstart/
 		- html
@@ -48,6 +66,7 @@
 			      }
 			  ```
 	- updating
+	  collapsed:: true
 		- order of ops per datasource (single table):
 		  id:: 677957dd-04b1-42af-8b7e-982a17690f30
 			- put sites- get site keys
@@ -61,6 +80,7 @@
 			- https://support.getgrist.com/code/modules/GristData/#cellvalue
 			- https://github.com/ben-pr-p/grist-js
 	- transform and prettify presentation
+	  collapsed:: true
 		- possible ideas:
 			- for formulas https://support.getgrist.com/functions/#record
 			- alt presentation
@@ -77,6 +97,7 @@
 				- https://github.com/gristlabs/grist-core/issues/45#issuecomment-897678034
 				- https://github.com/gristlabs/grist-core/issues/195
 	- access control for everyone
+	  collapsed:: true
 		- template https://templates.getgrist.com/doc/dKztiPYamcCp~nBCSFZ8tuCyUMQybsE37Ye~68125/p/1
 		- https://support.getgrist.com/access-rules/
 - mood:

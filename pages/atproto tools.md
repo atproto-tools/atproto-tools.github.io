@@ -18,7 +18,7 @@
 		- windmill
 			- local dev
 				- launch config:
-					- locally add `__init__.py` to all project folders for module includes. don't forget to add `- "**/__init__.py"` to excludes in wmill.yaml
+					- locally add `__init__.py` to all project folders for project module includes. don't forget to add `- "**/__init__.py"` to excludes in wmill.yaml
 					- add to launch.json launch config:
 					  ```json
 					  "env": {

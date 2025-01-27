@@ -29,7 +29,7 @@
 				  }
 				  ```
 	- getting data
-		- - https://requests.readthedocs.io/en/stable/user/quickstart/
+		- https://requests.readthedocs.io/en/stable/user/quickstart/
 		- html
 			- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 				- js equivalent? https://github.com/taoqf/node-html-parser

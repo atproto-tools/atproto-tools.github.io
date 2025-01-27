@@ -47,17 +47,6 @@
 		- bsky api
 			- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=<handle>
 			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=<did>
-		- output format
-			- schema for passing to next step
-			  ```python
-			  return {
-			          "records": entry_records, # {url: {columns}, ...} 
-			          "repos": repos, # {url: [repo_urls], ...}
-			          "authors": authors, # {url: [author_dids], ...}
-			          "source": source_name, # str
-			          "columns": [name_field, desc_field, tags_field, rating_field], # these are the default ones, all optional
-			      }
-			  ```
 	- updating
 	  collapsed:: true
 		- order of ops per datasource (single table):

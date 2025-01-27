@@ -3,6 +3,7 @@
 - tasks
 	- [db schema]([[triangle schema]])
 	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
+	  collapsed:: true
 		- Sites
 		  id:: 67767469-542f-48c0-b2a5-188b3fea1232
 			- primary key URL of service/project homepage
@@ -14,7 +15,8 @@
 		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
 			- primary key DID
 	- getting data
-		- https://pipedream.com/docs/
+	  collapsed:: true
+		-
 		- https://pygrister.readthedocs.io/en/stable/intro.html
 		- https://requests.readthedocs.io/en/stable/user/quickstart/
 		- html

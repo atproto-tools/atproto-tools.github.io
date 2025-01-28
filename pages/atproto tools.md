@@ -16,8 +16,9 @@
 			- primary key DID
 	- [windmill](https://www.windmill.dev/docs/intro)
 		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
-		  collapsed:: true
+			- https://www.windmill.dev/docs/advanced/cli/installation
 			- launch config:
+			  collapsed:: true
 				- locally add `__init__.py` to all project folders for project module includes. don't forget to add `- "**/__init__.py"` to excludes in wmill.yaml
 				- add to launch.json launch config:
 				  ```json

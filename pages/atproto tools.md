@@ -40,6 +40,8 @@
 		- graphql
 			- https://graphql.org/learn/
 			- https://docs.github.com/en/graphql/overview/explorer
+			- [Get info about several repositories from Github Graphql API in a single call - Stack Overflow](https://stackoverflow.com/a/77549291/592606)
+			-
 			- https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests#using-search-to-filter-issues-and-pull-requests
 				- grabbing data from rss feeds of prs might be useful because they have more info about the author
 			- https://docs.github.com/en/graphql/guides/using-pagination-in-the-graphql-api

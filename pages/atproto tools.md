@@ -85,5 +85,3 @@
 	- https://sill.social/
 	- https://github.com/kristojorg/bsky-label-watcher
 		- by https://bsky.app/profile/kris.to/post/3lfpcev2i7c22
-	- https://boat.kelinci.net/
-		- https://github.com/mary-ext/boat

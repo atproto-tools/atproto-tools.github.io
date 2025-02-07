@@ -76,7 +76,7 @@
 	  collapsed:: true
 		- template https://templates.getgrist.com/doc/dKztiPYamcCp~nBCSFZ8tuCyUMQybsE37Ye~68125/p/1
 		- https://support.getgrist.com/access-rules/
-- mood:
+- mindset:
   collapsed:: true
 	- ![image.png](../assets/image_1735320252579_0.png) 
 	  source: https://x.com/gf_256/status/1514131084702797827

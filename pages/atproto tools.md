@@ -83,5 +83,3 @@
 - individual tools i found
 	- https://www.bluesky-labelers.io/
 	- https://sill.social/
-	- https://github.com/kristojorg/bsky-label-watcher
-		- by https://bsky.app/profile/kris.to/post/3lfpcev2i7c22

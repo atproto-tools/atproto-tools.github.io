@@ -50,17 +50,16 @@
 		- bsky api
 			- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=<handle>
 			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=<did>
+			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfiles?actors=<did>&actors=<did> (limit 25)
 	- updating
 		- grist
 			- https://support.getgrist.com/api/
 			- https://docs.getgrist.com/apiconsole
 			- https://pygrister.readthedocs.io/en/stable/intro.html
 	- transform and prettify presentation
-	  collapsed:: true
 		- possible ideas:
 			- for formulas https://support.getgrist.com/functions/#record
 			- alt presentation
-			  collapsed:: true
 				- https://support.getgrist.com/summary-tables/
 					- https://community.getgrist.com/t/summary-table-with-dynamic-columns/1604/2
 						- https://public.getgrist.com/2g1mnjbiUXCd/Cross-tabulation-table/p/4
@@ -69,7 +68,6 @@
 				- https://community.getgrist.com/t/lookuprecords-where-column-value-in-multiple-value/1656/2
 				- https://support.getgrist.com/widget-custom/
 			- load into an alternate db?
-			  collapsed:: true
 				- https://github.com/gristlabs/grist-core/issues/45#issuecomment-897678034
 				- https://github.com/gristlabs/grist-core/issues/195
 	- access control for everyone

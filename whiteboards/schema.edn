@@ -197,14 +197,18 @@
 :collapsedHeight 0
 :nonce 1735818944516}}
 :block/updated-at 1736181631139} 
-{:block/content "![pepe-silvia](https://wac-cdn.atlassian.com/dam/jcr:08d5b957-818c-4c4e-a140-fd4cccaaa599/meme.png?cdnVersion=2484)"
-:block/format :markdown
+{:block/uuid #uuid "677bc8fb-fce2-4301-9d11-bf98f9e84b67"
+:block/properties 
+{}
+:block/updated-at 1739657682486
 :block/left 
 {:block/uuid #uuid "67864ce7-370e-4c8b-a972-5de871c6b304"}
+:block/created-at 1739657682486
+:block/format :markdown
+:block/content "![pepe-silvia](https://wac-cdn.atlassian.com/dam/jcr:08d5b957-818c-4c4e-a140-fd4cccaaa599/meme.png?cdnVersion=2484)\nthis was a bit more complicated originally with individual tables for sites from different data sources, but decided to combine all sources into one table for easier querying"
 :block/parent 
-{:block/uuid #uuid "67864ce7-370e-4c8b-a972-5de871c6b304"}
-:block/uuid #uuid "677bc8fb-fce2-4301-9d11-bf98f9e84b67"} 
-{:block/created-at 1739657512131
+{:block/uuid #uuid "67864ce7-370e-4c8b-a972-5de871c6b304"}} 
+{:block/created-at 1739657685026
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -220,18 +224,18 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 307.0000408394753]
+:size [400 402.9999884882784]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "ae5372b0-cc27-11ef-b528-4109217eb9c1"
 :noFill false
 :isLocked false
-:point [440 96]
+:point [448 88]
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
 :collapsedHeight 0
-:nonce 1736165627397}}
-:block/updated-at 1739657512131} 
+:nonce 1736165627423}}
+:block/updated-at 1739657685026} 
 {:block/created-at 1739657579914
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -329,7 +333,7 @@
 :assets []
 :shapes-index ("edf105c1-cab2-11ef-90b8-b3e8fd6eb007" "edf105c2-cab2-11ef-90b8-b3e8fd6eb007" "edf105c3-cab2-11ef-90b8-b3e8fd6eb007" "edf105c4-cab2-11ef-90b8-b3e8fd6eb007" "edf105c8-cab2-11ef-90b8-b3e8fd6eb007" "edf105c9-cab2-11ef-90b8-b3e8fd6eb007" "ae5372b0-cc27-11ef-b528-4109217eb9c1" "b7de3a42-cc27-11ef-b528-4109217eb9c1")}}
 :block/journal? false
-:block/updated-at 1739657579920
+:block/updated-at 1739657685025
 :block/created-at 1736005530930
 :block/type "whiteboard"
 :block/name "schema"

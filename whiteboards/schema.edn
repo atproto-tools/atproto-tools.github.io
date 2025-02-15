@@ -28,7 +28,7 @@
 :collapsedHeight 0
 :nonce 1735818949575}}
 :block/updated-at 1736181631144} 
-{:block/created-at 1737988483375
+{:block/created-at 1739657511159
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -47,27 +47,27 @@
 :fontWeight 400
 :noFill true
 :isLocked false
-:point [1046.6 635.33]
+:point [1046.66 636]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 344.67]
+:point [0 344]
 :bindingId "edf105d7-cab2-11ef-90b8-b3e8fd6eb007"}
 :end 
 {:id "end"
 :canBind true
-:point [300.28 0]
+:point [299.81 0]
 :bindingId "edf105d8-cab2-11ef-90b8-b3e8fd6eb007"}}
 :decorations 
 {:start "arrow"
 :end "arrow"}
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
-:nonce 1735819067139
+:nonce 1735819067141
 :italic false}}
-:block/updated-at 1737988483375} 
-{:block/created-at 1737988483308
+:block/updated-at 1739657511159} 
+{:block/created-at 1739657511127
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -84,7 +84,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [408 167.33334737579418]
+:size [408 167.9999981131628]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -94,9 +94,9 @@
 :point [1328 464]
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
 :collapsedHeight 0
-:nonce 1735818924064}}
-:block/updated-at 1737988483308} 
-{:block/created-at 1737988483376
+:nonce 1735818924066}}
+:block/updated-at 1739657511127} 
+{:block/created-at 1739657511160
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -114,13 +114,13 @@
 :fontWeight 400
 :noFill true
 :isLocked false
-:point [556 546.47]
+:point [556 546.7]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 37.85]
+:point [0 37.67]
 :bindingId "edf105d9-cab2-11ef-90b8-b3e8fd6eb007"}
 :end 
 {:id "end"
@@ -131,9 +131,9 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
-:nonce 1735819384238
+:nonce 1735819384240
 :italic false}}
-:block/updated-at 1737988483376} 
+:block/updated-at 1739657511160} 
 {:block/created-at 1736005552679
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -204,7 +204,7 @@
 :block/parent 
 {:block/uuid #uuid "67864ce7-370e-4c8b-a972-5de871c6b304"}
 :block/uuid #uuid "677bc8fb-fce2-4301-9d11-bf98f9e84b67"} 
-{:block/created-at 1737988503794
+{:block/created-at 1739657512131
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -220,7 +220,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 306.6667056873593]
+:size [400 307.0000408394753]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -230,9 +230,9 @@
 :point [440 96]
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
 :collapsedHeight 0
-:nonce 1736165627395}}
-:block/updated-at 1737988503794} 
-{:block/created-at 1737988503797
+:nonce 1736165627397}}
+:block/updated-at 1739657512131} 
+{:block/created-at 1739657579914
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -245,7 +245,7 @@
 :strokeType "line"
 :strokeWidth 1
 :opacity 1
-:label "independent!\ndo this separately"
+:label "one to one,\n based on link in owner's profile"
 :id "b7de3a42-cc27-11ef-b528-4109217eb9c1"
 :fontWeight 400
 :noFill true
@@ -264,11 +264,11 @@
 :bindingId "b7de3a41-cc27-11ef-b528-4109217eb9c1"}}
 :decorations 
 {:start "arrow"
-:end "arrow"}
+:end nil}
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
-:nonce 1736165643339
+:nonce 1736165643468
 :italic false}}
-:block/updated-at 1737988503797})
+:block/updated-at 1739657579914})
 :pages (
 {:block/uuid #uuid "67864ce7-370e-4c8b-a972-5de871c6b304"
 :block/properties 
@@ -329,7 +329,7 @@
 :assets []
 :shapes-index ("edf105c1-cab2-11ef-90b8-b3e8fd6eb007" "edf105c2-cab2-11ef-90b8-b3e8fd6eb007" "edf105c3-cab2-11ef-90b8-b3e8fd6eb007" "edf105c4-cab2-11ef-90b8-b3e8fd6eb007" "edf105c8-cab2-11ef-90b8-b3e8fd6eb007" "edf105c9-cab2-11ef-90b8-b3e8fd6eb007" "ae5372b0-cc27-11ef-b528-4109217eb9c1" "b7de3a42-cc27-11ef-b528-4109217eb9c1")}}
 :block/journal? false
-:block/updated-at 1737988503794
+:block/updated-at 1739657579920
 :block/created-at 1736005530930
 :block/type "whiteboard"
 :block/name "schema"

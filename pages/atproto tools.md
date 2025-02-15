@@ -3,7 +3,6 @@
 - how it works
 	- [db schema]([[schema]])
 	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
-	  collapsed:: true
 		- Sites
 		  id:: 67767469-542f-48c0-b2a5-188b3fea1232
 			- primary key URL of service/project homepage

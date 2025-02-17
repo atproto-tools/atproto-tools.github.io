@@ -8,11 +8,12 @@
 			- primary key URL of service/project homepage
 		- Repos
 		  id:: 67767430-00f2-4a86-81b0-84828fbfc695
-			- primary key source code repo
-				- we try to autodetect github and put them here in addition to on the Sites
+			-
+				- try to autodetect github repos and put them when downloading
 		- Authors
 		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
-			- primary key DID
+			- primary key DID. added directly or when crawling another data source.
+				- Fetches basic profile info, or only handle if user has
 	- [windmill](https://www.windmill.dev/docs/intro)
 		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
 			- https://www.windmill.dev/docs/advanced/cli/installation

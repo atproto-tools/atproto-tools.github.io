@@ -1,6 +1,10 @@
 - link: https://atproto-tools.getgrist.com/t6bKvzR97jxB/main-list/m/fork/p/9
 	- link is to a forkable version aka [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can fork or download the db from the green share button in the top left
-- how it works
+	- UI tips
+		- right click on any column header to sort and filter by that column
+		- use space to
+	-
+- WUT
 	- [db schema]([[schema]])
 	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
 		- Sites
@@ -8,8 +12,8 @@
 			- primary key URL of service/project homepage
 		- Repos
 		  id:: 67767430-00f2-4a86-81b0-84828fbfc695
-			-
-				- try to autodetect github repos and put them when downloading
+			- fetch basic info about the repo with graphql
+			- try to autodetect github repos and put them when downloading
 		- Authors
 		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
 			- primary key DID. added directly or when crawling another data source.

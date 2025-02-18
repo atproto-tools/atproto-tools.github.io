@@ -22,6 +22,11 @@
 			  id:: 67767430-00f2-4a86-81b0-84828fbfc695
 				- primary key URL
 				- [fetch basic info about the repos](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_repos_data.py) with graphql, try to add homepage, author contact info, alternate URLs to prevent linkrot
+				- TODO this is pretty rich data, we have access to all the code/commits/issues/etc from graphql. ideas?
+					- track fork relationships
+					- more details about licenses
+					- aggregate more data about commits (frequency, # of contriubtors etc)
+					- crawl related topics for the existing topics
 			- Authors
 			  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
 				- primary key DID. added directly or when crawling another data source.

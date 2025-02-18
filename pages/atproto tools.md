@@ -6,7 +6,7 @@
 		- [tutorial template](https://templates.getgrist.com/doc/woXtXUBmiN5T)
 		- https://support.getgrist.com/keyboard-shortcuts/
 - WUT
-	- So basically we collected and deduplicated a lot of awesome-lists from around the web. [here they are](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7)
+	- So basically we collected and deduplicated a lot of awesome-lists from around the web. [here they are](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/m/fork/p/7)
 	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
 		- [db schema]([[schema]])
 			- Sites

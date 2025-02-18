@@ -16,6 +16,7 @@
 		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
 			- primary key DID. added directly or when crawling another data source.
 				- Fetches basic profile info, or only handle if user has
+-
 	- [windmill](https://www.windmill.dev/docs/intro)
 	  collapsed:: true
 		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
@@ -54,12 +55,14 @@
 			- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=<handle>
 			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=<did>
 			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfiles?actors=<did>&actors=<did> (limit 25)
-	- manipulating the table
+	- manipulating the tables
+	  collapsed:: true
 		- grist
 			- https://support.getgrist.com/api/
 			- https://docs.getgrist.com/apiconsole
 			- https://pygrister.readthedocs.io/en/stable/intro.html
 	- transform and prettify presentation
+	  collapsed:: true
 		- possible ideas:
 			- for formulas https://support.getgrist.com/functions/#record
 			- alt presentation
@@ -74,6 +77,7 @@
 				- https://github.com/gristlabs/grist-core/issues/45#issuecomment-897678034
 				- https://github.com/gristlabs/grist-core/issues/195
 	- access control for everyone
+	  collapsed:: true
 		- template https://templates.getgrist.com/dKztiPYamcCp/Crowdsourced-List/p/1
 		- https://support.getgrist.com/access-rules/
 - mindset:

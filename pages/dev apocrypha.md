@@ -14,9 +14,11 @@
 		- https://www.pfrazee.com/blog/why-not-p2p
 - general protocol
 	- This might be a dumb question but why can’t the relay and appview just keep the last 24 hours or week of content and drop the older signed events? Aren’t user feeds validated at ingestion and you could just check the signature instead of the merkle DAG no? Partial validation in SSB worked just fine. #relay #perf #bnewbold
-	  collapsed:: true
 	  https://bsky.app/profile/bnewbold.net/post/3ldwah3sg4s2d
+		- we are wrangling with this and will probably talk more about it soon.  we want a "repo" structure which is coherent/consistent to the whole network...
+		-
 	- moderation tooling
+	  collapsed:: true
 		- Have there been any statements or analysis on why it's 20 labelers and not 200? 200 is a much more reasonable number imo #moderation #labelers #perf #jaz
 		  https://discord.com/channels/1097580399187738645/1102623788799107092/1255758658198048828
 			- scaling is the main answer here and need
@@ -42,3 +44,6 @@
 					  i.e. you can delete a post but people can technically still reply to it
 					  but if there's still a threadgate sticking around, people can't violate the threadgate after the post is deleted
 					  there are also probably some other reasons for it too that Paul and Danny would know better than I do
+	- replies are truncated in the api since the brazil introdus #bnewbold 
+	  https://bsky.app/profile/bnewbold.net/post/3li4bwjryrc2c
+		-

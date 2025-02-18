@@ -96,7 +96,7 @@
 :collapsedHeight 0
 :nonce 1735818924066}}
 :block/updated-at 1739657511127} 
-{:block/created-at 1739919843135
+{:block/created-at 1739920114417
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -129,11 +129,11 @@
 :bindingId "edf105da-cab2-11ef-90b8-b3e8fd6eb007"}}
 :decorations 
 {:start "arrow"
-:end "arrow"}
+:end nil}
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
-:nonce 1735819384241
+:nonce 1735819384242
 :italic false}}
-:block/updated-at 1739919843135} 
+:block/updated-at 1739920114417} 
 {:block/created-at 1736005552679
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -208,7 +208,7 @@
 :block/content "![pepe-silvia](https://wac-cdn.atlassian.com/dam/jcr:08d5b957-818c-4c4e-a140-fd4cccaaa599/meme.png?cdnVersion=2484)\nthis was a bit more complicated originally with individual tables for sites from different data sources, but decided to combine all sources into one table for easier querying"
 :block/parent 
 {:block/uuid #uuid "67864ce7-370e-4c8b-a972-5de871c6b304"}} 
-{:block/created-at 1739919897014
+{:block/created-at 1739920131626
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -231,12 +231,12 @@
 :id "ae5372b0-cc27-11ef-b528-4109217eb9c1"
 :noFill false
 :isLocked false
-:point [448 88]
+:point [896 80]
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
 :collapsedHeight 0
-:nonce 1736165627427}}
-:block/updated-at 1739919897014} 
-{:block/created-at 1739919843131
+:nonce 1736165627515}}
+:block/updated-at 1739920131626} 
+{:block/created-at 1739920092499
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -249,7 +249,7 @@
 :strokeType "line"
 :strokeWidth 1
 :opacity 1
-:label "one to one,\n based on link in owner's profile"
+:label ""
 :id "b7de3a42-cc27-11ef-b528-4109217eb9c1"
 :fontWeight 400
 :noFill true
@@ -270,9 +270,9 @@
 {:start "arrow"
 :end nil}
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
-:nonce 1736165643469
+:nonce 1736165643472
 :italic false}}
-:block/updated-at 1739919843131} 
+:block/updated-at 1739920092499} 
 {:block/uuid #uuid "67b51227-7dfb-4134-b2c0-b30bc10633c9"
 :block/properties 
 {}
@@ -609,7 +609,7 @@
 :assets []
 :shapes-index ("edf105c1-cab2-11ef-90b8-b3e8fd6eb007" "edf105c2-cab2-11ef-90b8-b3e8fd6eb007" "edf105c3-cab2-11ef-90b8-b3e8fd6eb007" "edf105c4-cab2-11ef-90b8-b3e8fd6eb007" "edf105c8-cab2-11ef-90b8-b3e8fd6eb007" "edf105c9-cab2-11ef-90b8-b3e8fd6eb007" "ae5372b0-cc27-11ef-b528-4109217eb9c1" "b7de3a42-cc27-11ef-b528-4109217eb9c1" "cc2e5b50-ee4c-11ef-95ed-ddd15dca3d52" "ddf26432-ee4c-11ef-95ed-ddd15dca3d52" "e55590d0-ee4c-11ef-95ed-ddd15dca3d52" "eb8b6102-ee4c-11ef-95ed-ddd15dca3d52" "084225e0-ee4d-11ef-95ed-ddd15dca3d52" "0eab8930-ee4d-11ef-95ed-ddd15dca3d52")}}
 :block/journal? false
-:block/updated-at 1739920053567
+:block/updated-at 1739920131626
 :block/created-at 1736005530930
 :block/type "whiteboard"
 :block/name "schema"

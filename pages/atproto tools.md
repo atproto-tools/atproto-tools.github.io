@@ -11,10 +11,11 @@
 		- Sites
 		  id:: 67767469-542f-48c0-b2a5-188b3fea1232
 			- primary key URL of service/project homepage
+			- Crawl each source, add authors and repos
 		- Repos
 		  id:: 67767430-00f2-4a86-81b0-84828fbfc695
 			- fetch basic info about the repo with graphql
-			- try to autodetect github repos and put them when downloading
+			-
 		- Authors
 		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
 			- primary key DID. added directly or when crawling another data source.

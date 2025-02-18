@@ -1,5 +1,5 @@
 - tl;dr link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/m/fork/p/9
-	- link is to a forkable version aka [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can fork or download the db from the green share button in the top left
+	- the db software is open source and self hostable, the document opens in [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can make any changes you like.
 	- UI tips
 		- right click on any column header to sort and filter by that column
 		- use the big green button to add additional widgets such as charts or grouped tables

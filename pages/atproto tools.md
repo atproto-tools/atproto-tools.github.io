@@ -3,8 +3,8 @@
 	- UI tips
 		- right click on any column header to sort and filter by that column
 		- use the big green button to add additional widgets such as charts or grouped tables
-		- https://support.getgrist.com/keyboard-shortcuts/
 		- [tutorial template](https://templates.getgrist.com/doc/woXtXUBmiN5T)
+		- https://support.getgrist.com/keyboard-shortcuts/
 - WUT
 	- [db schema]([[schema]])
 	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a

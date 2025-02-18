@@ -14,6 +14,7 @@
 			  id:: 67767469-542f-48c0-b2a5-188b3fea1232
 				- primary key URL of service/project homepage
 				- Crawl each source
+					-
 					- TODO add more sources! contributions welcome
 					- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7#a1.s19.r3.c684) all the data source owners and ask for forgiveness/permission
 					- preserve categorization
@@ -21,12 +22,12 @@
 			- Repos
 			  id:: 67767430-00f2-4a86-81b0-84828fbfc695
 				- primary key URL
-				- [fetch basic info about the repos](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_repos_data.py) with graphql
-				- try to
+				- [fetch basic info about the repos](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_repos_data.py) with graphql, try to add homepage, author contact info, alternate URLs to prevent linkrot
 			- Authors
 			  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
 				- primary key DID. added directly or when crawling another data source.
-					- Fetches basic profile info, or only handle if user has !no-unauthenticated set
+					- [fetch basic profile info](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_authors_data.py), unless user has `!no-unauthenticated` set
+				-
 - relevant docs
 	- [windmill](https://www.windmill.dev/docs/intro)
 	  collapsed:: true

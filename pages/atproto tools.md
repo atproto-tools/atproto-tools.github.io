@@ -16,7 +16,7 @@
 		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
 			- primary key DID. added directly or when crawling another data source.
 				- Fetches basic profile info, or only handle if user has
--
+- relevant docs
 	- [windmill](https://www.windmill.dev/docs/intro)
 	  collapsed:: true
 		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
@@ -34,6 +34,7 @@
 				  }
 				  ```
 	- libraries for getting data
+	  collapsed:: true
 		- https://requests.readthedocs.io/en/stable/user/quickstart/
 		- html
 			- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
@@ -61,6 +62,7 @@
 			- https://support.getgrist.com/api/
 			- https://docs.getgrist.com/apiconsole
 			- https://pygrister.readthedocs.io/en/stable/intro.html
+- tasks for further development:
 	- transform and prettify presentation
 	  collapsed:: true
 		- possible ideas:

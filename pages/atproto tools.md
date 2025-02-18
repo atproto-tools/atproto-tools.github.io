@@ -2,8 +2,9 @@
 	- link is to a forkable version aka [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can fork or download the db from the green share button in the top left
 	- UI tips
 		- right click on any column header to sort and filter by that column
-		- use the big green button to add additional views such as grouped
+		- use the big green button to add additional widgets such as charts or grouped tables
 		- https://support.getgrist.com/keyboard-shortcuts/
+		- [tutorial template](https://templates.getgrist.com/doc/woXtXUBmiN5T)
 - WUT
 	- [db schema]([[schema]])
 	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a

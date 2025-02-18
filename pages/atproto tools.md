@@ -6,23 +6,24 @@
 		- [tutorial template](https://templates.getgrist.com/doc/woXtXUBmiN5T)
 		- https://support.getgrist.com/keyboard-shortcuts/
 - WUT
-	- So basically we collected and deduplicated a bunch of [db schema]([[schema]])
+	- So basically we collected and deduplicated a lot of awesome-lists from around the web. [here they are](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7)
 	  id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
-		- Sites
-		  id:: 67767469-542f-48c0-b2a5-188b3fea1232
-			- primary key URL of service/project homepage
-			- Crawl each source, preserving categorization
-				- TODO still gotta
-			- add authors and repos when possible
-		- Repos
-		  id:: 67767430-00f2-4a86-81b0-84828fbfc695
-			- primary key URL
-			- fetch basic info about the repo with graphql
-			- try to
-		- Authors
-		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
-			- primary key DID. added directly or when crawling another data source.
-				- Fetches basic profile info, or only handle if user has
+		- [db schema]([[schema]])
+			- Sites
+			  id:: 67767469-542f-48c0-b2a5-188b3fea1232
+				- primary key URL of service/project homepage
+				- Crawl each source, preserving categorization
+					- TODO still gotta
+				- add authors and repos when possible
+			- Repos
+			  id:: 67767430-00f2-4a86-81b0-84828fbfc695
+				- primary key URL
+				- fetch basic info about the repo with graphql
+				- try to
+			- Authors
+			  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
+				- primary key DID. added directly or when crawling another data source.
+					- Fetches basic profile info, or only handle if user has
 - relevant docs
 	- [windmill](https://www.windmill.dev/docs/intro)
 	  collapsed:: true

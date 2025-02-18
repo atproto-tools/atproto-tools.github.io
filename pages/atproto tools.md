@@ -13,8 +13,7 @@
 			- Sites
 			  id:: 67767469-542f-48c0-b2a5-188b3fea1232
 				- primary key URL of service/project homepage
-				- Crawl each source
-					-
+				- [Crawl each source](https://github.com/atproto-tools/atproto-tools-scripts/tree/main/f/data_sources)
 					- TODO add more sources! contributions welcome
 					- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7#a1.s19.r3.c684) all the data source owners and ask for forgiveness/permission
 					- preserve categorization

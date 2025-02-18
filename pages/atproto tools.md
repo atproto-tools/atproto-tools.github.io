@@ -1,5 +1,6 @@
 - tl;dr link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/m/fork/p/9
-	- the document opens in [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can make any changes you like and download a
+  collapsed:: true
+	- the document opens in [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can make any changes you like
 	- UI tips
 		- right click on any column header to sort and filter by that column
 		- use the big green button to add additional widgets such as charts or grouped tables
@@ -13,7 +14,7 @@
 			  id:: 67767469-542f-48c0-b2a5-188b3fea1232
 				- primary key URL of service/project homepage
 				- Crawl each source, preserving categorization
-					- TODO still gotta
+					- TODO still a deal of work to be done of [unifying](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/19) all this metadata, for example several sources have analogous tags for client apps.
 				- add authors and repos when possible
 			- Repos
 			  id:: 67767430-00f2-4a86-81b0-84828fbfc695

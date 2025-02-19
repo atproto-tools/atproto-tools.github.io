@@ -28,7 +28,7 @@
 :collapsedHeight 0
 :nonce 1735818949668}}
 :block/updated-at 1739965826676} 
-{:block/created-at 1739965910846
+{:block/created-at 1739966003366
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -64,10 +64,10 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
-:nonce 1735819067153
+:nonce 1735819067155
 :italic false}}
-:block/updated-at 1739965910846} 
-{:block/created-at 1739965910831
+:block/updated-at 1739966003366} 
+{:block/created-at 1739966003351
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -94,9 +94,9 @@
 :point [1328 464]
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
 :collapsedHeight 0
-:nonce 1735818924076}}
-:block/updated-at 1739965910831} 
-{:block/created-at 1739965910846
+:nonce 1735818924078}}
+:block/updated-at 1739966003351} 
+{:block/created-at 1739966003365
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -131,9 +131,9 @@
 {:start "arrow"
 :end nil}
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
-:nonce 1735819384315
+:nonce 1735819384317
 :italic false}}
-:block/updated-at 1739965910846} 
+:block/updated-at 1739966003365} 
 {:block/created-at 1736005552679
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -200,15 +200,15 @@
 {:block/uuid #uuid "677bc8fb-fce2-4301-9d11-bf98f9e84b67"
 :block/properties 
 {}
-:block/updated-at 1739965956191
+:block/updated-at 1739966005259
 :block/left 
 {:block/uuid #uuid "67864ce7-370e-4c8b-a972-5de871c6b304"}
-:block/created-at 1739965956191
+:block/created-at 1739966005259
 :block/format :markdown
-:block/content "{:height 290, :width 376}\nthis was a bit more complicated originally with individual tables for sites from different data sources, but decided to combine all sources into one table for easier querying"
+:block/content "![pepe_silvia.png](../assets/image_1739965981530_0.png){:height 290, :width 376}\nthis was a bit more complicated originally with individual tables for sites from different data sources, but decided to combine all sources into one table for easier querying"
 :block/parent 
 {:block/uuid #uuid "67864ce7-370e-4c8b-a972-5de871c6b304"}} 
-{:block/created-at 1739965970509
+{:block/created-at 1739966008065
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -224,7 +224,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 136.99998813920888]
+:size [400 403.0000042482101]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -234,8 +234,8 @@
 :point [888 40]
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
 :collapsedHeight 0
-:nonce 1736165627567}}
-:block/updated-at 1739965970509} 
+:nonce 1736165627571}}
+:block/updated-at 1739966008065} 
 {:block/created-at 1739965826779
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -280,7 +280,7 @@
 :block/parent 
 {:block/uuid #uuid "67864ce7-370e-4c8b-a972-5de871c6b304"}
 :block/uuid #uuid "67b51254-ff3f-4ddd-9220-0aef2edc12f9"} 
-{:block/created-at 1739924399286
+{:block/created-at 1739966031747
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -297,26 +297,26 @@
 :id "0eab8930-ee4d-11ef-95ed-ddd15dca3d52"
 :fontWeight 400
 :noFill true
-:point [1220 1248.48]
+:point [648.52 1257.16]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [181.51 115.52]
+:point [0 98.84]
 :bindingId "0eab6220-ee4d-11ef-95ed-ddd15dca3d52"}
 :end 
 {:id "end"
 :canBind true
-:point [0 0]
+:point [163.48 0]
 :bindingId "0eab6221-ee4d-11ef-95ed-ddd15dca3d52"}}
 :decorations 
 {:start "arrow"
 :end "arrow"}
 :parentId "67864ce7-370e-4c8b-a972-5de871c6b304"
-:nonce 1739920019954
+:nonce 1739920020010
 :italic false}}
-:block/updated-at 1739924399286} 
+:block/updated-at 1739966031747} 
 {:block/created-at 1739924838082
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -344,7 +344,7 @@
 :collapsedHeight 0
 :nonce 1739919950973}}
 :block/updated-at 1739924838082} 
-{:block/created-at 1739965910845
+{:block/created-at 1739966003366
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -378,9 +378,9 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "67864ce7-370e-4c8b-a972-5de871c6b304"
-:nonce 1739919938186
+:nonce 1739919938188
 :italic false}}
-:block/updated-at 1739965910845} 
+:block/updated-at 1739966003366} 
 {:block/created-at 1739924362216
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -408,7 +408,7 @@
 :collapsedHeight 0
 :nonce 1739919908763}}
 :block/updated-at 1739924362216} 
-{:block/created-at 1739924399287
+{:block/created-at 1739966031748
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -430,12 +430,12 @@
 :opacity 1
 :id "084225e0-ee4d-11ef-95ed-ddd15dca3d52"
 :noFill false
-:point [1240 1368]
+:point [408 1360]
 :parentId "67864ce7-370e-4c8b-a972-5de871c6b304"
 :collapsedHeight 0
-:nonce 1739920009392}}
-:block/updated-at 1739924399287} 
-{:block/created-at 1739965910846
+:nonce 1739920009516}}
+:block/updated-at 1739966031748} 
+{:block/created-at 1739966003366
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -469,9 +469,9 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "67864ce7-370e-4c8b-a972-5de871c6b304"
-:nonce 1739919961087
+:nonce 1739919961089
 :italic false}}
-:block/updated-at 1739965910846} 
+:block/updated-at 1739966003366} 
 {:block/uuid #uuid "67b51227-7dfb-4134-b2c0-b30bc10633c9"
 :block/properties 
 {}
@@ -609,7 +609,7 @@
 :assets []
 :shapes-index ("edf105c1-cab2-11ef-90b8-b3e8fd6eb007" "edf105c2-cab2-11ef-90b8-b3e8fd6eb007" "edf105c3-cab2-11ef-90b8-b3e8fd6eb007" "edf105c4-cab2-11ef-90b8-b3e8fd6eb007" "edf105c8-cab2-11ef-90b8-b3e8fd6eb007" "edf105c9-cab2-11ef-90b8-b3e8fd6eb007" "ae5372b0-cc27-11ef-b528-4109217eb9c1" "b7de3a42-cc27-11ef-b528-4109217eb9c1" "cc2e5b50-ee4c-11ef-95ed-ddd15dca3d52" "ddf26432-ee4c-11ef-95ed-ddd15dca3d52" "e55590d0-ee4c-11ef-95ed-ddd15dca3d52" "eb8b6102-ee4c-11ef-95ed-ddd15dca3d52" "084225e0-ee4d-11ef-95ed-ddd15dca3d52" "0eab8930-ee4d-11ef-95ed-ddd15dca3d52")}}
 :block/journal? false
-:block/updated-at 1739965972528
+:block/updated-at 1739966031747
 :block/created-at 1736005530930
 :block/type "whiteboard"
 :block/name "schema"

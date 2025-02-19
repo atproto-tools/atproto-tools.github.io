@@ -46,14 +46,13 @@
 	- [windmill](https://www.windmill.dev/docs/intro)
 		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
 			- https://www.windmill.dev/docs/advanced/cli/installation
-			- launch config:
-			  collapsed:: true
-				- locally add `__init__.py` to all project folders for project module includes. don't forget to add `- "**/__init__.py"` to excludes in wmill.yaml
-				- add to launch.json launch config:
+			- windmill local setup:
+				- add `__init__.py` to all project folders for project module includes. don't forget to add `- "**/__init__.py"` to excludes in wmill.yaml
+				- add to launch config:
 				  ```json
 				  "env": {
 				    "BASE_INTERNAL_URL": "https://app.windmill.dev",
-				    "WM_TOKEN": "your token",
+				    "WM_TOKEN": "your_token",
 				    "WM_WORKSPACE": "atproto-tools-scripts",
 				    "PYTHONPATH": "${workspaceFolder}"
 				  }
@@ -61,23 +60,30 @@
 	- libraries for getting data
 		- https://requests.readthedocs.io/en/stable/user/quickstart/
 		- html
+		  collapsed:: true
 			- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+			  collapsed:: true
 				- js equivalent? https://github.com/taoqf/node-html-parser
 				- https://scrapfly.io/web-scraping-tools/css-xpath-tester
 		- markdown
+		  collapsed:: true
 			- https://mistune.lepture.com/en/latest/guide.html
 		- graphql
+		  collapsed:: true
 			- https://graphql.org/learn/
 			- https://docs.github.com/en/graphql/overview/explorer
 			- [Get info about several repositories from Github Graphql API in a single call - Stack Overflow](https://stackoverflow.com/a/77549291/592606)
 			- https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests#using-search-to-filter-issues-and-pull-requests
+			  collapsed:: true
 				- grabbing data from rss feeds of prs might be useful because they have more info about the author
 			- https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
 			- https://gql.readthedocs.io/en/stable/usage/
 		- bsky api format:
+		  collapsed:: true
 			- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=<handle>
 			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfiles?actors=<did>&actors=<did> (limit 25)
 	- manipulating the tables
+	  collapsed:: true
 		- grist
 			- https://support.getgrist.com/api/
 			- https://docs.getgrist.com/apiconsole

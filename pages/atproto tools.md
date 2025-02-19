@@ -1,10 +1,10 @@
-- tl;dr here is the link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/m/fork/p/9
+- link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/m/fork/p/9
 	- the link opens in [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can make any changes you like
 	- ui tips:
 		- right click on any column header to sort and filter
 		- https://support.getgrist.com/keyboard-shortcuts/
 		- [tutorial doc](https://templates.getgrist.com/doc/woXtXUBmiN5T)
-- basically, we attempt to process and present links collected from [various awesome-atproto lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) around the web.
+- basically, this is an attempt to process and present links collected from [various awesome-atproto/bsky lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) from around the web.
   id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
 	- prior art: there are already a number of similar projects
 		- difference is
@@ -18,33 +18,34 @@
 		  https://blueskystarterpack.com/
 		  https://bskyinfo.com/
 		  https://blueskydirectory.com/
-	- [db schema]([[schema]])
-		- Sites
-		  id:: 67767469-542f-48c0-b2a5-188b3fea1232
-			- [Use scripts to crawl our sources](https://github.com/atproto-tools/atproto-tools-scripts/tree/main/f/data_sources)
-				- preserve categorization
-					- TODO still a deal of work to be done of [unifying](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/19) all this metadata, for example several sources have analogous tags for client apps.
-				- [python module](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/Collector.py) to provide an interface for automated processing
-					- however i am a programming noob and just made it up as i went along, so it is likely not great quality code. feedback/prs welcome
-				- TODO add more sources! contributions very welcome
-				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7#a1.s19.r3.c684) the data source owners and ask for forgiveness/permission/feedback
-		- Repos
-		  id:: 67767430-00f2-4a86-81b0-84828fbfc695
-			- [fetch basic info about the repos](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_repos_data.py) with graphql, try to add homepage, author contact info, alternate URLs to prevent linkrot
-			- TODO this is pretty rich data, we have access to all the code/commits/issues/etc from graphql. possible ideas:
-			  collapsed:: true
-				- track fork relationships
-				- more details about licenses
-				- aggregate more data about commits (frequency, # of contriubtors etc)
-				- crawl the github lists for the more promising "related topics". probably use the search endpoint?
-		- Authors
-		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
-			- added directly or when crawling another data source.
-				- [fetch basic profile info](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_authors_data.py), unless user has `!no-unauthenticated` set
-				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/5#a1.s15.r1.c685) people to ask for forgiveness/permission to display their work
-	- The crawler scripts and the submission form are run on [windmill](http://windmill.dev/)
-		- If you would like to contribute code, you can dm me on bsky [omniraptor.bsky.social](http://omniraptor.bsky.social) and i'll add you to the workspace. or just open a PR on the github
-		- TODO the submission form could ideally have atproto authentication. so you sign in and get ownership over your own records
+	- how it works
+		- [db schema]([[schema]])
+			- Sites
+			  id:: 67767469-542f-48c0-b2a5-188b3fea1232
+				- [Use scripts to crawl our sources](https://github.com/atproto-tools/atproto-tools-scripts/tree/main/f/data_sources)
+					- preserve categorization
+						- TODO still a deal of work to be done of [unifying](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/19) all this metadata, for example several sources have analogous tags for client apps.
+					- [python module](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/Collector.py) to provide an interface for automated processing
+						- however i am a programming noob and just made it up as i went along, so it is likely not great quality code. feedback/prs welcome
+					- TODO add more sources! contributions very welcome
+					- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7#a1.s19.r3.c684) the data source owners and ask for forgiveness/permission/feedback
+			- Repos
+			  id:: 67767430-00f2-4a86-81b0-84828fbfc695
+				- [fetch basic info about the repos](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_repos_data.py) with graphql, try to add homepage, author contact info, alternate URLs to prevent linkrot
+				- TODO this is pretty rich data, we have access to all the code/commits/issues/etc from graphql. possible ideas:
+				  collapsed:: true
+					- track fork relationships
+					- more details about licenses
+					- aggregate more data about commits (frequency, # of contriubtors etc)
+					- crawl the github lists for the more promising "related topics". probably use the search endpoint?
+			- Authors
+			  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
+				- added directly or when crawling another data source.
+					- [fetch basic profile info](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_authors_data.py), unless user has `!no-unauthenticated` set
+					- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/5#a1.s15.r1.c685) people to ask for forgiveness/permission to display their work
+		- The crawler scripts and the submission form are run on [windmill](http://windmill.dev/)
+			- If you would like to contribute code, you can dm me on bsky [omniraptor.bsky.social](http://omniraptor.bsky.social) and i'll add you to the workspace. or just open a PR on the github
+			- TODO the submission form could ideally have atproto authentication. so you sign in and get ownership over your own records
 - relevant docs
 	- [windmill](https://www.windmill.dev/docs/intro)
 	  collapsed:: true

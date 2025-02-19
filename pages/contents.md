@@ -1,3 +1,4 @@
 - [[dev apocrypha]] various explanations decisions the devs have made, from the devs themselves
 - [[issues]] issues that i wish were solved more quickly
 - [atproto tools directory]([[atproto tools]])
+- ![pepe_silvia.png](../assets/image_1739965981530_0.png)

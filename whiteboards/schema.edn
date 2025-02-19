@@ -28,7 +28,7 @@
 :collapsedHeight 0
 :nonce 1735818949668}}
 :block/updated-at 1739965826676} 
-{:block/created-at 1739965828787
+{:block/created-at 1739965910846
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -64,10 +64,10 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
-:nonce 1735819067151
+:nonce 1735819067153
 :italic false}}
-:block/updated-at 1739965828787} 
-{:block/created-at 1739965828770
+:block/updated-at 1739965910846} 
+{:block/created-at 1739965910831
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -94,9 +94,9 @@
 :point [1328 464]
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
 :collapsedHeight 0
-:nonce 1735818924074}}
-:block/updated-at 1739965828770} 
-{:block/created-at 1739965828787
+:nonce 1735818924076}}
+:block/updated-at 1739965910831} 
+{:block/created-at 1739965910846
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -131,9 +131,9 @@
 {:start "arrow"
 :end nil}
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
-:nonce 1735819384313
+:nonce 1735819384315
 :italic false}}
-:block/updated-at 1739965828787} 
+:block/updated-at 1739965910846} 
 {:block/created-at 1736005552679
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -200,15 +200,15 @@
 {:block/uuid #uuid "677bc8fb-fce2-4301-9d11-bf98f9e84b67"
 :block/properties 
 {}
-:block/updated-at 1739965856835
+:block/updated-at 1739965956191
 :block/left 
 {:block/uuid #uuid "67864ce7-370e-4c8b-a972-5de871c6b304"}
-:block/created-at 1739965856835
+:block/created-at 1739965956191
 :block/format :markdown
-:block/content "((ae5372b0-cc27-11ef-b528-4109217eb9c1))![pepe-silvia]()\nthis was a bit more complicated originally with individual tables for sites from different data sources, but decided to combine all sources into one table for easier querying"
+:block/content "{:height 290, :width 376}\nthis was a bit more complicated originally with individual tables for sites from different data sources, but decided to combine all sources into one table for easier querying"
 :block/parent 
 {:block/uuid #uuid "67864ce7-370e-4c8b-a972-5de871c6b304"}} 
-{:block/created-at 1739965856337
+{:block/created-at 1739965970509
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -224,7 +224,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 160.9999905089041]
+:size [400 136.99998813920888]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -234,8 +234,8 @@
 :point [888 40]
 :parentId "6779579a-8cf6-4c3c-9bc7-381c809b267a"
 :collapsedHeight 0
-:nonce 1736165627552}}
-:block/updated-at 1739965856337} 
+:nonce 1736165627567}}
+:block/updated-at 1739965970509} 
 {:block/created-at 1739965826779
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -344,7 +344,7 @@
 :collapsedHeight 0
 :nonce 1739919950973}}
 :block/updated-at 1739924838082} 
-{:block/created-at 1739965828787
+{:block/created-at 1739965910845
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -378,9 +378,9 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "67864ce7-370e-4c8b-a972-5de871c6b304"
-:nonce 1739919938184
+:nonce 1739919938186
 :italic false}}
-:block/updated-at 1739965828787} 
+:block/updated-at 1739965910845} 
 {:block/created-at 1739924362216
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -435,7 +435,7 @@
 :collapsedHeight 0
 :nonce 1739920009392}}
 :block/updated-at 1739924399287} 
-{:block/created-at 1739965828786
+{:block/created-at 1739965910846
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -469,9 +469,9 @@
 {:start "arrow"
 :end "arrow"}
 :parentId "67864ce7-370e-4c8b-a972-5de871c6b304"
-:nonce 1739919961085
+:nonce 1739919961087
 :italic false}}
-:block/updated-at 1739965828786} 
+:block/updated-at 1739965910846} 
 {:block/uuid #uuid "67b51227-7dfb-4134-b2c0-b30bc10633c9"
 :block/properties 
 {}
@@ -609,7 +609,7 @@
 :assets []
 :shapes-index ("edf105c1-cab2-11ef-90b8-b3e8fd6eb007" "edf105c2-cab2-11ef-90b8-b3e8fd6eb007" "edf105c3-cab2-11ef-90b8-b3e8fd6eb007" "edf105c4-cab2-11ef-90b8-b3e8fd6eb007" "edf105c8-cab2-11ef-90b8-b3e8fd6eb007" "edf105c9-cab2-11ef-90b8-b3e8fd6eb007" "ae5372b0-cc27-11ef-b528-4109217eb9c1" "b7de3a42-cc27-11ef-b528-4109217eb9c1" "cc2e5b50-ee4c-11ef-95ed-ddd15dca3d52" "ddf26432-ee4c-11ef-95ed-ddd15dca3d52" "e55590d0-ee4c-11ef-95ed-ddd15dca3d52" "eb8b6102-ee4c-11ef-95ed-ddd15dca3d52" "084225e0-ee4d-11ef-95ed-ddd15dca3d52" "0eab8930-ee4d-11ef-95ed-ddd15dca3d52")}}
 :block/journal? false
-:block/updated-at 1739965856835
+:block/updated-at 1739965972528
 :block/created-at 1736005530930
 :block/type "whiteboard"
 :block/name "schema"

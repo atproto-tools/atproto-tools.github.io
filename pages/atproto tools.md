@@ -8,7 +8,7 @@
 		- https://support.getgrist.com/keyboard-shortcuts/
 - Basically, we try collect, process and present software from [various awesome-atproto lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) around the web.
   id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
-	- prior art: there are already a number of similar projects. The difference is that we put the data into an easily extensible sqlite db with an excel-like frontend (it still supports full sql queries tho), we use only open-source, self-hostable software to it, and we don't sell ad space.
+	- prior art: there are already a number of similar projects. The difference is that we put the data into an easily extensible sqlite db with an excel-like frontend (it still supports full sql queries tho), we use only open-source, self-hostable software to do it, and we don't sell ad space.
 		- some of the other projects:
 		  https://growbluesky.com/
 		  https://blueskystarterpack.com/
@@ -19,7 +19,9 @@
 		  id:: 67767469-542f-48c0-b2a5-188b3fea1232
 			- primary key URL of service/project homepage
 			- [Crawl each source](https://github.com/atproto-tools/atproto-tools-scripts/tree/main/f/data_sources)
-				- TODO add more sources! contributions welcome
+				- TODO add more sources! contributions v much welcome.
+					- Ideally you make a pull request to import the data yourself, I wrote a module to import data.
+						- However i a
 				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7#a1.s19.r3.c684) all the data source owners and ask for forgiveness/permission
 				- preserve categorization
 					- TODO still a deal of work to be done of [unifying](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/19) all this metadata, for example several sources have analogous tags for client apps.
@@ -38,7 +40,7 @@
 				- [fetch basic profile info](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_authors_data.py), unless user has `!no-unauthenticated` set
 				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/5#a1.s15.r1.c685) people to ask for forgiveness/permission to display their work
 			-
-- relevant docs
+- relevant docs for contributing
 	- [windmill](https://www.windmill.dev/docs/intro)
 	  collapsed:: true
 		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)

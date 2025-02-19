@@ -1,7 +1,6 @@
 - tl;dr link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/m/fork/p/9
-  collapsed:: true
-	- the document opens in [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can make any changes you like
-	- UI tips
+	- the link opens in [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can make any changes you like
+	- UI tips:
 		- right click on any column header to sort and filter by that column
 		- use the big green button to add additional widgets such as charts or grouped tables
 		- [tutorial template](https://templates.getgrist.com/doc/woXtXUBmiN5T)
@@ -25,7 +24,7 @@
 				- [python module](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/Collector.py) to provide an interface for automated processing
 					- however i am a programming noob and just made it up as i went along, so it is likely not great quality code. feedback/prs welcome
 				- TODO add more sources! contributions very welcome
-				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7#a1.s19.r3.c684) the data source owners and ask for forgiveness/permission
+				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7#a1.s19.r3.c684) the data source owners and ask for forgiveness/permission/feedback
 				- preserve categorization
 					- TODO still a deal of work to be done of [unifying](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/19) all this metadata, for example several sources have analogous tags for client apps.
 		- Repos
@@ -42,7 +41,8 @@
 			- added directly or when crawling another data source.
 				- [fetch basic profile info](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_authors_data.py), unless user has `!no-unauthenticated` set
 				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/5#a1.s15.r1.c685) people to ask for forgiveness/permission to display their work
-- relevant docs for extending/contributing
+- relevant docs
+  collapsed:: true
 	- [windmill](https://www.windmill.dev/docs/intro)
 		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
 			- https://www.windmill.dev/docs/advanced/cli/installation
@@ -57,7 +57,7 @@
 				    "PYTHONPATH": "${workspaceFolder}"
 				  }
 				  ```
-	- libraries for getting data
+	- getting data
 		- https://requests.readthedocs.io/en/stable/user/quickstart/
 		- html
 		  collapsed:: true
@@ -82,8 +82,7 @@
 		  collapsed:: true
 			- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=<handle>
 			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfiles?actors=<did>&actors=<did> (limit 25)
-	- manipulating the tables
-	  collapsed:: true
+	- working with tables
 		- grist
 			- https://support.getgrist.com/api/
 			- https://docs.getgrist.com/apiconsole

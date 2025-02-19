@@ -19,9 +19,9 @@
 		  id:: 67767469-542f-48c0-b2a5-188b3fea1232
 			- [Crawl each source](https://github.com/atproto-tools/atproto-tools-scripts/tree/main/f/data_sources)
 				- made a [python module](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/Collector.py) to provide an interface for automated processing
-					- however i am a programming noob and just yoloed writing it, so it might not be great quality code :( feedback on the code is welcome too!
-				- TODO add more sources! contributions and PRs very welcome.
-				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7#a1.s19.r3.c684) all the data source owners and ask for forgiveness/permission
+					- however i am a programming noob and just made it up as i went along, so it is likely not great quality code. feedback/prs welcome
+				- TODO add more sources! contributions very welcome
+				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7#a1.s19.r3.c684) the data source owners and ask for forgiveness/permission
 				- preserve categorization
 				  collapsed:: true
 					- TODO still a deal of work to be done of [unifying](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/19) all this metadata, for example several sources have analogous tags for client apps.

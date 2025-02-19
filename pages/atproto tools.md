@@ -1,8 +1,7 @@
-- tl;dr link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/m/fork/p/9
+- tl;dr here is link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/m/fork/p/9
 	- the link opens in [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can make any changes you like
-	- UI tips:
-	  collapsed:: true
-		- right click on any column header to sort and filter
+	- ui tips:
+		- the interface is . right click on any column header to sort and filter
 		- https://support.getgrist.com/keyboard-shortcuts/
 		- [tutorial doc](https://templates.getgrist.com/doc/woXtXUBmiN5T)
 - basically, we attempt to process and present links collected from [various awesome-atproto lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) around the web.
@@ -44,8 +43,8 @@
 				- [fetch basic profile info](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_authors_data.py), unless user has `!no-unauthenticated` set
 				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/5#a1.s15.r1.c685) people to ask for forgiveness/permission to display their work
 	- The crawler scripts and the submission form are run on [windmill](http://windmill.dev/)
-		- TODO the submission form could ideally have atproto authentication
 		- If you would like to contribute code, you can dm me on bsky [omniraptor.bsky.social](http://omniraptor.bsky.social) and i'll add you to the workspace. or just open a PR on the github
+		- TODO the submission form could ideally have atproto authentication. so you sign in and get ownership over your own records
 - relevant docs
 	- [windmill](https://www.windmill.dev/docs/intro)
 	  collapsed:: true

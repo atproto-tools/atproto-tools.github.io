@@ -10,7 +10,8 @@
 	- prior art: there are already a number of similar projects
 		- The difference is
 			- we put the data into [grist](https://github.com/gristlabs/grist-core/), a sqlite db with an excel-like frontend (still supports full sql queries through an api)
-			- we use only open-source, self-hostable software for it, so anyone can fork the whole thing
+			- we use only open-source, self-hostable software, so anyone can fork the whole thing
+				- unfortunately it's not actually self-hosted. ma
 			- and we don't sell ad space
 		- some of the other projects:
 		  https://growbluesky.com/

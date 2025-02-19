@@ -31,7 +31,8 @@
 		- Repos
 		  id:: 67767430-00f2-4a86-81b0-84828fbfc695
 			- [fetch basic info about the repos](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_repos_data.py) with graphql, try to add homepage, author contact info, alternate URLs to prevent linkrot
-			- TODO this is pretty rich data, we have access to all the code/commits/issues/etc from graphql. hmmm
+			- TODO this is pretty rich data, we have access to all the code/commits/issues/etc from graphql. possible ideas:
+			  collapsed:: true
 				- track fork relationships
 				- more details about licenses
 				- aggregate more data about commits (frequency, # of contriubtors etc)
@@ -70,18 +71,14 @@
 			- https://graphql.org/learn/
 			- https://docs.github.com/en/graphql/overview/explorer
 			- [Get info about several repositories from Github Graphql API in a single call - Stack Overflow](https://stackoverflow.com/a/77549291/592606)
-			-
 			- https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests#using-search-to-filter-issues-and-pull-requests
 				- grabbing data from rss feeds of prs might be useful because they have more info about the author
-			- https://docs.github.com/en/graphql/guides/using-pagination-in-the-graphql-api
 			- https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
 			- https://gql.readthedocs.io/en/stable/usage/
-		- bsky api
+		- bsky api format:
 			- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=<handle>
-			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=<did>
 			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfiles?actors=<did>&actors=<did> (limit 25)
 	- manipulating the tables
-	  collapsed:: true
 		- grist
 			- https://support.getgrist.com/api/
 			- https://docs.getgrist.com/apiconsole

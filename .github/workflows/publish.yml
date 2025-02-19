@@ -8,7 +8,7 @@ jobs:
     name: Publish Logseq graph
     steps:
       - uses: actions/checkout@v4
-      - uses: logseq/publish-spa@main
+      - uses: logseq/publish-spa@v0.3.1
         with:
           version: 0.10.9
       - name: Add a nojekyll file # to make sure asset paths are correctly identified

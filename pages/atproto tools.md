@@ -43,7 +43,8 @@
 			- added directly or when crawling another data source.
 				- [fetch basic profile info](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_authors_data.py), unless user has `!no-unauthenticated` set
 				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/5#a1.s15.r1.c685) people to ask for forgiveness/permission to display their work
-		- The crawler scripts and the submission form are run from [windmill](https://github.com/windmill-labs/windmill). If you would like to contribute, dm me on bsky omniraptor.bsky.social]
+		- The crawler scripts and the submission form are run from [windmill](http://windmill.dev/).
+			- If you would like to contribute code (), dm me on bsky [omniraptor.bsky.social](http://omniraptor.bsky.social)
 - relevant docs
 	- [windmill](https://www.windmill.dev/docs/intro)
 	  collapsed:: true

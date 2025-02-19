@@ -1,7 +1,7 @@
 - tl;dr here is link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/m/fork/p/9
 	- the link opens in [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can make any changes you like
 	- ui tips:
-		- the interface is . right click on any column header to sort and filter
+		- right click on any column header to sort and filter
 		- https://support.getgrist.com/keyboard-shortcuts/
 		- [tutorial doc](https://templates.getgrist.com/doc/woXtXUBmiN5T)
 - basically, we attempt to process and present links collected from [various awesome-atproto lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) around the web.

@@ -84,8 +84,7 @@
 			- https://docs.getgrist.com/apiconsole
 			- https://pygrister.readthedocs.io/en/stable/intro.html
 - tasks for further development:
-	- transform and prettify presentation
-	  collapsed:: true
+	- TODO transform and prettify presentation
 		- possible ideas:
 			- for formulas https://support.getgrist.com/functions/#record
 			- alt presentation
@@ -99,8 +98,7 @@
 			- load into an alternate db?
 				- https://github.com/gristlabs/grist-core/issues/45#issuecomment-897678034
 				- https://github.com/gristlabs/grist-core/issues/195
-	- access control for everyone
-	  collapsed:: true
+	- TODO access control for crowdsourced editing
 		- template https://templates.getgrist.com/dKztiPYamcCp/Crowdsourced-List/p/1
 		- https://support.getgrist.com/access-rules/
 - mindset:

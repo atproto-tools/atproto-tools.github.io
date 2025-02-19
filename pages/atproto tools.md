@@ -45,9 +45,11 @@
 				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/5#a1.s15.r1.c685) people to ask for forgiveness/permission to display their work
 - relevant docs
 	- [windmill](https://www.windmill.dev/docs/intro)
+	  collapsed:: true
 		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
 			- https://www.windmill.dev/docs/advanced/cli/installation
 			- windmill local setup:
+			  collapsed:: true
 				- add `__init__.py` to all project folders for project module includes. don't forget to add `- "**/__init__.py"` to excludes in wmill.yaml
 				- add to launch config:
 				  ```json
@@ -85,6 +87,7 @@
 			- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=<handle>
 			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfiles?actors=<did>&actors=<did> (limit 25)
 	- working with tables
+	  collapsed:: true
 		- grist
 			- https://support.getgrist.com/api/
 			- https://docs.getgrist.com/apiconsole

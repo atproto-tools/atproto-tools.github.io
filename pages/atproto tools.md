@@ -18,17 +18,18 @@
 		- Sites
 		  id:: 67767469-542f-48c0-b2a5-188b3fea1232
 			- [Crawl each source](https://github.com/atproto-tools/atproto-tools-scripts/tree/main/f/data_sources)
-				- i wrote a [python module](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/Collector.py) to provide an interface for automated processing
-				  collapsed:: true
-					- however i am kinda a programming noob and just yoloed writing it, so it might not be great quality code :( feedback on the code is welcome too!
+				- made a [python module](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/Collector.py) to provide an interface for automated processing
+					- however i am a programming noob and just yoloed writing it, so it might not be great quality code :( feedback on the code is welcome too!
 				- TODO add more sources! contributions and PRs very welcome.
 				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7#a1.s19.r3.c684) all the data source owners and ask for forgiveness/permission
 				- preserve categorization
+				  collapsed:: true
 					- TODO still a deal of work to be done of [unifying](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/19) all this metadata, for example several sources have analogous tags for client apps.
 		- Repos
 		  id:: 67767430-00f2-4a86-81b0-84828fbfc695
 			- [fetch basic info about the repos](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_repos_data.py) with graphql, try to add homepage, author contact info, alternate URLs to prevent linkrot
 			- TODO this is pretty rich data, we have access to all the code/commits/issues/etc from graphql. ideas?
+			  collapsed:: true
 				- track fork relationships
 				- more details about licenses
 				- aggregate more data about commits (frequency, # of contriubtors etc)

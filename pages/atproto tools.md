@@ -3,8 +3,7 @@
 	- UI tips:
 		- right click on any column header to sort and filter
 		- https://support.getgrist.com/keyboard-shortcuts/
-		- [tutorial template](https://templates.getgrist.com/doc/woXtXUBmiN5T)
-		- use the big green button to add additional widgets such as charts or grouped tables
+		- [tutorial doc](https://templates.getgrist.com/doc/woXtXUBmiN5T)
 - Basically, we attempt to process and present links collected from [various awesome-atproto lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) around the web.
   id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
 	- prior art: there are already a number of similar projects

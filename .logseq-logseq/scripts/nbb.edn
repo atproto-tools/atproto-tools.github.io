@@ -1,6 +1,0 @@
-{:paths ["src"]
- :deps
- {logseq/graph-parser
-  {:local/root "../deps/graph-parser"}
-  logseq/publishing
-  {:local/root "../deps/publishing"}}}

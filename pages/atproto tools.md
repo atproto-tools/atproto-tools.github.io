@@ -20,8 +20,8 @@
 			- primary key URL of service/project homepage
 			- [Crawl each source](https://github.com/atproto-tools/atproto-tools-scripts/tree/main/f/data_sources)
 				- TODO add more sources! contributions v much welcome.
-					- Ideally you make a pull request to import the data yourself, I wrote a module to import data.
-						- However i a
+					- Ideally you make a pull request to import the data directly. i wrote a python module to provide an interface for automated processing
+						- however i am a complete programming noob, so feedback on the code is welcome too.
 				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7#a1.s19.r3.c684) all the data source owners and ask for forgiveness/permission
 				- preserve categorization
 					- TODO still a deal of work to be done of [unifying](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/19) all this metadata, for example several sources have analogous tags for client apps.

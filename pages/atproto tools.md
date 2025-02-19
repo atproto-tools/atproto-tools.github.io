@@ -10,8 +10,9 @@
 	- prior art: there are already a number of similar projects
 		- The difference is
 			- we put the data into [grist](https://github.com/gristlabs/grist-core/), a sqlite db with an excel-like frontend (still supports full sql queries through an api)
-			- we use only open-source, self-hostable software, so anyone can fork the whole thing
-				- unfortunately it's not actually self-hosted. ma
+			- we use only open-source, self-hostable software, so anyone can fork the whole thing at any time
+			  collapsed:: true
+				- TODO unfortunately not actually self-hosted yet
 			- and we don't sell ad space
 		- some of the other projects:
 		  https://growbluesky.com/
@@ -43,7 +44,6 @@
 				- [fetch basic profile info](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_authors_data.py), unless user has `!no-unauthenticated` set
 				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/5#a1.s15.r1.c685) people to ask for forgiveness/permission to display their work
 - relevant docs
-  collapsed:: true
 	- [windmill](https://www.windmill.dev/docs/intro)
 		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
 			- https://www.windmill.dev/docs/advanced/cli/installation
@@ -59,6 +59,7 @@
 				  }
 				  ```
 	- getting data
+	  collapsed:: true
 		- https://requests.readthedocs.io/en/stable/user/quickstart/
 		- html
 		  collapsed:: true

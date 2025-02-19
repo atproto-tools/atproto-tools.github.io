@@ -17,17 +17,16 @@
 	- [db schema]([[schema]])
 		- Sites
 		  id:: 67767469-542f-48c0-b2a5-188b3fea1232
-			- primary key URL of service/project homepage
 			- [Crawl each source](https://github.com/atproto-tools/atproto-tools-scripts/tree/main/f/data_sources)
 				- i wrote a [python module](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/Collector.py) to provide an interface for automated processing
+				  collapsed:: true
 					- however i am kinda a programming noob and just yoloed writing it, so it might not be great quality code :( feedback on the code is welcome too!
-				- TODO add more sources! contributions and PRs v much welcome.
+				- TODO add more sources! contributions and PRs very welcome.
 				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7#a1.s19.r3.c684) all the data source owners and ask for forgiveness/permission
 				- preserve categorization
 					- TODO still a deal of work to be done of [unifying](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/19) all this metadata, for example several sources have analogous tags for client apps.
 		- Repos
 		  id:: 67767430-00f2-4a86-81b0-84828fbfc695
-			- primary key URL
 			- [fetch basic info about the repos](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_repos_data.py) with graphql, try to add homepage, author contact info, alternate URLs to prevent linkrot
 			- TODO this is pretty rich data, we have access to all the code/commits/issues/etc from graphql. ideas?
 				- track fork relationships
@@ -36,7 +35,7 @@
 				- crawl the github lists for the more promising "related topics". probably use the search endpoint?
 		- Authors
 		  id:: 67767acd-45f5-41d7-b260-b2ca44dc3dd8
-			- primary key DID. added directly or when crawling another data source.
+			- added directly or when crawling another data source.
 				- [fetch basic profile info](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_authors_data.py), unless user has `!no-unauthenticated` set
 				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/5#a1.s15.r1.c685) people to ask for forgiveness/permission to display their work
 			-

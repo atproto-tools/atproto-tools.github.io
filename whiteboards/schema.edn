@@ -519,7 +519,7 @@
 :block/content "new record"
 :block/parent 
 {:block/uuid #uuid "67864ce7-370e-4c8b-a972-5de871c6b304"}} 
-{:block/created-at 1739973953683
+{:block/created-at 1739978987026
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -541,11 +541,11 @@
 :opacity 1
 :id "63f77160-eeca-11ef-9329-6fb2340b9c3d"
 :noFill false
-:point [1144 1640]
+:point [320 1672]
 :parentId "67864ce7-370e-4c8b-a972-5de871c6b304"
 :collapsedHeight 0
-:nonce 1739973850348}}
-:block/updated-at 1739973953683} 
+:nonce 1739973850814}}
+:block/updated-at 1739978987026} 
 {:block/content "now"
 :block/format :markdown
 :block/left 
@@ -553,7 +553,7 @@
 :block/parent 
 {:block/uuid #uuid "67864ce7-370e-4c8b-a972-5de871c6b304"}
 :block/uuid #uuid "67b5e4e0-46ff-41aa-a523-8cd38a951181"} 
-{:block/created-at 1739973948717
+{:block/created-at 1739978972354
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -575,11 +575,11 @@
 :opacity 1
 :id "66101830-eeca-11ef-9329-6fb2340b9c3d"
 :noFill false
-:point [1672 1632]
+:point [1640 1608]
 :parentId "67864ce7-370e-4c8b-a972-5de871c6b304"
 :collapsedHeight 0
-:nonce 1739973853715}}
-:block/updated-at 1739973948717} 
+:nonce 1739973853749}}
+:block/updated-at 1739978972354} 
 {:block/content "last checked"
 :block/format :markdown
 :block/left 
@@ -587,7 +587,7 @@
 :block/parent 
 {:block/uuid #uuid "67864ce7-370e-4c8b-a972-5de871c6b304"}
 :block/uuid #uuid "67b5e52b-7058-4852-9a81-1aaeaf555cde"} 
-{:block/created-at 1739973953007
+{:block/created-at 1739978989151
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -609,11 +609,11 @@
 :opacity 1
 :id "930cf880-eeca-11ef-9329-6fb2340b9c3d"
 :noFill false
-:point [624 1576]
+:point [1080 1608]
 :parentId "67864ce7-370e-4c8b-a972-5de871c6b304"
 :collapsedHeight 0
-:nonce 1739973929232}}
-:block/updated-at 1739973953007})
+:nonce 1739973929590}}
+:block/updated-at 1739978989151})
 :pages (
 {:block/uuid #uuid "67864ce7-370e-4c8b-a972-5de871c6b304"
 :block/properties 
@@ -722,7 +722,7 @@
 :assets []
 :shapes-index ("edf105c1-cab2-11ef-90b8-b3e8fd6eb007" "edf105c2-cab2-11ef-90b8-b3e8fd6eb007" "edf105c3-cab2-11ef-90b8-b3e8fd6eb007" "edf105c4-cab2-11ef-90b8-b3e8fd6eb007" "edf105c8-cab2-11ef-90b8-b3e8fd6eb007" "edf105c9-cab2-11ef-90b8-b3e8fd6eb007" "ae5372b0-cc27-11ef-b528-4109217eb9c1" "b7de3a42-cc27-11ef-b528-4109217eb9c1" "cc2e5b50-ee4c-11ef-95ed-ddd15dca3d52" "ddf26432-ee4c-11ef-95ed-ddd15dca3d52" "e55590d0-ee4c-11ef-95ed-ddd15dca3d52" "eb8b6102-ee4c-11ef-95ed-ddd15dca3d52" "084225e0-ee4d-11ef-95ed-ddd15dca3d52" "0eab8930-ee4d-11ef-95ed-ddd15dca3d52" "63f77160-eeca-11ef-9329-6fb2340b9c3d" "66101830-eeca-11ef-9329-6fb2340b9c3d" "930cf880-eeca-11ef-9329-6fb2340b9c3d")}}
 :block/journal? false
-:block/updated-at 1739973953683
+:block/updated-at 1739978989151
 :block/created-at 1736005530930
 :block/type "whiteboard"
 :block/name "schema"

@@ -8,7 +8,7 @@
 		- https://support.getgrist.com/keyboard-shortcuts/
 - Basically, we collect and deduplicate [various awesome-atproto lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) from around the web. 
   id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
-	- prior art: there are already a number of similar projects. the difference is that we use only open-source, self-hostable software to it, we put the data into an easily extensible SQL-based db (supports direct) and we don't sell ad space.
+	- prior art: there are already a number of similar projects. The difference is that we put the data into an easily extensible sqlite db with a web frontend (it still supports full sql queries tho), we use only open-source, self-hostable software to it, and we don't sell ad space.
 		- https://growbluesky.com/
 		  https://blueskystarterpack.com/
 		  https://bskyinfo.com/

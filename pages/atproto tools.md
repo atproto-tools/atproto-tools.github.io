@@ -21,12 +21,12 @@
 		- Sites
 		  id:: 67767469-542f-48c0-b2a5-188b3fea1232
 			- [Use scripts to crawl our sources](https://github.com/atproto-tools/atproto-tools-scripts/tree/main/f/data_sources)
+				- preserve categorization
+					- TODO still a deal of work to be done of [unifying](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/19) all this metadata, for example several sources have analogous tags for client apps.
 				- [python module](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/Collector.py) to provide an interface for automated processing
 					- however i am a programming noob and just made it up as i went along, so it is likely not great quality code. feedback/prs welcome
 				- TODO add more sources! contributions very welcome
 				- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7#a1.s19.r3.c684) the data source owners and ask for forgiveness/permission/feedback
-				- preserve categorization
-					- TODO still a deal of work to be done of [unifying](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/19) all this metadata, for example several sources have analogous tags for client apps.
 		- Repos
 		  id:: 67767430-00f2-4a86-81b0-84828fbfc695
 			- [fetch basic info about the repos](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_repos_data.py) with graphql, try to add homepage, author contact info, alternate URLs to prevent linkrot

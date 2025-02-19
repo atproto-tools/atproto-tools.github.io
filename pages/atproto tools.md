@@ -1,4 +1,4 @@
-- tl;dr here is link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/m/fork/p/9
+- tl;dr here is the link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/m/fork/p/9
 	- the link opens in [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode) - you can make any changes you like
 	- ui tips:
 		- right click on any column header to sort and filter

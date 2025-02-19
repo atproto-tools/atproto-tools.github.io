@@ -8,11 +8,11 @@
 		- https://support.getgrist.com/keyboard-shortcuts/
 - Basically, we attempt to process and present links collected from [various awesome-atproto lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) around the web.
   id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
-	- prior art: there are already a number of similar projects.
+	- prior art: there are already a number of similar projects
 		- The difference is
-			- we put the data into grist, a sqlite db with an excel-like frontend (still supports full sql queries tho)
-			- we use only open-source, self-hostable software to do it
-			- and we don't sell ad space.
+			- we put the data into [grist](https://github.com/gristlabs/grist-core/), a sqlite db with an excel-like frontend (still supports full sql queries through an api)
+			- we use only open-source, self-hostable software for it
+			- and we don't sell ad space
 		- some of the other projects:
 		  https://growbluesky.com/
 		  https://blueskystarterpack.com/

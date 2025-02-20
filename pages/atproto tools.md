@@ -12,7 +12,7 @@
 			- we use only open-source, self-hostable software
 			  collapsed:: true
 				- TODO unfortunately not actually self-hosted yet
-			- and we don't sell ad space
+			- we don't sell ad space
 		- some of the other projects:
 		  https://growbluesky.com/
 		  https://blueskystarterpack.com/

@@ -7,18 +7,18 @@
 - basically, this is an attempt to process and present links collected from [various awesome-atproto/bsky lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) from around the web.
   id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
 	- prior art: there are already a number of similar projects
-		- difference is
-			- we put the data into [grist](https://github.com/gristlabs/grist-core/), a sqlite db with an excel-like frontend (still supports full sql queries through an api)
-			- we use only open-source, self-hostable software
-			  collapsed:: true
-				- TODO unfortunately not actually self-hosted yet
-			- we don't sell ad space
 		- some of the other projects:
 		  https://growbluesky.com/
 		  https://blueskystarterpack.com/
 		  https://bskyinfo.com/
 		  https://blueskydirectory.com/
-			-
+			- if anyone knows other proprietary ones lmk
+		- what makes us different
+			- we put the data into [grist](https://github.com/gristlabs/grist-core/), a sqlite db with an [extensible](https://support.getgrist.com/widget-custom/) excel-like frontend (still supports full sql queries through an api)
+			- we use only open-source, self-hostable software
+			  collapsed:: true
+				- TODO unfortunately not actually self-hosted yet
+			- we don't sell ad space
 	- structure/process
 		- [db schema]([[schema]])
 			- Sites
@@ -109,7 +109,6 @@
 						- https://public.getgrist.com/71GRe6EuiRtm/Combined-Tables/m/fork
 						- https://community.getgrist.com/t/how-to-combine-two-tables-into-single-one/257/8
 				- https://community.getgrist.com/t/lookuprecords-where-column-value-in-multiple-value/1656/2
-				- https://support.getgrist.com/widget-custom/
 			- load the data into an alternate db?
 				- https://github.com/gristlabs/grist-core/issues/45#issuecomment-897678034
 				- https://github.com/gristlabs/grist-core/issues/195

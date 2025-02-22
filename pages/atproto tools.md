@@ -115,6 +115,24 @@
 - common formulas/snippets:
 	- joining urls: `" ".join((f"[{i[8:]}]({i})" if i.startswith("https://") else i) for i in <list of urls>)`
 	- normalizing a url:
+		- for grist formulas:
+		  ```python
+		  from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
+		  parsed = urlparse($url)
+		  #TODO more tracking params, maybe a library?
+		  query = urlencode([
+		      i for i in parse_qsl(parsed.query)
+		      if not re.match('(?:utm_|fbclid|gclid|ref$).*', i[0])
+		  ])
+		  netloc = parsed.netloc.lower()
+		  if netloc.startswith("www."):
+		      netloc = netloc[4:]
+		  path = re.match(r"(.*?)(/about)?/?$",parsed.path).group(1) #type: ignore
+		  scheme = parsed.scheme
+		  if scheme == "http":
+		      scheme = "https"
+		  return urlunparse(parsed._replace(netloc=netloc, path=path, scheme=scheme, query=query))
+		  ```
 		- ```python
 		  def normalize(url: str) -> kf:
 		      parsed = urlparse(url)
@@ -128,21 +146,6 @@
 		      path = re.match(r"(.*?)(/about)?/?$",parsed.path).group(1) #type: ignore
 		      scheme = "https" if parsed.scheme == "http" else parsed.scheme
 		      return urlunparse(parsed._replace(netloc=netloc, path=path, scheme=scheme, query=query)) #type: ignore
-		  ```
-		- for grist:
-		  ```python
-		  
-		  parsed = urlparse(url)
-		  #TODO catch more tracking params, maybe look for a library?
-		  query = urlencode([
-		      i for i in parse_qsl(parsed.query)
-		      if not re.match('(?:utm_|fbclid|gclid|ref$).*', i[0])
-		  ])
-		  netloc = parsed.netloc.lower()
-		  netloc = netloc[4:] if netloc.startswith("www.") else netloc
-		  path = re.match(r"(.*?)(/about)?/?$",parsed.path).group(1) #type: ignore
-		  scheme = "https" if parsed.scheme == "http" else parsed.scheme
-		  return urlunparse(parsed._replace(netloc=netloc, path=path, scheme=scheme, query=query)) #type: ignore
 		  ```
 - mindset:
   collapsed:: true

@@ -129,6 +129,21 @@
 		      scheme = "https" if parsed.scheme == "http" else parsed.scheme
 		      return urlunparse(parsed._replace(netloc=netloc, path=path, scheme=scheme, query=query)) #type: ignore
 		  ```
+		- for grist:
+		  ```python
+		  
+		  parsed = urlparse(url)
+		  #TODO catch more tracking params, maybe look for a library?
+		  query = urlencode([
+		      i for i in parse_qsl(parsed.query)
+		      if not re.match('(?:utm_|fbclid|gclid|ref$).*', i[0])
+		  ])
+		  netloc = parsed.netloc.lower()
+		  netloc = netloc[4:] if netloc.startswith("www.") else netloc
+		  path = re.match(r"(.*?)(/about)?/?$",parsed.path).group(1) #type: ignore
+		  scheme = "https" if parsed.scheme == "http" else parsed.scheme
+		  return urlunparse(parsed._replace(netloc=netloc, path=path, scheme=scheme, query=query)) #type: ignore
+		  ```
 - mindset:
   collapsed:: true
 	- ![image.png](../assets/image_1735320252579_0.png) 

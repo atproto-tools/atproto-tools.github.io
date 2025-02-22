@@ -7,12 +7,6 @@
 - basically, this is an attempt to process and present links collected from [various awesome-atproto/bsky lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) from around the web.
   id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
 	- prior art: there are already a number of similar projects
-		- some of the other projects:
-		  https://growbluesky.com/
-		  https://blueskystarterpack.com/
-		  https://bskyinfo.com/
-		  https://blueskydirectory.com/
-			- if anyone knows other proprietary ones lmk
 		- what makes us different
 			- we put the data into [grist](https://github.com/gristlabs/grist-core/), a sqlite db with an excel-like frontend that is [extensible with html/js](https://support.getgrist.com/widget-custom/) (but still supports [sql queries](https://support.getgrist.com/api/#tag/sql))
 			- the software it runs on is open-source and self-hostable
@@ -20,6 +14,11 @@
 				- TODO unfortunately not actually self-hosted yet
 			- the code i use for collecting data
 			- we don't sell ad space
+		- some of the other projects that are bigger and more user friendly but don't fit the above description:
+		  https://growbluesky.com/
+		  https://blueskystarterpack.com/
+		  https://bskyinfo.com/
+		  https://blueskydirectory.com/
 	- structure/process
 		- [db schema]([[schema]])
 			- Sites

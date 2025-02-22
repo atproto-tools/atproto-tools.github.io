@@ -14,10 +14,11 @@
 		  https://blueskydirectory.com/
 			- if anyone knows other proprietary ones lmk
 		- what makes us different
-			- we put the data into [grist](https://github.com/gristlabs/grist-core/), a sqlite db with an excel-like frontend that is [extensible with html/js](https://support.getgrist.com/widget-custom/) and still [supports sql queries](https://support.getgrist.com/api/#tag/sql) through an api
-			- we use only open-source, self-hostable software
+			- we put the data into [grist](https://github.com/gristlabs/grist-core/), a sqlite db with an excel-like frontend that is [extensible with html/js](https://support.getgrist.com/widget-custom/) (but still supports [sql queries](https://support.getgrist.com/api/#tag/sql))
+			- the software it runs on is open-source and self-hostable
 			  collapsed:: true
 				- TODO unfortunately not actually self-hosted yet
+			- the code i use for collecting data
 			- we don't sell ad space
 	- structure/process
 		- [db schema]([[schema]])

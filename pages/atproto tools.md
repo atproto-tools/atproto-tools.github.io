@@ -18,7 +18,7 @@
 		  https://blueskystarterpack.com/
 		  https://bskyinfo.com/
 		  https://blueskydirectory.com/
-	- how it works
+	- structure/process
 		- [db schema]([[schema]])
 			- Sites
 			  id:: 67767469-542f-48c0-b2a5-188b3fea1232

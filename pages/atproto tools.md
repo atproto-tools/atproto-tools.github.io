@@ -106,7 +106,7 @@
 						- https://community.getgrist.com/t/how-to-combine-two-tables-into-single-one/257/8
 				- https://community.getgrist.com/t/lookuprecords-where-column-value-in-multiple-value/1656/2
 				- https://support.getgrist.com/widget-custom/
-			- load into an alternate db?
+			- load the data into an alternate db?
 				- https://github.com/gristlabs/grist-core/issues/45#issuecomment-897678034
 				- https://github.com/gristlabs/grist-core/issues/195
 	- TODO access control for crowdsourced editing

@@ -29,7 +29,9 @@
 						- however i am a programming noob and just made it up as i went along, so it is likely not great quality code. feedback/prs welcome
 					- TODO add more sources! contributions very welcome
 					- TODO [contact](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7#a1.s19.r3.c684) the data source owners and ask for forgiveness/permission/feedback
-					- TODO maybe automatically grab the page title from the html tags (title or meta/ogl tags)
+					- TODO additional parsing of websites themselves
+						- maybe automatically grab the page title from the html tags (title or meta/ogl tags).
+						- flag for review (is site inactive?) based on the http resp code
 			- Repos
 			  id:: 67767430-00f2-4a86-81b0-84828fbfc695
 				- [fetch basic info about the repos](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_repos_data.py) with graphql, try to add homepage, author contact info, alternate URLs to prevent linkrot

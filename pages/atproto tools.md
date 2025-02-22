@@ -12,9 +12,9 @@
 			- the software it runs on is open-source and self-hostable
 				- as is the [code for collecting/processing the data](https://github.com/atproto-tools/atproto-tools-scripts/)
 				- TODO unfortunately not actually self-hosted yet
-			- the code i use for collecting data
+			- as is the code we use for collecting data
 			- we don't sell ad space
-		- some of the other projects that are bigger and more user friendly but don't fit the above description:
+		- some of other projects that are bigger and more user friendly but don't fit the above description:
 		  https://growbluesky.com/
 		  https://blueskystarterpack.com/
 		  https://bskyinfo.com/
@@ -52,8 +52,8 @@
 			- TODO the submission form could ideally have atproto authentication. so you sign in and get ownership over your own records
 - relevant docs
 	- [windmill](https://www.windmill.dev/docs/intro)
-	  collapsed:: true
 		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
+		  collapsed:: true
 			- https://www.windmill.dev/docs/advanced/cli/installation
 			- windmill local setup:
 			  collapsed:: true
@@ -68,7 +68,6 @@
 				  }
 				  ```
 	- getting data
-	  collapsed:: true
 		- https://requests.readthedocs.io/en/stable/user/quickstart/
 		- html
 		  collapsed:: true
@@ -93,11 +92,10 @@
 		  collapsed:: true
 			- https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=<handle>
 			- https://public.api.bsky.app/xrpc/app.bsky.actor.getProfiles?actors=<did>&actors=<did> (limit 25)
-	- working with tables
-		- grist
-			- https://support.getgrist.com/api/
-			- https://docs.getgrist.com/apiconsole
-			- https://pygrister.readthedocs.io/en/stable/intro.html
+	- working with grist
+		- https://support.getgrist.com/api/
+		- https://docs.getgrist.com/apiconsole
+		- https://pygrister.readthedocs.io/en/stable/intro.html
 - tasks for further development:
 	- TODO transform and prettify presentation
 		- possible ideas:

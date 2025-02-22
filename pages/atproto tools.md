@@ -113,8 +113,11 @@
 		- template https://templates.getgrist.com/dKztiPYamcCp/Crowdsourced-List/p/1
 		- https://support.getgrist.com/access-rules/
 - common formulas/snippets:
-	- joining urls: `" ".join((f"[{i[8:]}]({i})" if i.startswith("https://") else i) for i in <list of urls>)`
+  collapsed:: true
+	- joining urls:
+		- `" ".join((f"[{i[8:]}]({i})" if i.startswith("https://") else i) for i in <list of urls>)`
 	- normalizing a url:
+	  collapsed:: true
 		- for grist formulas:
 		  ```python
 		  from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
@@ -133,7 +136,8 @@
 		      scheme = "https"
 		  return urlunparse(parsed._replace(netloc=netloc, path=path, scheme=scheme, query=query))
 		  ```
-		- ```python
+		- standalone function:
+		  ```python
 		  def normalize(url: str) -> kf:
 		      parsed = urlparse(url)
 		      #TODO catch more tracking params, maybe look for a library?

@@ -12,7 +12,6 @@
 			- the software it runs on is open-source and self-hostable
 				- as is the [code for collecting/processing the data](https://github.com/atproto-tools/atproto-tools-scripts/)
 				- TODO unfortunately not actually self-hosted yet
-			- as is the code we use for collecting data
 			- we don't sell ad space
 		- some of other projects that are bigger and more user friendly but don't fit the above description:
 		  https://growbluesky.com/

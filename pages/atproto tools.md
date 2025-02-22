@@ -16,7 +16,7 @@
 		- what makes us different
 			- we put the data into [grist](https://github.com/gristlabs/grist-core/), a sqlite db with an excel-like frontend that is [extensible with html/js](https://support.getgrist.com/widget-custom/) (but still supports [sql queries](https://support.getgrist.com/api/#tag/sql))
 			- the software it runs on is open-source and self-hostable
-			  collapsed:: true
+				- as is the [code for collecting/processing the data](https://github.com/atproto-tools/atproto-tools-scripts/)
 				- TODO unfortunately not actually self-hosted yet
 			- the code i use for collecting data
 			- we don't sell ad space

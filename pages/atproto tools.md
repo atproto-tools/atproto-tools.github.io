@@ -23,7 +23,7 @@
 			- Sites
 			  id:: 67767469-542f-48c0-b2a5-188b3fea1232
 				- [Use scripts to crawl our sources](https://github.com/atproto-tools/atproto-tools-scripts/tree/main/f/data_sources)
-					- preserve categorization
+					- try to preserve categorization
 						- TODO still a deal of work to be done of [unifying](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/19) all this metadata, for example several sources have analogous tags for client apps.
 					- [python module](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/Collector.py) to provide an interface for automated processing
 						- however i am a programming noob and just made it up as i went along, so it is likely not great quality code. feedback/prs welcome
@@ -113,11 +113,9 @@
 		- template https://templates.getgrist.com/dKztiPYamcCp/Crowdsourced-List/p/1
 		- https://support.getgrist.com/access-rules/
 - common formulas/snippets:
-  collapsed:: true
 	- joining urls:
 		- `" ".join((f"[{i[8:]}]({i})" if i.startswith("https://") else i) for i in <list of urls>)`
 	- normalizing a url:
-	  collapsed:: true
 		- for grist formulas:
 		  ```python
 		  from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode

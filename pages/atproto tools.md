@@ -3,12 +3,12 @@
 		- right click on any column header to sort and filter
 		- https://support.getgrist.com/keyboard-shortcuts/
 		- [tutorial doc](https://templates.getgrist.com/doc/woXtXUBmiN5T)
-	- you can add rows directly to the db as an anon user and edit your own additions (but not existing ones)
+	- you can add rows directly to the db as an anon user and edit your own additions (but not existing rows)
 	- use the [submission form](https://app.windmill.dev/a/atproto-tools-scripts/submit) to quickly add a link with metadata (also anonymously)
 	- reach out on bsky https://aeshna-cyanea.bsky.social if you want full edit access or would like to contribute code
 - basically, this is an attempt to process and present links collected from [various awesome-atproto/bsky lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) from around the web.
   id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
-	- prior art: there is already a number of similar projects
+	- prior art: there are already a number of similar projects
 		- what makes this one different
 			- we put the data into [grist](https://github.com/gristlabs/grist-core/), a sqlite db with an excel-like frontend that is [extensible with html/js](https://support.getgrist.com/widget-custom/) (and supports [sql queries](https://support.getgrist.com/api/#tag/sql))
 			- runs on software (grist and windmill) that is open-source and self-hostable
@@ -36,7 +36,7 @@
 						- flag for review (is site inactive?) based on the http resp code
 			- Repos
 			  id:: 67767430-00f2-4a86-81b0-84828fbfc695
-				- [fetch basic info about the repos](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_repos_data.py) with graphql, try to add homepage, author contact info, alternate URLs to prevent linkrot
+				- [fetch basic info about the repos](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_repos_data.py) with graphql
 				- TODO this is pretty rich data, we have access to all the code/commits/issues/etc from graphql. possible ideas:
 				  collapsed:: true
 					- track fork relationships

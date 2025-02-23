@@ -1,5 +1,6 @@
 - link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/9
-	-
+	- you can add entries directly to the db and edit your own additions.
+	- you can use the [submission form](https://app.windmill.dev/a/atproto-tools-scripts/submit) to quickly add an entry
 	- ui tips:
 		- right click on any column header to sort and filter
 		- https://support.getgrist.com/keyboard-shortcuts/

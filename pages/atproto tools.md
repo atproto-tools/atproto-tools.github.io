@@ -52,6 +52,7 @@
 			- If you would like to contribute code, you can dm me on bsky [omniraptor.bsky.social](http://omniraptor.bsky.social) and i'll add you to the workspace. or just open a PR on the github
 			- TODO the submission form could ideally have atproto authentication. so you sign in and get ownership over your own records
 - relevant docs for contributing
+  collapsed:: true
 	- [windmill](https://www.windmill.dev/docs/intro)
 		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
 		  collapsed:: true
@@ -116,6 +117,7 @@
 		- template https://templates.getgrist.com/dKztiPYamcCp/Crowdsourced-List/p/1
 		- https://support.getgrist.com/access-rules/
 - common formulas/snippets:
+  collapsed:: true
 	- joining urls:
 		- `" ".join((f"[{i[8:]}]({i})" if i.startswith("https://") else i) for i in <list of urls>)`
 	- normalizing a url:

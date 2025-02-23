@@ -11,6 +11,7 @@ jobs:
       - uses: logseq/publish-spa@main
         with:
           version: 0.10.9
+          theme-mode: dark
       - name: Add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
       - name: Deploy 🚀

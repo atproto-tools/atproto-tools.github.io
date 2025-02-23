@@ -113,6 +113,7 @@
 		- template https://templates.getgrist.com/dKztiPYamcCp/Crowdsourced-List/p/1
 		- https://support.getgrist.com/access-rules/
 - common formulas/snippets:
+  collapsed:: true
 	- joining urls:
 		- `" ".join((f"[{i[8:]}]({i})" if i.startswith("https://") else i) for i in <list of urls>)`
 	- normalizing a url:

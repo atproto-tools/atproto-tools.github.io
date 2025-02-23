@@ -10,7 +10,7 @@
  ;; Available options:
  ;; - :now for NOW/LATER style (default)
  ;; - :todo for TODO/DOING style
- :preferred-workflow :todo
+ :preferred-workflow :now
 
  ;; Exclude directories/files.
  ;; Example usage:
@@ -256,7 +256,7 @@
  ;; - block title
  ;;   block content
  ;; Default value: false
- :outliner/block-title-collapse-enabled? true
+ :outliner/block-title-collapse-enabled? false
 
  ;; Macros replace texts and will make you more productive.
  ;; Example usage:
@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["atproto tools"]
+ :favorites []
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -422,5 +422,4 @@
  :feature/enable-journals? false
  :default-home {:page "contents"}
  :publishing/all-pages-public? true
- :feature/enable-flashcards? false
- :feature/enable-timetracking? false}
+ :feature/enable-flashcards? false}

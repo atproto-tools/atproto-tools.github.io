@@ -1,0 +1,1302 @@
+{:blocks (
+{:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"
+:block/properties 
+{}
+:block/updated-at 1735823420626
+:block/left 
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
+:block/created-at 1735823420626
+:block/format :markdown
+:block/content "order of operations:"
+:block/parent 
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}} 
+{:block/content "put sites - write link to datasource - get site keys"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776916c-b003-479b-b399-b411d1d4c7d1"}
+:block/parent 
+{:block/uuid #uuid "6776916c-0a09-4af0-92d5-1cc8c64dd3bb"}
+:block/uuid #uuid "6776916c-7af6-4f7f-84d0-40864364498a"} 
+{:block/created-at 1735826388829
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 14
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [41 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "3a67cd10-c907-11ef-aa99-53d29ba04ccd"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [384 1368]
+:lineHeight 1.2
+:fontSize 48
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:nonce 1735821835369
+:italic false
+:text "5"}}
+:block/updated-at 1735826388829} 
+{:block/content "order of operations:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776916c-0a09-4af0-92d5-1cc8c64dd3bb"}
+:block/parent 
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
+:block/uuid #uuid "6776915d-9458-472b-abe5-5f639d36c517"} 
+{:block/content "put datasource - get keys"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915d-9458-472b-abe5-5f639d36c517"}
+:block/parent 
+{:block/uuid #uuid "6776915d-9458-472b-abe5-5f639d36c517"}
+:block/uuid #uuid "6776915d-9a5a-4924-8e00-b079e15bd818"} 
+{:block/content "put repos - write link to datasource and sites - get repos"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "2edb7bb2-73ed-49da-82aa-d331773e234b"}
+:block/parent 
+{:block/uuid #uuid "2edb7bb2-73ed-49da-82aa-d331773e234b"}
+:block/uuid #uuid "e5d278d3-8f57-41d4-a2c6-0ec6602f85e9"} 
+{:block/content "put repos - write link to datasource and sites"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915c-a5c2-40f6-8925-18c4bd0de092"}
+:block/parent 
+{:block/uuid #uuid "6776915c-a5c2-40f6-8925-18c4bd0de092"}
+:block/uuid #uuid "6776915c-2ad6-459f-bf54-8429cf39873a"} 
+{:block/created-at 1735830698384
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 3
+:scale [1 1]
+:pageId "67767acd-45f5-41d7-b260-b2ca44dc3dd8"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [344 452.99994574652777]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "822c0280-c900-11ef-aa99-53d29ba04ccd"
+:noFill false
+:isLocked false
+:point [248 1416]
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:collapsedHeight 0
+:nonce 1735818949524}}
+:block/updated-at 1735830698384} 
+{:block/content "if both authors and repos:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769156-9a91-4f97-a3b6-245c273eb5ac"}
+:block/parent 
+{:block/uuid #uuid "67769156-fc53-4518-8871-ded9c3b970ae"}
+:block/uuid #uuid "67769156-5530-472e-9558-e824a113ebb6"} 
+{:block/content "put repos - write link to datasource and sites - get repos"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769156-5530-472e-9558-e824a113ebb6"}
+:block/parent 
+{:block/uuid #uuid "67769156-5530-472e-9558-e824a113ebb6"}
+:block/uuid #uuid "67769156-16fe-40d5-8e43-5993d0175216"} 
+{:block/uuid #uuid "676ee2e1-38d8-4fd1-af05-02d0b7619532"
+:block/properties 
+{}
+:block/updated-at 1735325982760
+:block/left 
+{:block/uuid #uuid "6cbe5024-d5eb-4f99-aeaf-edb1123016f4"}
+:block/created-at 1735325982760
+:block/format :markdown
+:block/content "[[atproto tools]] a second-order awesome-atproto list (in database form)"
+:block/parent 
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}} 
+{:block/content "order of operations:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "676ee2e1-38d8-4fd1-af05-02d0b7619532"}
+:block/parent 
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
+:block/properties 
+{}
+:block/uuid #uuid "6776916c-0a09-4af0-92d5-1cc8c64dd3bb"} 
+{:block/content "put repos - write link to datasource and sites"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769156-8ed4-426e-838a-1a33b69fb630"}
+:block/parent 
+{:block/uuid #uuid "67769156-8ed4-426e-838a-1a33b69fb630"}
+:block/uuid #uuid "67769156-7729-471d-981f-2cafaf3e7346"} 
+{:block/uuid #uuid "67769053-443d-42ee-8346-d388c497e52b"
+:block/properties 
+{}
+:block/updated-at 1735823447883
+:block/left 
+{:block/uuid #uuid "6776904b-89a0-479a-9344-29595f026b2d"}
+:block/created-at 1735823447883
+:block/format :markdown
+:block/content "if authors:"
+:block/parent 
+{:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"}} 
+{:block/uuid #uuid "6776905a-85bf-45c6-890a-69ef352a6704"
+:block/properties 
+{}
+:block/updated-at 1735823461585
+:block/left 
+{:block/uuid #uuid "67769053-443d-42ee-8346-d388c497e52b"}
+:block/created-at 1735823461585
+:block/format :markdown
+:block/content "if both authors and repos:"
+:block/parent 
+{:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"}} 
+{:block/content "put repos - write link to datasource and sites"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769159-3faf-485b-bb52-6c6052011e5e"}
+:block/parent 
+{:block/uuid #uuid "67769159-3faf-485b-bb52-6c6052011e5e"}
+:block/uuid #uuid "67769159-b5e5-425c-ade6-c71d0f836772"} 
+{:block/content "put datasource - get keys"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915c-d8bd-4b53-b0e2-8945b2861fd9"}
+:block/parent 
+{:block/uuid #uuid "6776915c-d8bd-4b53-b0e2-8945b2861fd9"}
+:block/uuid #uuid "6776915c-e724-4792-99c1-8db35f6e2593"} 
+{:block/created-at 1735832793676
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 7
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "5"
+:id "262f5082-c901-11ef-aa99-53d29ba04ccd"
+:fontWeight 400
+:noFill true
+:point [596 1351.79]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [224 0]
+:bindingId "262f5080-c901-11ef-aa99-53d29ba04ccd"}
+:end 
+{:id "end"
+:canBind true
+:point [0 179.29]
+:bindingId "262f5081-c901-11ef-aa99-53d29ba04ccd"}}
+:decorations 
+{:start "arrow"
+:end "arrow"}
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:nonce 1735819224902
+:italic false}}
+:block/updated-at 1735832793676} 
+{:block/created-at 1735832876721
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 9
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "5"
+:id "85379f62-c901-11ef-aa99-53d29ba04ccd"
+:fontWeight 400
+:noFill true
+:point [596 1560.43]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 66.77]
+:bindingId "85379f60-c901-11ef-aa99-53d29ba04ccd"}
+:end 
+{:id "end"
+:canBind true
+:point [768 0]
+:bindingId "85379f61-c901-11ef-aa99-53d29ba04ccd"}}
+:decorations 
+{:start "arrow"
+:end "arrow"}
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:nonce 1735819384172
+:italic false}}
+:block/updated-at 1735832876721} 
+{:block/content "put repos - write link to datasource and sites"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769159-7dfe-48b2-b785-d18da32b6289"}
+:block/parent 
+{:block/uuid #uuid "67769159-7dfe-48b2-b785-d18da32b6289"}
+:block/uuid #uuid "67769159-c7af-4b16-b165-fb2d4b9edb46"} 
+{:block/created-at 1735826388829
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 11
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [63 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "039efd80-c907-11ef-aa99-53d29ba04ccd"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [1224 1160]
+:lineHeight 1.2
+:fontSize 48
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:nonce 1735821743509
+:italic false
+:text "1g"}}
+:block/updated-at 1735826388829} 
+{:block/uuid #uuid "6776906a-173e-42bf-b427-f1fc71f366ee"
+:block/properties 
+{}
+:block/updated-at 1735823467785
+:block/left 
+{:block/uuid #uuid "6776905a-85bf-45c6-890a-69ef352a6704"}
+:block/created-at 1735823467785
+:block/format :markdown
+:block/content "put repos - write link to original and sites - get repos"
+:block/parent 
+{:block/uuid #uuid "6776905a-85bf-45c6-890a-69ef352a6704"}} 
+{:block/created-at 1735826388828
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 12
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [70 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "10486a30-c907-11ef-aa99-53d29ba04ccd"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [1416 1280]
+:lineHeight 1.2
+:fontSize 48
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:nonce 1735821764756
+:italic false
+:text "2g"}}
+:block/updated-at 1735826388828} 
+{:block/content "if both authors and repos:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915c-5d75-40b4-89d1-6584577da1d7"}
+:block/parent 
+{:block/uuid #uuid "6776915c-d8bd-4b53-b0e2-8945b2861fd9"}
+:block/uuid #uuid "6776915c-0a8d-4544-97fd-ac57b5d0b33c"} 
+{:block/content "order of operations:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915d-9458-472b-abe5-5f639d36c517"}
+:block/parent 
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
+:block/uuid #uuid "6776915c-d8bd-4b53-b0e2-8945b2861fd9"} 
+{:block/content "put repos - write link to datasource and sites"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915c-5d75-40b4-89d1-6584577da1d7"}
+:block/parent 
+{:block/uuid #uuid "6776915c-5d75-40b4-89d1-6584577da1d7"}
+:block/uuid #uuid "6776915c-fafd-4f3d-b6ae-94809c38e41f"} 
+{:block/uuid #uuid "67768eda-bc18-49f4-94c9-31002a16bad9"
+:block/properties 
+{}
+:block/updated-at 1735823292429
+:block/left 
+{:block/uuid #uuid "677690ab-f7b0-4faa-8ddc-745d156d9c02"}
+:block/created-at 1735823292429
+:block/collapsed? true
+:block/format :markdown
+:block/content ""
+:block/parent 
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}} 
+{:block/content "put sites - write link to datasource - get site keys"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915d-9a5a-4924-8e00-b079e15bd818"}
+:block/parent 
+{:block/uuid #uuid "6776915d-9458-472b-abe5-5f639d36c517"}
+:block/uuid #uuid "6776915d-d8a3-430c-92b6-caad3eabac56"} 
+{:block/content "put datasource - get keys"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769156-fc53-4518-8871-ded9c3b970ae"}
+:block/parent 
+{:block/uuid #uuid "67769156-fc53-4518-8871-ded9c3b970ae"}
+:block/uuid #uuid "67769156-28a2-4466-a01e-06ccd7017c56"} 
+{:block/content "put repos - write link to datasource and sites - get repos"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915c-0a8d-4544-97fd-ac57b5d0b33c"}
+:block/parent 
+{:block/uuid #uuid "6776915c-0a8d-4544-97fd-ac57b5d0b33c"}
+:block/uuid #uuid "6776915c-a958-40d6-97df-f4665af1e9b6"} 
+{:block/content "put authors - write link to datasource, sites, and repos"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915d-1f16-4451-acea-daa2d686dcd2"}
+:block/parent 
+{:block/uuid #uuid "6776915d-ed7b-40b6-ad11-7cc2be81835b"}
+:block/uuid #uuid "6776915d-7d6c-4d1f-9331-706406fc473a"} 
+{:block/content "if repos:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769159-3a06-4476-b614-62d19875caf9"}
+:block/parent 
+{:block/uuid #uuid "67769159-e030-4e62-832b-09864d1755ad"}
+:block/uuid #uuid "67769159-3faf-485b-bb52-6c6052011e5e"} 
+{:block/content "order of operations:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915c-d8bd-4b53-b0e2-8945b2861fd9"}
+:block/parent 
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
+:block/uuid #uuid "67769159-e030-4e62-832b-09864d1755ad"} 
+{:block/content "put repos - write link to datasource and sites"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776916c-8a29-44fe-8318-269b2f7facf7"}
+:block/parent 
+{:block/uuid #uuid "6776916c-8a29-44fe-8318-269b2f7facf7"}
+:block/uuid #uuid "6776916c-e5b6-4c48-a28f-bbedef7b30ac"} 
+{:block/content "if authors:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769159-3faf-485b-bb52-6c6052011e5e"}
+:block/parent 
+{:block/uuid #uuid "67769159-e030-4e62-832b-09864d1755ad"}
+:block/uuid #uuid "67769159-7dfe-48b2-b785-d18da32b6289"} 
+{:block/uuid #uuid "04856b30-bbdd-4a07-b983-67e6d033f988"
+:block/properties 
+{}
+:block/updated-at 1735325982760
+:block/left 
+{:block/uuid #uuid "67769182-1628-4554-a6d5-cdfbc4bff20f"}
+:block/created-at 1735325982760
+:block/format :markdown
+:block/content "[[atproto tools]] a second-order awesome-atproto list (in database form)"
+:block/parent 
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}} 
+{:block/content "put repos - write link to datasource and sites - get repos"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915d-ed7b-40b6-ad11-7cc2be81835b"}
+:block/parent 
+{:block/uuid #uuid "6776915d-ed7b-40b6-ad11-7cc2be81835b"}
+:block/uuid #uuid "6776915d-1f16-4451-acea-daa2d686dcd2"} 
+{:block/uuid #uuid "67769059-b484-4b91-b60b-c70020d6aca6"
+:block/properties 
+{}
+:block/updated-at 1735823486811
+:block/left 
+{:block/uuid #uuid "67769053-443d-42ee-8346-d388c497e52b"}
+:block/created-at 1735823486811
+:block/format :markdown
+:block/content "put repos - write link to original and sites"
+:block/parent 
+{:block/uuid #uuid "67769053-443d-42ee-8346-d388c497e52b"}} 
+{:block/uuid #uuid "67769040-d8b7-44d0-adf0-f0dec20144e3"
+:block/properties 
+{}
+:block/updated-at 1735823470883
+:block/left 
+{:block/uuid #uuid "6776906a-173e-42bf-b427-f1fc71f366ee"}
+:block/created-at 1735823470883
+:block/format :markdown
+:block/content "put authors - write link to datasource, sites, and repos"
+:block/parent 
+{:block/uuid #uuid "6776905a-85bf-45c6-890a-69ef352a6704"}} 
+{:block/content "put repos - write link to datasource and sites - get repos"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769159-a89a-4d48-ae0f-330f09abcd19"}
+:block/parent 
+{:block/uuid #uuid "67769159-a89a-4d48-ae0f-330f09abcd19"}
+:block/uuid #uuid "67769159-1ebe-41cb-9414-402bd613a63b"} 
+{:block/content "![pepe-silvia](https://wac-cdn.atlassian.com/dam/jcr:08d5b957-818c-4c4e-a140-fd4cccaaa599/meme.png?cdnVersion=2484)"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67768eda-bc18-49f4-94c9-31002a16bad9"}
+:block/parent 
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
+:block/uuid #uuid "67768fbf-6d98-4f0e-8346-9e8d8aee81c5"} 
+{:block/content "put repos - write link to datasource and sites"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769156-9a91-4f97-a3b6-245c273eb5ac"}
+:block/parent 
+{:block/uuid #uuid "67769156-9a91-4f97-a3b6-245c273eb5ac"}
+:block/uuid #uuid "67769156-1560-4072-b015-97def0cc934b"} 
+{:block/content "if both authors and repos:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "d7e7f542-601d-477f-bc38-bb0d90b196ba"}
+:block/parent 
+{:block/uuid #uuid "6cbe5024-d5eb-4f99-aeaf-edb1123016f4"}
+:block/uuid #uuid "2edb7bb2-73ed-49da-82aa-d331773e234b"} 
+{:block/content "put repos - write link to datasource and sites"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776916c-1a55-4ef6-9ea6-e935589ccda9"}
+:block/parent 
+{:block/uuid #uuid "6776916c-1a55-4ef6-9ea6-e935589ccda9"}
+:block/uuid #uuid "6776916c-7499-4f42-aa05-54b6ab0ac883"} 
+{:block/content "if authors:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769156-8ed4-426e-838a-1a33b69fb630"}
+:block/parent 
+{:block/uuid #uuid "67769156-fc53-4518-8871-ded9c3b970ae"}
+:block/uuid #uuid "67769156-9a91-4f97-a3b6-245c273eb5ac"} 
+{:block/content "put datasource - get keys"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6cbe5024-d5eb-4f99-aeaf-edb1123016f4"}
+:block/parent 
+{:block/uuid #uuid "6cbe5024-d5eb-4f99-aeaf-edb1123016f4"}
+:block/uuid #uuid "835ccdba-c468-4050-9580-9d6a0f35e985"} 
+{:block/content "if repos:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "bb116a98-403c-41a9-bf18-3ae6b86b8313"}
+:block/parent 
+{:block/uuid #uuid "6cbe5024-d5eb-4f99-aeaf-edb1123016f4"}
+:block/uuid #uuid "1dc0115d-8628-4ef3-837b-53dd39a4996d"} 
+{:block/content "put authors - write link to datasource, sites, and repos"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "e5d278d3-8f57-41d4-a2c6-0ec6602f85e9"}
+:block/parent 
+{:block/uuid #uuid "2edb7bb2-73ed-49da-82aa-d331773e234b"}
+:block/uuid #uuid "93fee8c6-c1c5-433b-b5aa-1355e9abe566"} 
+{:block/content "if both authors and repos:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769159-7dfe-48b2-b785-d18da32b6289"}
+:block/parent 
+{:block/uuid #uuid "67769159-e030-4e62-832b-09864d1755ad"}
+:block/uuid #uuid "67769159-a89a-4d48-ae0f-330f09abcd19"} 
+{:block/content "if both authors and repos:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915d-a0fc-4f7e-aede-9d7fd56be839"}
+:block/parent 
+{:block/uuid #uuid "6776915d-9458-472b-abe5-5f639d36c517"}
+:block/uuid #uuid "6776915d-ed7b-40b6-ad11-7cc2be81835b"} 
+{:block/content "put repos - write link to datasource and sites"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915d-e591-47fc-9dde-16bb87da0129"}
+:block/parent 
+{:block/uuid #uuid "6776915d-e591-47fc-9dde-16bb87da0129"}
+:block/uuid #uuid "6776915d-d6ce-46ea-aac5-57e3b54a383d"} 
+{:block/content "if repos:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915c-158f-457d-9070-51d7f9a2a325"}
+:block/parent 
+{:block/uuid #uuid "6776915c-d8bd-4b53-b0e2-8945b2861fd9"}
+:block/uuid #uuid "6776915c-a5c2-40f6-8925-18c4bd0de092"} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"}
+:block/parent 
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
+:block/properties 
+{}
+:block/uuid #uuid "677690ab-f7b0-4faa-8ddc-745d156d9c02"} 
+{:block/content "if authors:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915c-a5c2-40f6-8925-18c4bd0de092"}
+:block/parent 
+{:block/uuid #uuid "6776915c-d8bd-4b53-b0e2-8945b2861fd9"}
+:block/uuid #uuid "6776915c-5d75-40b4-89d1-6584577da1d7"} 
+{:block/content "order of operations:"
+:block/created-at 1735823782420
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67768fbf-6d98-4f0e-8346-9e8d8aee81c5"}
+:block/parent 
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
+:block/updated-at 1735823782420
+:block/uuid #uuid "67769182-1628-4554-a6d5-cdfbc4bff20f"} 
+{:block/created-at 1735832793678
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "677672fd-d514-4780-9a0c-ca7342a71a6f"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 345]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "66be5f70-c900-11ef-aa99-53d29ba04ccd"
+:noFill false
+:isLocked false
+:point [824 1016]
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:collapsedHeight 0
+:nonce 1735818904435}}
+:block/updated-at 1735832793678} 
+{:block/created-at 1735832888683
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 5
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "5"
+:id "e3167ee2-c900-11ef-aa99-53d29ba04ccd"
+:fontWeight 400
+:noFill true
+:point [596 1786.72]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "e3167ee0-c900-11ef-aa99-53d29ba04ccd"}
+:end 
+{:id "end"
+:canBind true
+:point [256 209.78]
+:bindingId "e3167ee1-c900-11ef-aa99-53d29ba04ccd"}}
+:decorations 
+{:start "arrow"
+:end "arrow"}
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:nonce 1735819112220
+:italic false}}
+:block/updated-at 1735832888683} 
+{:block/content "if repos:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769156-7031-4dc1-8c71-f38c1e320972"}
+:block/parent 
+{:block/uuid #uuid "67769156-fc53-4518-8871-ded9c3b970ae"}
+:block/uuid #uuid "67769156-8ed4-426e-838a-1a33b69fb630"} 
+{:block/content "put repos - write link to datasource and sites"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "1dc0115d-8628-4ef3-837b-53dd39a4996d"}
+:block/parent 
+{:block/uuid #uuid "1dc0115d-8628-4ef3-837b-53dd39a4996d"}
+:block/uuid #uuid "9d2e5aea-7f44-4cef-b442-cf93c07aef94"} 
+{:block/created-at 1735832888683
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 10
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "4"
+:id "10d049c2-c905-11ef-aa99-53d29ba04ccd"
+:fontWeight 400
+:noFill true
+:point [1024.64 1365]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "10d049c0-c905-11ef-aa99-53d29ba04ccd"}
+:end 
+{:id "end"
+:canBind true
+:point [1.87 511]
+:bindingId "10d049c1-c905-11ef-aa99-53d29ba04ccd"}}
+:decorations 
+{:start "arrow"
+:end "arrow"}
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:nonce 1735820906803
+:italic false}}
+:block/updated-at 1735832888683} 
+{:block/content "put repos - write link to datasource and sites"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915d-a0fc-4f7e-aede-9d7fd56be839"}
+:block/parent 
+{:block/uuid #uuid "6776915d-a0fc-4f7e-aede-9d7fd56be839"}
+:block/uuid #uuid "6776915d-11b1-4f16-afca-85ca4458d113"} 
+{:block/created-at 1735826388829
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 13
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [72 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "22e6f490-c907-11ef-aa99-53d29ba04ccd"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [1024 1808]
+:lineHeight 1.2
+:fontSize 48
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:nonce 1735821795975
+:italic false
+:text "4g"}}
+:block/updated-at 1735826388829} 
+{:block/uuid #uuid "67769040-23f1-48ab-9dbe-9804e797d3f8"
+:block/properties 
+{}
+:block/updated-at 1735823488666
+:block/left 
+{:block/uuid #uuid "6776904b-89a0-479a-9344-29595f026b2d"}
+:block/created-at 1735823488666
+:block/format :markdown
+:block/content "put repos - write link to original and sites"
+:block/parent 
+{:block/uuid #uuid "6776904b-89a0-479a-9344-29595f026b2d"}} 
+{:block/created-at 1735826388829
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 4
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "c6e8e732-c900-11ef-aa99-53d29ba04ccd"
+:fontWeight 400
+:noFill true
+:point [1776 1728]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]}
+:end 
+{:id "end"
+:canBind true
+:point [1 1]}}
+:decorations 
+{:end "arrow"}
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:nonce 1735819064611
+:italic false}}
+:block/updated-at 1735826388829} 
+{:block/content "put sites - write link to datasource - get site keys"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "835ccdba-c468-4050-9580-9d6a0f35e985"}
+:block/parent 
+{:block/uuid #uuid "6cbe5024-d5eb-4f99-aeaf-edb1123016f4"}
+:block/uuid #uuid "bb116a98-403c-41a9-bf18-3ae6b86b8313"} 
+{:block/content "order of operations:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769159-e030-4e62-832b-09864d1755ad"}
+:block/parent 
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
+:block/uuid #uuid "67769156-fc53-4518-8871-ded9c3b970ae"} 
+{:block/content "TODO low priority: make this more elegant, some kind of iteration instead of if clauses"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776916c-a382-445a-8ee4-07dee5bbcd64"}
+:block/parent 
+{:block/uuid #uuid "6776916c-0a09-4af0-92d5-1cc8c64dd3bb"}
+:block/uuid #uuid "6776916c-b98f-490a-8147-bbaea3a9e906"} 
+{:block/uuid #uuid "677690ae-e7f2-48f6-9d1b-888f9f0e2953"
+:block/properties 
+{}
+:block/updated-at 1735823568815
+:block/left 
+{:block/uuid #uuid "6776905a-85bf-45c6-890a-69ef352a6704"}
+:block/created-at 1735823568815
+:block/format :markdown
+:block/content "TODO low priority: make this more elegant, some kind of iteration instead of if clauses"
+:block/parent 
+{:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"}} 
+{:block/content "put repos - write link to datasource and sites"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "d7e7f542-601d-477f-bc38-bb0d90b196ba"}
+:block/parent 
+{:block/uuid #uuid "d7e7f542-601d-477f-bc38-bb0d90b196ba"}
+:block/uuid #uuid "5113a6d7-83b0-43cc-9278-1f608af9ec3a"} 
+{:block/content "TODO low priority: make this more elegant, some kind of iteration instead of if clauses"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "2edb7bb2-73ed-49da-82aa-d331773e234b"}
+:block/parent 
+{:block/uuid #uuid "6cbe5024-d5eb-4f99-aeaf-edb1123016f4"}
+:block/uuid #uuid "e2bad1b0-a90e-4db0-a90a-04c1dc67112a"} 
+{:block/content "put authors - write link to datasource, sites, and repos"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915c-a958-40d6-97df-f4665af1e9b6"}
+:block/parent 
+{:block/uuid #uuid "6776915c-0a8d-4544-97fd-ac57b5d0b33c"}
+:block/uuid #uuid "6776915c-e2fc-4c4f-841e-134ad161222f"} 
+{:block/created-at 1735830005770
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 15
+:scale [1 1]
+:pageId "67768fbf-6d98-4f0e-8346-9e8d8aee81c5"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 306.99998575161334]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "a0d53d00-c90a-11ef-aa99-53d29ba04ccd"
+:noFill false
+:isLocked false
+:point [296 1040]
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:collapsedHeight 0
+:nonce 1735823296196}}
+:block/updated-at 1735830005770} 
+{:block/uuid #uuid "6776903e-acb9-4180-ac65-79fe084c7fb5"
+:block/properties 
+{}
+:block/updated-at 1735823424293
+:block/left 
+{:block/uuid #uuid "6776903c-0c13-439b-b066-5b4746b00ebb"}
+:block/created-at 1735823424293
+:block/format :markdown
+:block/content "put sites - write link to original - get site keys"
+:block/parent 
+{:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"}} 
+{:block/content "put sites - write link to datasource - get site keys"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915c-e724-4792-99c1-8db35f6e2593"}
+:block/parent 
+{:block/uuid #uuid "6776915c-d8bd-4b53-b0e2-8945b2861fd9"}
+:block/uuid #uuid "6776915c-158f-457d-9070-51d7f9a2a325"} 
+{:block/content "TODO low priority: make this more elegant, some kind of iteration instead of if clauses"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915c-0a8d-4544-97fd-ac57b5d0b33c"}
+:block/parent 
+{:block/uuid #uuid "6776915c-d8bd-4b53-b0e2-8945b2861fd9"}
+:block/uuid #uuid "6776915c-cf43-473c-a28d-d4f1ff24ce63"} 
+{:block/content "put authors - write link to datasource, sites, and repos"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769159-1ebe-41cb-9414-402bd613a63b"}
+:block/parent 
+{:block/uuid #uuid "67769159-a89a-4d48-ae0f-330f09abcd19"}
+:block/uuid #uuid "67769159-6293-4c04-b378-31f60d8744d5"} 
+{:block/uuid #uuid "6776904b-89a0-479a-9344-29595f026b2d"
+:block/properties 
+{}
+:block/updated-at 1735823441752
+:block/left 
+{:block/uuid #uuid "6776903e-acb9-4180-ac65-79fe084c7fb5"}
+:block/created-at 1735823441752
+:block/format :markdown
+:block/content "if repos:"
+:block/parent 
+{:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"}} 
+{:block/uuid #uuid "6776903c-0c13-439b-b066-5b4746b00ebb"
+:block/properties 
+{}
+:block/updated-at 1735823422494
+:block/left 
+{:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"}
+:block/created-at 1735823422494
+:block/format :markdown
+:block/content "put datasource - get keys"
+:block/parent 
+{:block/uuid #uuid "677687a6-d7c7-4529-998e-bccd6ac4089a"}} 
+{:block/created-at 1735832876721
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "67767469-542f-48c0-b2a5-188b3fea1232"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [408 422.00000706330275]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "726ddbc0-c900-11ef-aa99-53d29ba04ccd"
+:noFill false
+:isLocked false
+:point [1368 1360]
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:collapsedHeight 0
+:nonce 1735818924011}}
+:block/updated-at 1735832876721} 
+{:block/created-at 1735832888682
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 8
+:scale [1 1]
+:refs []
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "4"
+:id "c7ece9b2-c900-11ef-aa99-53d29ba04ccd"
+:fontWeight 400
+:noFill true
+:point [1197.33 1664.15]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 211.85]
+:bindingId "d959f8f1-c900-11ef-aa99-53d29ba04ccd"}
+:end 
+{:id "end"
+:canBind true
+:point [166.67 0]
+:bindingId "dd42a4d1-c900-11ef-aa99-53d29ba04ccd"}}
+:decorations 
+{:start "arrow"
+:end "arrow"}
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:nonce 1735819067069
+:italic false}}
+:block/updated-at 1735832888682} 
+{:block/content "TODO low priority: make this more elegant, some kind of iteration instead of if clauses"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769156-5530-472e-9558-e824a113ebb6"}
+:block/parent 
+{:block/uuid #uuid "67769156-fc53-4518-8871-ded9c3b970ae"}
+:block/uuid #uuid "67769156-9fa4-43c1-983d-65763207352d"} 
+{:block/content "if authors:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "1dc0115d-8628-4ef3-837b-53dd39a4996d"}
+:block/parent 
+{:block/uuid #uuid "6cbe5024-d5eb-4f99-aeaf-edb1123016f4"}
+:block/uuid #uuid "d7e7f542-601d-477f-bc38-bb0d90b196ba"} 
+{:block/content "order of operations:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "04856b30-bbdd-4a07-b983-67e6d033f988"}
+:block/parent 
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"}
+:block/properties 
+{}
+:block/uuid #uuid "6cbe5024-d5eb-4f99-aeaf-edb1123016f4"} 
+{:block/created-at 1735832888683
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "67767430-00f2-4a86-81b0-84828fbfc695"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 438.0000813802083]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "7ee3b550-c900-11ef-aa99-53d29ba04ccd"
+:noFill false
+:isLocked false
+:point [856 1880]
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:collapsedHeight 0
+:nonce 1735818944465}}
+:block/updated-at 1735832888683} 
+{:block/created-at 1735832876720
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 6
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "3"
+:id "1becaaa2-c901-11ef-aa99-53d29ba04ccd"
+:fontWeight 400
+:noFill true
+:point [1228 1342.4]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "1becaaa0-c901-11ef-aa99-53d29ba04ccd"}
+:end 
+{:id "end"
+:canBind true
+:point [136 102.6]
+:bindingId "1becaaa1-c901-11ef-aa99-53d29ba04ccd"}}
+:decorations 
+{:start "arrow"
+:end "arrow"}
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:nonce 1735819207963
+:italic false}}
+:block/updated-at 1735832876720} 
+{:block/content "put authors - write link to datasource, sites, and repos"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776916c-6c69-4164-8f37-0705694abfdb"}
+:block/parent 
+{:block/uuid #uuid "6776916c-a382-445a-8ee4-07dee5bbcd64"}
+:block/uuid #uuid "6776916c-a42a-4dfa-8be9-d09418a49b0a"} 
+{:block/content "if authors:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776916c-8a29-44fe-8318-269b2f7facf7"}
+:block/parent 
+{:block/uuid #uuid "6776916c-0a09-4af0-92d5-1cc8c64dd3bb"}
+:block/uuid #uuid "6776916c-1a55-4ef6-9ea6-e935589ccda9"} 
+{:block/content "put sites - write link to datasource - get site keys"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769159-98d6-4231-8934-3f4d517b2106"}
+:block/parent 
+{:block/uuid #uuid "67769159-e030-4e62-832b-09864d1755ad"}
+:block/uuid #uuid "67769159-3a06-4476-b614-62d19875caf9"} 
+{:block/content "TODO low priority: make this more elegant, some kind of iteration instead of if clauses"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769159-a89a-4d48-ae0f-330f09abcd19"}
+:block/parent 
+{:block/uuid #uuid "67769159-e030-4e62-832b-09864d1755ad"}
+:block/uuid #uuid "67769159-6db2-4361-a9ce-4dbf32c34eb3"} 
+{:block/content "put datasource - get keys"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776916c-0a09-4af0-92d5-1cc8c64dd3bb"}
+:block/parent 
+{:block/uuid #uuid "6776916c-0a09-4af0-92d5-1cc8c64dd3bb"}
+:block/uuid #uuid "6776916c-b003-479b-b399-b411d1d4c7d1"} 
+{:block/content "if repos:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776916c-7af6-4f7f-84d0-40864364498a"}
+:block/parent 
+{:block/uuid #uuid "6776916c-0a09-4af0-92d5-1cc8c64dd3bb"}
+:block/uuid #uuid "6776916c-8a29-44fe-8318-269b2f7facf7"} 
+{:block/content "TODO low priority: make this more elegant, some kind of iteration instead of if clauses"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915d-ed7b-40b6-ad11-7cc2be81835b"}
+:block/parent 
+{:block/uuid #uuid "6776915d-9458-472b-abe5-5f639d36c517"}
+:block/uuid #uuid "6776915d-9ae5-40c2-a598-fe14f69e1c6b"} 
+{:block/content "if repos:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915d-d8a3-430c-92b6-caad3eabac56"}
+:block/parent 
+{:block/uuid #uuid "6776915d-9458-472b-abe5-5f639d36c517"}
+:block/uuid #uuid "6776915d-e591-47fc-9dde-16bb87da0129"} 
+{:block/content "put repos - write link to datasource and sites - get repos"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776916c-a382-445a-8ee4-07dee5bbcd64"}
+:block/parent 
+{:block/uuid #uuid "6776916c-a382-445a-8ee4-07dee5bbcd64"}
+:block/uuid #uuid "6776916c-6c69-4164-8f37-0705694abfdb"} 
+{:block/content "put datasource - get keys"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769159-e030-4e62-832b-09864d1755ad"}
+:block/parent 
+{:block/uuid #uuid "67769159-e030-4e62-832b-09864d1755ad"}
+:block/uuid #uuid "67769159-98d6-4231-8934-3f4d517b2106"} 
+{:block/content "if both authors and repos:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776916c-1a55-4ef6-9ea6-e935589ccda9"}
+:block/parent 
+{:block/uuid #uuid "6776916c-0a09-4af0-92d5-1cc8c64dd3bb"}
+:block/uuid #uuid "6776916c-a382-445a-8ee4-07dee5bbcd64"} 
+{:block/content "put authors - write link to datasource, sites, and repos"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769156-16fe-40d5-8e43-5993d0175216"}
+:block/parent 
+{:block/uuid #uuid "67769156-5530-472e-9558-e824a113ebb6"}
+:block/uuid #uuid "67769156-91a2-4527-aace-2cc210b0b442"} 
+{:block/content "put sites - write link to datasource - get site keys"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67769156-28a2-4466-a01e-06ccd7017c56"}
+:block/parent 
+{:block/uuid #uuid "67769156-fc53-4518-8871-ded9c3b970ae"}
+:block/uuid #uuid "67769156-7031-4dc1-8c71-f38c1e320972"} 
+{:block/content "if authors:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6776915d-e591-47fc-9dde-16bb87da0129"}
+:block/parent 
+{:block/uuid #uuid "6776915d-9458-472b-abe5-5f639d36c517"}
+:block/uuid #uuid "6776915d-a0fc-4f7e-aede-9d7fd56be839"} 
+{:block/created-at 1735832843641
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 16
+:scale [1 1]
+:pageId "67769af6-1b12-4df3-9d70-75c680b32eba"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 581.390625]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "d08ad080-c911-11ef-9c18-6336dbc4b70b"
+:noFill false
+:point [1320 1848]
+:parentId "67767e7e-e506-450b-925c-4eb837232707"
+:collapsedHeight 0
+:nonce 1735826382367}}
+:block/updated-at 1735832843641})
+:pages (
+{:block/uuid #uuid "67767e7e-e506-450b-925c-4eb837232707"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "67767e7e-e506-450b-925c-4eb837232707"
+:name "schema diagram"
+:bindings 
+{:dd42a4d1-c900-11ef-aa99-53d29ba04ccd 
+{:id "dd42a4d1-c900-11ef-aa99-53d29ba04ccd"
+:type "line"
+:fromId "c7ece9b2-c900-11ef-aa99-53d29ba04ccd"
+:toId "726ddbc0-c900-11ef-aa99-53d29ba04ccd"
+:handleId "end"
+:point [0.29 0.36]
+:distance 4}
+:85379f60-c901-11ef-aa99-53d29ba04ccd 
+{:id "85379f60-c901-11ef-aa99-53d29ba04ccd"
+:type "line"
+:fromId "85379f62-c901-11ef-aa99-53d29ba04ccd"
+:toId "822c0280-c900-11ef-aa99-53d29ba04ccd"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:e3167ee0-c900-11ef-aa99-53d29ba04ccd 
+{:id "e3167ee0-c900-11ef-aa99-53d29ba04ccd"
+:type "line"
+:fromId "e3167ee2-c900-11ef-aa99-53d29ba04ccd"
+:toId "822c0280-c900-11ef-aa99-53d29ba04ccd"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:85379f61-c901-11ef-aa99-53d29ba04ccd 
+{:id "85379f61-c901-11ef-aa99-53d29ba04ccd"
+:type "line"
+:fromId "85379f62-c901-11ef-aa99-53d29ba04ccd"
+:toId "726ddbc0-c900-11ef-aa99-53d29ba04ccd"
+:handleId "end"
+:point [0.54 0.43]
+:distance 4}
+:10d049c1-c905-11ef-aa99-53d29ba04ccd 
+{:id "10d049c1-c905-11ef-aa99-53d29ba04ccd"
+:type "line"
+:fromId "10d049c2-c905-11ef-aa99-53d29ba04ccd"
+:toId "7ee3b550-c900-11ef-aa99-53d29ba04ccd"
+:handleId "end"
+:point [0.43 0.57]
+:distance 4}
+:262f5081-c901-11ef-aa99-53d29ba04ccd 
+{:id "262f5081-c901-11ef-aa99-53d29ba04ccd"
+:type "line"
+:fromId "262f5082-c901-11ef-aa99-53d29ba04ccd"
+:toId "822c0280-c900-11ef-aa99-53d29ba04ccd"
+:handleId "end"
+:point [0.49 0.57]
+:distance 4}
+:262f5080-c901-11ef-aa99-53d29ba04ccd 
+{:id "262f5080-c901-11ef-aa99-53d29ba04ccd"
+:type "line"
+:fromId "262f5082-c901-11ef-aa99-53d29ba04ccd"
+:toId "66be5f70-c900-11ef-aa99-53d29ba04ccd"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:10d049c0-c905-11ef-aa99-53d29ba04ccd 
+{:id "10d049c0-c905-11ef-aa99-53d29ba04ccd"
+:type "line"
+:fromId "10d049c2-c905-11ef-aa99-53d29ba04ccd"
+:toId "66be5f70-c900-11ef-aa99-53d29ba04ccd"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:d959f8f1-c900-11ef-aa99-53d29ba04ccd 
+{:id "d959f8f1-c900-11ef-aa99-53d29ba04ccd"
+:type "line"
+:fromId "c7ece9b2-c900-11ef-aa99-53d29ba04ccd"
+:toId "7ee3b550-c900-11ef-aa99-53d29ba04ccd"
+:handleId "start"
+:point [0.21 0.74]
+:distance 4}
+:1becaaa1-c901-11ef-aa99-53d29ba04ccd 
+{:id "1becaaa1-c901-11ef-aa99-53d29ba04ccd"
+:type "line"
+:fromId "1becaaa2-c901-11ef-aa99-53d29ba04ccd"
+:toId "726ddbc0-c900-11ef-aa99-53d29ba04ccd"
+:handleId "end"
+:point [0.47 0.55]
+:distance 4}
+:1becaaa0-c901-11ef-aa99-53d29ba04ccd 
+{:id "1becaaa0-c901-11ef-aa99-53d29ba04ccd"
+:type "line"
+:fromId "1becaaa2-c901-11ef-aa99-53d29ba04ccd"
+:toId "66be5f70-c900-11ef-aa99-53d29ba04ccd"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:e3167ee1-c900-11ef-aa99-53d29ba04ccd 
+{:id "e3167ee1-c900-11ef-aa99-53d29ba04ccd"
+:type "line"
+:fromId "e3167ee2-c900-11ef-aa99-53d29ba04ccd"
+:toId "7ee3b550-c900-11ef-aa99-53d29ba04ccd"
+:handleId "end"
+:point [0.44 0.6]
+:distance 4}}
+:nonce 1
+:assets []
+:shapes-index ("66be5f70-c900-11ef-aa99-53d29ba04ccd" "726ddbc0-c900-11ef-aa99-53d29ba04ccd" "7ee3b550-c900-11ef-aa99-53d29ba04ccd" "822c0280-c900-11ef-aa99-53d29ba04ccd" "c6e8e732-c900-11ef-aa99-53d29ba04ccd" "e3167ee2-c900-11ef-aa99-53d29ba04ccd" "1becaaa2-c901-11ef-aa99-53d29ba04ccd" "262f5082-c901-11ef-aa99-53d29ba04ccd" "c7ece9b2-c900-11ef-aa99-53d29ba04ccd" "85379f62-c901-11ef-aa99-53d29ba04ccd" "10d049c2-c905-11ef-aa99-53d29ba04ccd" "039efd80-c907-11ef-aa99-53d29ba04ccd" "10486a30-c907-11ef-aa99-53d29ba04ccd" "22e6f490-c907-11ef-aa99-53d29ba04ccd" "3a67cd10-c907-11ef-aa99-53d29ba04ccd" "a0d53d00-c90a-11ef-aa99-53d29ba04ccd" "d08ad080-c911-11ef-9c18-6336dbc4b70b")}}
+:block/updated-at 1735832888682
+:block/created-at 1735818878073
+:block/type "whiteboard"
+:block/name "schema diagram"
+:block/original-name "schema diagram"})}

@@ -1,20 +1,20 @@
-- link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/9
+- link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/
 	- ui tips:
 		- right click on any column header to sort and filter
 		- https://support.getgrist.com/keyboard-shortcuts/
 		- [tutorial doc](https://templates.getgrist.com/doc/woXtXUBmiN5T)
 	- you can add rows directly to the db as an anon user and edit your own additions (but not existing ones)
 	- use the [submission form](https://app.windmill.dev/a/atproto-tools-scripts/submit) to quickly add a link with metadata (also anonymously)
-- contact me  on bsky https://aeshna-cyanea.bsky.social if you want full edit access or would like to contribute code.
+	- reach out on bsky https://aeshna-cyanea.bsky.social if you want full edit access or would like to contribute code
 - basically, this is an attempt to process and present links collected from [various awesome-atproto/bsky lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) from around the web.
   id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
 	- prior art: there is already a number of similar projects
 		- what makes this one different
-			- we put the data into [grist](https://github.com/gristlabs/grist-core/), a sqlite db with an excel-like frontend that is [extensible with html/js](https://support.getgrist.com/widget-custom/) (but still supports [sql queries](https://support.getgrist.com/api/#tag/sql))
+			- we put the data into [grist](https://github.com/gristlabs/grist-core/), a sqlite db with an excel-like frontend that is [extensible with html/js](https://support.getgrist.com/widget-custom/) (and supports [sql queries](https://support.getgrist.com/api/#tag/sql))
 			- runs on software (grist and windmill) that is open-source and self-hostable
 				- as is the [code for collecting/processing the data](https://github.com/atproto-tools/atproto-tools-scripts/)
 				- TODO unfortunately not actually self-hosted yet
-			- we don't sell ad space
+			- no ads
 		- some projects that may be bigger and more user friendly but don't fit the above description:
 		  https://growbluesky.com/
 		  https://blueskystarterpack.com/

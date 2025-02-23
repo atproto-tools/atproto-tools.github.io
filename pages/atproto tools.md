@@ -109,7 +109,7 @@
 			- load the data into an alternate db?
 				- https://github.com/gristlabs/grist-core/issues/45#issuecomment-897678034
 				- https://github.com/gristlabs/grist-core/issues/195
-	- TODO access control for crowdsourced editing
+	- TODO access control for better crowdsourced editing
 		- template https://templates.getgrist.com/dKztiPYamcCp/Crowdsourced-List/p/1
 		- https://support.getgrist.com/access-rules/
 - common formulas/snippets:

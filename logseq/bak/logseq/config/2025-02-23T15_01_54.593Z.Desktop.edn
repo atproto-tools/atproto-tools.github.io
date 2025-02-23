@@ -420,8 +420,7 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :feature/enable-journals? false
- :default-home {:page "atproto tools"}
+ :default-home {:page "contents"}
  :publishing/all-pages-public? true
  :feature/enable-flashcards? false
- :feature/enable-timetracking? false
- :editor/preferred-pasting-file? true}
+ :feature/enable-timetracking? false}

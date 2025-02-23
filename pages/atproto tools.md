@@ -1,20 +1,20 @@
 - link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/9
-	- you can add rows directly to the db and edit your own additions.
-	- use the [submission form](https://app.windmill.dev/a/atproto-tools-scripts/submit) to quickly add an link with metadata
 	- ui tips:
 		- right click on any column header to sort and filter
 		- https://support.getgrist.com/keyboard-shortcuts/
 		- [tutorial doc](https://templates.getgrist.com/doc/woXtXUBmiN5T)
+	- you can add rows directly to the db and edit your own additions.
+	- use the [submission form](https://app.windmill.dev/a/atproto-tools-scripts/submit) to quickly add a link with metadata
 - basically, this is an attempt to process and present links collected from [various awesome-atproto/bsky lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) from around the web.
   id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
-	- prior art: there are already a number of similar projects
-		- what makes this different
+	- prior art: there is already a number of similar projects
+		- what makes this one different
 			- we put the data into [grist](https://github.com/gristlabs/grist-core/), a sqlite db with an excel-like frontend that is [extensible with html/js](https://support.getgrist.com/widget-custom/) (but still supports [sql queries](https://support.getgrist.com/api/#tag/sql))
 			- the software it runs on is open-source and self-hostable
 				- as is the [code for collecting/processing the data](https://github.com/atproto-tools/atproto-tools-scripts/)
 				- TODO unfortunately not actually self-hosted yet
 			- we don't sell ad space
-		- some of other projects that are bigger and more user friendly but don't fit the above description:
+		- some projects that may be bigger and more user friendly but don't fit the above description:
 		  https://growbluesky.com/
 		  https://blueskystarterpack.com/
 		  https://bskyinfo.com/
@@ -50,7 +50,7 @@
 		- The crawler scripts and the submission form are run on [windmill](http://windmill.dev/)
 			- If you would like to contribute code, you can dm me on bsky [omniraptor.bsky.social](http://omniraptor.bsky.social) and i'll add you to the workspace. or just open a PR on the github
 			- TODO the submission form could ideally have atproto authentication. so you sign in and get ownership over your own records
-- relevant docs
+- relevant docs for contributing
 	- [windmill](https://www.windmill.dev/docs/intro)
 		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
 		  collapsed:: true
@@ -97,7 +97,7 @@
 		- https://docs.getgrist.com/apiconsole
 		- https://pygrister.readthedocs.io/en/stable/intro.html
 - tasks for further development:
-	- TODO transform and prettify presentation
+	- transform and prettify presentation
 		- possible ideas:
 			- for formulas https://support.getgrist.com/functions/#record
 			- alt presentation
@@ -110,7 +110,7 @@
 			- load the data into an alternate db?
 				- https://github.com/gristlabs/grist-core/issues/45#issuecomment-897678034
 				- https://github.com/gristlabs/grist-core/issues/195
-	- TODO access control for better crowdsourced editing
+	- access control for better crowdsourced editing
 		- template https://templates.getgrist.com/dKztiPYamcCp/Crowdsourced-List/p/1
 		- https://support.getgrist.com/access-rules/
 - common formulas/snippets:

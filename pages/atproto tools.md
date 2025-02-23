@@ -3,9 +3,8 @@
 		- right click on any column header to sort and filter
 		- https://support.getgrist.com/keyboard-shortcuts/
 		- [tutorial doc](https://templates.getgrist.com/doc/woXtXUBmiN5T)
-	- you can add rows directly to the db and edit your own additions (but not edit existing ones)
-	- use the [submission form](https://app.windmill.dev/a/atproto-tools-scripts/submit) to quickly add a link with metadata
-		- contact me https://aeshna-cyanea.bsky.social for feedback or would like to contribute beyond submitting links
+	- you can add rows directly to the db as an anon user and edit your own additions (but not existing ones)
+	- use the [submission form](https://app.windmill.dev/a/atproto-tools-scripts/submit) to quickly add a link with metadata (also anonymously)
 - basically, this is an attempt to process and present links collected from [various awesome-atproto/bsky lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) from around the web.
   id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
 	- prior art: there is already a number of similar projects

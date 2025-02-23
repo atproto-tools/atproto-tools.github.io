@@ -4,8 +4,8 @@
 		- https://support.getgrist.com/keyboard-shortcuts/
 		- [tutorial doc](https://templates.getgrist.com/doc/woXtXUBmiN5T)
 	- you can add rows directly to the db as an anon user and edit your own additions (but not existing rows)
-	- use the [submission form](https://app.windmill.dev/a/atproto-tools-scripts/submit) to quickly add a link with metadata (also anonymously)
-	- reach out on bsky https://aeshna-cyanea.bsky.social if you want full edit access or would like to contribute code
+	- for one-off additions, you can use the [form](https://app.windmill.dev/a/atproto-tools-scripts/submit) to quickly add a link with metadata (also anonymously)
+	- reach out on bsky https://aeshna-cyanea.bsky.social if you want to get full edit access or to contribute code
 - basically, this is an attempt to process and present links collected from [various awesome-atproto/bsky lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) from around the web.
   id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
 	- prior art: there are already a number of similar projects

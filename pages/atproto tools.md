@@ -101,7 +101,8 @@
 - tasks for further development:
 	- add automation to backup the main doc to a separate version with stripped secrets (to enable copying)
 	- transform and prettify presentation
-		- possible ideas:
+		- come up with a logo
+		- possible ideas for the db:
 			- for formulas https://support.getgrist.com/functions/#record
 			- alt presentation
 				- https://support.getgrist.com/summary-tables/

@@ -1,6 +1,7 @@
 - link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/m/fork
 	- ui tips:
 		- right click on any column header to sort and filter
+		  collapsed:: true
 			- can sort by multiple columns at once
 		- https://support.getgrist.com/keyboard-shortcuts/
 		- [tutorial doc](https://templates.getgrist.com/doc/woXtXUBmiN5T)

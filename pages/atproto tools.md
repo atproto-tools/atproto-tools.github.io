@@ -51,7 +51,7 @@
 		- The crawler scripts and the submission form are run on [windmill](http://windmill.dev/)
 			- If you would like to contribute code, you can dm me on bsky [omniraptor.bsky.social](http://omniraptor.bsky.social) and i'll add you to the workspace. or just open a PR on the github
 			- TODO the submission form could ideally have atproto authentication. so you sign in and get ownership over your own records
-- relevant docs for contributing
+- relevant docs for contributing:
   collapsed:: true
 	- [windmill](https://www.windmill.dev/docs/intro)
 		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
@@ -117,14 +117,13 @@
 				- https://community.getgrist.com/t/lookuprecords-where-column-value-in-multiple-value/1656/2
 	- access control for better crowdsourced editing
 		- basically set add a secret column that tracks SessionIDs and uuids from linkKeys in the form https://support.getgrist.com/access-rules/
-			- however having secret data prevents forking. need to add automation to ergularly copy the main doc to a separate version with stripped secrets and
+			- however having secret data prevents forking. need to add automation to ergularly copy the main doc to a separate version with stripped secrets and let people copy from that
 		- template https://templates.getgrist.com/dKztiPYamcCp/Crowdsourced-List/p/1
 - common formulas/snippets:
   collapsed:: true
 	- joining urls:
 		- `" ".join((f"[{i[8:]}]({i})" if i.startswith("https://") else i) for i in <list of urls>)`
 	- normalizing a url:
-	  collapsed:: true
 		- for grist formulas:
 		  ```python
 		  from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode

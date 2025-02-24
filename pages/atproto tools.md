@@ -4,6 +4,7 @@
 		- https://support.getgrist.com/keyboard-shortcuts/
 		- [tutorial doc](https://templates.getgrist.com/doc/woXtXUBmiN5T)
 	- the link is in [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode)- it creates your own copy of the db that you can freely edit/save
+		- it can also be exported/shared as a single .grist file
 	- [submission form](https://app.windmill.dev/a/atproto-tools-scripts/submit) to add a record directly to the main db
 		- reach out on bsky https://aeshna-cyanea.bsky.social if you want to get full edit access to the main doc or to contribute code (help v much needed)
 - basically, this is an attempt to process and present links collected from [various awesome-atproto/bsky lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) from around the web.
@@ -20,6 +21,7 @@
 		  https://blueskystarterpack.com/
 		  https://bskyinfo.com/
 		  https://blueskydirectory.com/
+			- no offense but these sites (closed source, seo buzzword, selling ad space) kinda come across as desperate hustlers and it would bring me great pleasure to see them outcompetedby an open alternative
 	- structure/process
 		- [db schema]([[schema]])
 			- Sites

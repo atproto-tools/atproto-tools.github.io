@@ -128,7 +128,7 @@
 		- template https://templates.getgrist.com/dKztiPYamcCp/Crowdsourced-List/p/1
 - done tasks:
 	- so what determines the default layout of a record card?
-		- go to raw data > click ![image.png]( ../assets/image_1740422161379_0.png){:height 30, :width 22} icon on a table
+		- go to raw data > click card icon on a table
 - common formulas/snippets:
   collapsed:: true
 	- joining urls:

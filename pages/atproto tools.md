@@ -105,7 +105,10 @@
 		- possible ideas for the db:
 			- custom widgets https://support.getgrist.com/widget-custom/
 				- cache and directly render github project READMEs in a widget
-			- for formulas https://support.getgrist.com/functions/#record
+			- formula reference https://support.getgrist.com/functions/#record
+			- load the data into an alternate db?
+				- https://github.com/gristlabs/grist-core/issues/45#issuecomment-897678034
+				- https://github.com/gristlabs/grist-core/issues/195
 			- alt presentation
 				- https://support.getgrist.com/summary-tables/
 					- https://community.getgrist.com/t/summary-table-with-dynamic-columns/1604/2
@@ -113,12 +116,9 @@
 						- https://public.getgrist.com/71GRe6EuiRtm/Combined-Tables/m/fork
 						- https://community.getgrist.com/t/how-to-combine-two-tables-into-single-one/257/8
 				- https://community.getgrist.com/t/lookuprecords-where-column-value-in-multiple-value/1656/2
-			- load the data into an alternate db?
-				- https://github.com/gristlabs/grist-core/issues/45#issuecomment-897678034
-				- https://github.com/gristlabs/grist-core/issues/195
 	- access control for better crowdsourced editing
+		- basically set up a version with a secret column that tracks SessionIDs and uuids from linkKeys in the form https://support.getgrist.com/access-rules/
 		- template https://templates.getgrist.com/dKztiPYamcCp/Crowdsourced-List/p/1
-		- https://support.getgrist.com/access-rules/
 - common formulas/snippets:
   collapsed:: true
 	- joining urls:

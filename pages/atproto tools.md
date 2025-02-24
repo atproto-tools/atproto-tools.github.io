@@ -107,8 +107,6 @@
 - tasks for further development: #buildinpublic
 	- transform and prettify presentation
 		- come up with a logo for social media
-		- #q so what determines the default layout of a record card?
-			- go to raw data > click ![image.png]( ../assets/image_1740422161379_0.png){:height 30, :width 22} icon on a table
 		- possible ideas for the db:
 			- #q so if i want to add a feature matrix for bsky clients, should i add it as a separate table? or as yet more columns in the main Sites table. hmm
 			- custom widgets https://support.getgrist.com/widget-custom/
@@ -128,6 +126,9 @@
 		- basically set add a secret column that tracks SessionIDs and uuids from linkKeys in the form https://support.getgrist.com/access-rules/
 			- however having secret data prevents forking. need to add automation to ergularly copy the main doc to a separate version with stripped secrets and let people copy from that
 		- template https://templates.getgrist.com/dKztiPYamcCp/Crowdsourced-List/p/1
+- done tasks:
+	- so what determines the default layout of a record card?
+		- go to raw data > click ![image.png]( ../assets/image_1740422161379_0.png){:height 30, :width 22} icon on a table
 - common formulas/snippets:
   collapsed:: true
 	- joining urls:

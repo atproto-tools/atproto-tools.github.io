@@ -4,7 +4,8 @@
 		- https://support.getgrist.com/keyboard-shortcuts/
 		- [tutorial doc](https://templates.getgrist.com/doc/woXtXUBmiN5T)
 	- the link is in [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode)- it creates your own copy of the db that you can freely edit/save
-		- it can also be exported/shared as a single .grist file
+	  collapsed:: true
+		- besides the usual sql/csv exports, grist dbs also be exported as a `.grist` file (including all metadata) and imported into another install of grist. might be handy if excess popularity ever becomes a concern.
 	- [submission form](https://app.windmill.dev/a/atproto-tools-scripts/submit) to add a record directly to the main db
 		- reach out on bsky https://aeshna-cyanea.bsky.social if you want to get full edit access to the main doc or to contribute code (help v much needed)
 - basically, this is an attempt to process and present links collected from [various awesome-atproto/bsky lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) from around the web.

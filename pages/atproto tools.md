@@ -121,6 +121,7 @@
 	- joining urls:
 		- `" ".join((f"[{i[8:]}]({i})" if i.startswith("https://") else i) for i in <list of urls>)`
 	- normalizing a url:
+	  collapsed:: true
 		- for grist formulas:
 		  ```python
 		  from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode

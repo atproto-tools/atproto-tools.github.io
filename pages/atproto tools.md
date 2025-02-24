@@ -1,9 +1,9 @@
-- link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/
+- link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/m/fork
 	- ui tips:
 		- right click on any column header to sort and filter
 		- https://support.getgrist.com/keyboard-shortcuts/
 		- [tutorial doc](https://templates.getgrist.com/doc/woXtXUBmiN5T)
-	- you can add rows directly to the db as an anon user and edit your own additions (but not existing rows)
+	- this link is in [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode), meaning that you can freely
 	- for one-off additions, you can use the [form](https://app.windmill.dev/a/atproto-tools-scripts/submit) to quickly add a link with metadata (also anonymously)
 	- reach out on bsky https://aeshna-cyanea.bsky.social if you want to get full edit access or to contribute code
 - basically, this is an attempt to process and present links collected from [various awesome-atproto/bsky lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) from around the web.

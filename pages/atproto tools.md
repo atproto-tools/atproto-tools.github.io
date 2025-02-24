@@ -1,6 +1,7 @@
 - link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/m/fork
 	- ui tips:
 		- right click on any column header to sort and filter
+			- can sort by multiple columns at once
 		- https://support.getgrist.com/keyboard-shortcuts/
 		- [tutorial doc](https://templates.getgrist.com/doc/woXtXUBmiN5T)
 	- the link is in [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode)- it creates your own copy of the db that you can freely edit/save

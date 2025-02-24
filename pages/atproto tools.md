@@ -101,8 +101,10 @@
 - tasks for further development:
 	- add automation to backup the main doc to a separate version with stripped secrets (to enable copying)
 	- transform and prettify presentation
-		- come up with a logo
+		- come up with a logo for social media
 		- possible ideas for the db:
+			- custom widgets https://support.getgrist.com/widget-custom/
+				- cache and directly render github project READMEs in a widget
 			- for formulas https://support.getgrist.com/functions/#record
 			- alt presentation
 				- https://support.getgrist.com/summary-tables/

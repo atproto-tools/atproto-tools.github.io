@@ -3,8 +3,8 @@
 		- right click on any column header to sort and filter
 		- https://support.getgrist.com/keyboard-shortcuts/
 		- [tutorial doc](https://templates.getgrist.com/doc/woXtXUBmiN5T)
-	- this link is in [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode), meaning the whole table can be freely copied/edited
-	- [submission form](https://app.windmill.dev/a/atproto-tools-scripts/submit) to add a record
+	- link is in [fiddle mode](https://support.getgrist.com/glossary/#fiddle-mode)- it creates your own copy of the db that you can freely edit/save
+	- [submission form](https://app.windmill.dev/a/atproto-tools-scripts/submit) to add a record to the main db
 		- reach out on bsky https://aeshna-cyanea.bsky.social if you want to get full edit access to the main doc or to contribute code (help v much needed)
 - basically, this is an attempt to process and present links collected from [various awesome-atproto/bsky lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) from around the web.
   id:: 677672f7-5e29-4db1-a373-b6d3fed4549a

@@ -107,7 +107,8 @@
 - tasks for further development: #buildinpublic
 	- transform and prettify presentation
 		- come up with a logo for social media
-		- #q so what determines the default layout of a record card? is this documented anywhere?
+		- #q so what determines the default layout of a record card?
+			- the card that pops up when you press space or
 		- possible ideas for the db:
 			- #q so if i want to add a feature matrix for bsky clients, should i add it as a separate table? or as yet more columns in the main Sites table. hmm
 			- custom widgets https://support.getgrist.com/widget-custom/

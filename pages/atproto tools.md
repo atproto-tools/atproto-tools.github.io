@@ -99,7 +99,6 @@
 		- https://pygrister.readthedocs.io/en/stable/intro.html
 		- https://support.getgrist.com/webhooks/#webhooks
 		- self hosted version [apparently supports](https://github.com/gristlabs/grist-core/pull/588#pullrequestreview-1546296858) network requests from formulas?
-		-
 - tasks for further development:
 	- transform and prettify presentation
 		- come up with a logo for social media

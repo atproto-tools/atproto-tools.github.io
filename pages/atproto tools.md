@@ -103,6 +103,7 @@
 	- transform and prettify presentation
 		- come up with a logo for social media
 		- possible ideas for the db:
+			- q: so if i want to add a feature matrix for bsky clients, should i add it as a separate table? or as yet more columns in the main Sites table. hmm
 			- custom widgets https://support.getgrist.com/widget-custom/
 				- cache and directly render github project READMEs in a widget
 			- formula reference https://support.getgrist.com/functions/#record

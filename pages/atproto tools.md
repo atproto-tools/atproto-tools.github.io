@@ -56,7 +56,7 @@
 		- The crawler scripts and the submission form are run on [windmill](http://windmill.dev/)
 			- If you would like to contribute code, you can dm me on bsky [omniraptor.bsky.social](http://omniraptor.bsky.social) and i'll add you to the workspace. or just open a PR on the github
 			- TODO the submission form could ideally have atproto authentication. so you sign in and get ownership over your own records
-- relevant docs for hacking:
+- relevant docs for contributing:
 	- [windmill](https://www.windmill.dev/docs/intro)
 		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
 		  collapsed:: true

@@ -62,7 +62,6 @@
 			- https://www.windmill.dev/docs/advanced/cli/installation
 			- windmill local setup:
 			  collapsed:: true
-				- add `__init__.py` to all project folders for project module includes. don't forget to add `- "**/__init__.py"` to excludes in wmill.yaml
 				- add to launch config:
 				  ```json
 				  "env": {

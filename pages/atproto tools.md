@@ -24,8 +24,9 @@
 		  https://blueskystarterpack.com/
 		  https://bskyinfo.com/
 		  https://blueskydirectory.com/
-			- cw 
-			  not to be petty and vindictive but these sites (closed source, seo buzzword, selling ad space) kinda come across as desperate hustlers and it would bring me great pleasure to see them outcompeted by an open alternative
+			- cw bad
+			  collapsed:: true
+			  not to be petty and vindictive but these sites (closed source, seo buzzwords, selling ad space) kinda come across as desperate hustlers and it would bring me great pleasure to see them outcompeted by a more open alternative
 	- structure/process
 		- [db schema]([[schema]])
 			- Sites

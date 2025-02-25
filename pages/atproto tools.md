@@ -18,7 +18,7 @@
 			- runs on software (grist and windmill) that is open-source and self-hostable
 				- as is the [code for collecting/processing the data](https://github.com/atproto-tools/atproto-tools-scripts/)
 				- TODO unfortunately not actually self-hosted yet
-			- no ads
+			- no ads ever guaranteed we hate ads
 		- some projects that may be bigger and more user friendly but don't fit the above description:
 		  https://growbluesky.com/
 		  https://blueskystarterpack.com/

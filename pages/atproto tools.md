@@ -24,7 +24,8 @@
 		  https://blueskystarterpack.com/
 		  https://bskyinfo.com/
 		  https://blueskydirectory.com/
-			- no offense but these sites (closed source, seo buzzword, selling ad space) kinda come across as desperate hustlers and it would bring me great pleasure to see them outcompetedby an open alternative
+			- cw 
+			  not to be petty and vindictive but these sites (closed source, seo buzzword, selling ad space) kinda come across as desperate hustlers and it would bring me great pleasure to see them outcompeted by an open alternative
 	- structure/process
 		- [db schema]([[schema]])
 			- Sites
@@ -134,6 +135,7 @@
 	- joining urls:
 		- `" ".join((f"[{i[8:]}]({i})" if i.startswith("https://") else i) for i in <list of urls>)`
 	- normalizing a url:
+	  collapsed:: true
 		- for grist formulas:
 		  ```python
 		  from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode

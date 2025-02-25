@@ -121,8 +121,8 @@
 						- https://community.getgrist.com/t/how-to-combine-two-tables-into-single-one/257/8
 				- https://community.getgrist.com/t/lookuprecords-where-column-value-in-multiple-value/1656/2
 	- access control for better crowdsourced editing
-		- basically set add a secret column that tracks SessionIDs and uuids from linkKeys in the form https://support.getgrist.com/access-rules/
-			- however having secret data prevents forking. need to add automation to ergularly copy the main doc to a separate version with stripped secrets and let people copy from that
+		- basically add a secret column that tracks SessionIDs and uuids from linkKeys in the form https://support.getgrist.com/access-rules/
+			- however having secret data prevents forking. would also need to add automation to ergularly copy the main doc to a separate version with stripped secrets and let people copy from that
 		- template https://templates.getgrist.com/dKztiPYamcCp/Crowdsourced-List/p/1
 - done tasks:
 	- so what determines the default layout of a record card?

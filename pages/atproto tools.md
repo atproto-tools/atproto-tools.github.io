@@ -10,7 +10,7 @@
 		- besides the usual sql/csv exports, grist dbs also be exported as a `.grist` file (including all metadata) and imported into another install of grist. might be handy if excess popularity ever becomes a concern.
 	- [submission form](https://app.windmill.dev/a/atproto-tools-scripts/submit) to add a record directly to the main db
 		- reach out on bsky https://aeshna-cyanea.bsky.social if you want to get full edit access to the main doc or to contribute code (help v much needed)
-- basically, this is an attempt to process and present links collected from [various awesome-atproto/bsky lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) from around the web.
+- basically, this is an attempt to help monitor/enable discovery of the atproto ecosystem by processing links collected from [various awesome-atproto/bsky lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) from around the web.
   id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
 	- prior art: there are already a number of similar projects
 		- what makes this one different
@@ -24,9 +24,6 @@
 		  https://blueskystarterpack.com/
 		  https://bskyinfo.com/
 		  https://blueskydirectory.com/
-			- cw bad
-			  collapsed:: true
-			  not to be petty and vindictive but these sites (closed source, seo buzzwords, selling ad space) kinda come across as hustlers and it would bring me great pleasure to see them outcompeted by a more open alternative
 	- structure/process
 		- [db schema]([[schema]])
 			- Sites

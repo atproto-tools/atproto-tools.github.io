@@ -104,8 +104,10 @@
 		- self hosted version [apparently supports](https://github.com/gristlabs/grist-core/pull/588#pullrequestreview-1546296858) network requests from formulas?
 - tasks for further development: #buildinpublic
 	- an opt-out mechanism:
-		- an encrypted table of people who've opted out from being seen that is checked when collecting data
-			- op
+		- a special column on Sites, Repos, and Data Sources
+			- when set, the primary key of that record is set to an encrypted version of itself (key is stored with other secrets like api tokens)
+				- key is excluded from all queries by default,
+				-
 	- transform and prettify presentation
 		- come up with a logo for social media
 		- possible ideas for the db:

@@ -104,10 +104,12 @@
 		- self hosted version [apparently supports](https://github.com/gristlabs/grist-core/pull/588#pullrequestreview-1546296858) network requests from formulas?
 - tasks for further development: #buildinpublic
 	- an opt-out mechanism:
-		- a special column on Sites, Repos, and Data Sources
-			- when set, the primary key of that record is set to an encrypted version of itself (key is stored with other secrets like api tokens)
-				- key is excluded from all queries by default,
-				-
+		- a special 'opted-out' column on Sites, Repos, Authors
+			- when set, the (url, did) of that record is set to an encrypted version of itself
+				- key is stored with other secrets like api tokens
+				- encrypted records is excluded from all queries by default- add that to ATPTGrister
+			- add handling when adding entries
+				- author-
 	- transform and prettify presentation
 		- come up with a logo for social media
 		- possible ideas for the db:

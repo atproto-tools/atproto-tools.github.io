@@ -103,6 +103,9 @@
 		- https://support.getgrist.com/webhooks/#webhooks
 		- self hosted version [apparently supports](https://github.com/gristlabs/grist-core/pull/588#pullrequestreview-1546296858) network requests from formulas?
 - tasks for further development: #buildinpublic
+	- an opt-out mechanism:
+		- an encrypted table of people who've opted out from being seen that is checked when collecting data
+			- op
 	- transform and prettify presentation
 		- come up with a logo for social media
 		- possible ideas for the db:

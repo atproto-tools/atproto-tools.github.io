@@ -109,12 +109,13 @@
 				- key is stored with other secrets like api tokens
 				- encrypted records is excluded from all queries by default- add that to ATPTGrister
 			- add handling when adding entries
-				- author- abort adding anything by author-
-				- site- abort adding site
-					- if from form warn the submitter.
-						- or not? idk, ask for design help
+				- author- abort adding anything by author- propagating to linked sites/repos
+				- site- if adding from form, warn the submitter.
+					- or not? idk, ask for design help
 				- repo-
-					- this one's difficult. probably also silently fail
+					- this one's difficult. probably just silently abort
+				- all these would need significant refactoring, cuz we rely on the add functions returning a value
+					-
 	- transform and prettify presentation
 		- come up with a logo for social media
 		- possible ideas for the db:

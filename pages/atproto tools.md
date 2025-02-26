@@ -115,7 +115,7 @@
 				- repo-
 					- this one's difficult. probably just silently abort
 				- all these would need significant refactoring, cuz we rely on the add functions returning a value
-					-
+					- i guess now we see the benefits of functional programming lmao
 	- transform and prettify presentation
 		- come up with a logo for social media
 		- possible ideas for the db:

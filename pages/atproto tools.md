@@ -117,6 +117,7 @@
 				- all these would need significant refactoring, cuz we rely on the add functions returning a value
 					- i guess now we see the benefits of functional programming lmao
 	- transform and prettify presentation
+	  collapsed:: true
 		- come up with a logo for social media
 		- possible ideas for the db:
 			- #q so if i want to add a feature matrix for bsky clients, should i add it as a separate table? or as yet more columns in the main Sites table. hmm
@@ -134,6 +135,7 @@
 						- https://community.getgrist.com/t/how-to-combine-two-tables-into-single-one/257/8
 				- https://community.getgrist.com/t/lookuprecords-where-column-value-in-multiple-value/1656/2
 	- access control for better crowdsourced editing
+	  collapsed:: true
 		- basically add a secret column that tracks SessionIDs (from direct edits) and uuid from linkKeys (in the submission form) https://support.getgrist.com/access-rules/
 			- however having secret data prevents forking. would also need to add automation to regularly copy the main doc to a separate version with stripped secret data, and let people copy from that. clunky!
 				- would be fixed by https://github.com/gristlabs/grist-core/issues/791

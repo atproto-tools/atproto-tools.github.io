@@ -15,10 +15,10 @@
 	- prior art: there are already a number of similar projects
 		- what makes this one different:
 			- we put the data into [grist](https://github.com/gristlabs/grist-core/), a sqlite db with an excel-like frontend that is [extensible with html/js](https://support.getgrist.com/widget-custom/) (and supports [sql queries](https://support.getgrist.com/api/#tag/sql))
-			- runs on software (grist and windmill) that is open-source and self-hostable
+			- we use software (grist and windmill) that is open-source and self-hostable
 				- as is the [code for collecting/processing the data](https://github.com/atproto-tools/atproto-tools-scripts/)
 				- TODO unfortunately not actually self-hosted yet
-			- no selling ad space, ever, guaranteed, i hate ads
+			- we do not sell ad space, ever, guaranteed, i hate ads
 		- some projects that may be bigger and more user friendly but don't fit the above description:
 		  https://growbluesky.com/
 		  https://blueskystarterpack.com/

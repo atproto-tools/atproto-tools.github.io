@@ -1,4 +1,4 @@
-- link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/m/fork
+- main link: https://atproto-tools.getgrist.com/p2SiVPSGqbi8/m/fork
 	- ui tips:
 		- right click on any column header to sort and filter
 		  collapsed:: true
@@ -13,7 +13,7 @@
 - basically, this is an attempt to help monitor/enable discovery of the atproto ecosystem by processing links collected from [various awesome-atproto/bsky lists](https://atproto-tools.getgrist.com/p2SiVPSGqbi8/main-list/p/7) from around the web.
   id:: 677672f7-5e29-4db1-a373-b6d3fed4549a
 	- prior art: there are already a number of similar projects
-		- what makes this one different
+		- what makes this one different:
 			- we put the data into [grist](https://github.com/gristlabs/grist-core/), a sqlite db with an excel-like frontend that is [extensible with html/js](https://support.getgrist.com/widget-custom/) (and supports [sql queries](https://support.getgrist.com/api/#tag/sql))
 			- runs on software (grist and windmill) that is open-source and self-hostable
 				- as is the [code for collecting/processing the data](https://github.com/atproto-tools/atproto-tools-scripts/)

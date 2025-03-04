@@ -89,12 +89,10 @@
 						  collapsed:: true
 							- Batch Transform
 					- Tags - other common tool attributes
-					  collapsed:: true
 						- Documentation - for when a project is documentation or has good documenation (subjective)
 						- Bridging - resources that continuously bridge protocols
 						- Migration - tools or resources that let you convert records between lexicons/protocols
 						- Analytics
-						  collapsed:: true
 							- Small scale
 							- Large scale (lots of repos)
 							- Visualization

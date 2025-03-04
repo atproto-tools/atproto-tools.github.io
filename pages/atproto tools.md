@@ -83,10 +83,8 @@
 						  For example, a client that supported several lexicons would be able to `Select Lexicon`, one with an account switcher can `Select Repo`
 						- Aggregate - works with multiple existing records and combines them somehow
 						- Manipulate - create or delete records
-						  collapsed:: true
 							- Batch Manipulate
 						- Transform - edits or converts records
-						  collapsed:: true
 							- Batch Transform
 					- Tags - other common tool attributes
 						- Documentation - for when a project is documentation or has good documenation (subjective)

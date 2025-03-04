@@ -79,11 +79,11 @@
 						- Aggregate - works with multiple existing records and combines them somehow
 						- Index - like aggregate, but supports queries
 						- Manipulate - create or delete records
+							- Batch Manipulate
 						- Transform - edits or converts records to another lexicon or protocol
-						- Batch Manipulate
-						- Batch Transform
+							- Batch Transform
 					- Tags - other common tool attributes
-						- Documentation - for when a project has good docs (subjective)
+						- Documentation - for when a project is documentation or has good documenation (subjective)
 						- Bridging - tools/services that provide interop with other lexicons/protocols
 						- Analytics
 							- Small scale

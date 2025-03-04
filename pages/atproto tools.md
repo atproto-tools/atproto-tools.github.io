@@ -84,12 +84,14 @@
 							- Batch Transform
 					- Tags - other common tool attributes
 						- Documentation - for when a project is documentation or has good documenation (subjective)
+						- Bridging - resources that continuously bridge protocols
+						- Migration - tools or resources that let you convert records between lexicons/protocols
 						- Analytics
 							- Small scale
 							- Large scale (lots of repos)
 							- Visualization
 						- Complex/dev-oriented
-					- Interop target
+					- Interop with
 						- Twitter
 						- Mastodon
 						- Nostr

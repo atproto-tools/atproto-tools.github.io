@@ -41,6 +41,7 @@
 				- tagging schema
 				  collapsed:: true
 					- Concept - what thing is the tool working with
+					  collapsed:: true
 						- Identity
 							- DID
 							- Handle

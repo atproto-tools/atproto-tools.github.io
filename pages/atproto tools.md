@@ -78,7 +78,6 @@
 						- Resource - a resource or program meant to be used as-is.
 						- Tool - a library or tool useful for creating other tools- i.e. can be conceivably included as a dependency in something.
 					- Verb - what does our tool do with the thing.
-					  collapsed:: true
 						- Select - can work with many of this thing and switch between them.
 						  collapsed:: true
 						  For example, a client that supported several lexicons would be able to `Select Lexicon`, one with an account switcher can `Select Repo`

@@ -98,7 +98,6 @@
 							- Visualization
 						- Complex/dev-oriented
 					- Interop with
-					  collapsed:: true
 						- Twitter
 						- Mastodon
 						- Nostr

@@ -38,7 +38,7 @@
 					- TODO additional parsing of websites themselves
 						- maybe automatically grab the page title from the html tags (title or meta/ogl tags).
 						- flag for review (is site inactive?) based on the http resp code
-				- categorization schema
+				- tagging schema
 					- Concept - what thing is the tool working with
 						- Identity
 							- DID

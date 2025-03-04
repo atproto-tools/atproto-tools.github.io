@@ -38,6 +38,53 @@
 					- TODO additional parsing of websites themselves
 						- maybe automatically grab the page title from the html tags (title or meta/ogl tags).
 						- flag for review (is site inactive?) based on the http resp code
+				- categorization schema
+					- Concept - what are we working with
+						- Identity
+							- DID
+							- Handle
+						- Lexicon
+						- PDS
+							- Record
+							- Repo
+						- Client - shorthand for `Record aggregate/manipulate, often also a resource
+						- Client mod - browser extensions, userscripts
+						- Oauth
+						- Sync
+							- Relay
+							- Jetstream
+						- Appview
+						- Labeler
+						- Protocol-wide
+					- Record type - Lexicon specific
+						- Bluesky
+							- Post
+							- Follow
+							- Block
+							- Like
+							- List
+							- Starter Pack
+							- Feedgen
+						- Frontpage
+							- Post
+							- Comment
+							- Vote
+					- Type - what type of tool is it. if e.g. an open source client also has an official hosted version, it's both a tool and a resource.
+						- Resource - a resource or program meant to be used as-is.
+						- Tool - a library or tool useful for creating other tools- i.e. can be conceivably included as a dependency in something.
+					- Verb - what does it do with records.
+						- Aggregate - works with multiple existing records and combines them somehow
+						- Manipulate - create or delete records
+						- Transform - edits or converts records to another lexicon or protocol
+						- Batch - can manipulate/transform many records at once
+					- Tags - other common tool attributes
+						- Documentation - for when a project has good docs (subjective)
+						- Bridging - tools/services that provide interop with other lexicons/protocols
+						- Analytics
+							- Small scale
+							- Large scale (lots of repos)
+							- Visualization
+						- Complex/dev-oriented
 			- Repos
 			  id:: 67767430-00f2-4a86-81b0-84828fbfc695
 				- [fetch basic info about the repos](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_repos_data.py) with graphql

@@ -39,7 +39,7 @@
 						- maybe automatically grab the page title from the html tags (title or meta/ogl tags).
 						- flag for review (is site inactive?) based on the http resp code
 				- categorization schema
-					- Concept - what are we working with
+					- Concept - what thing is the tool working with
 						- Identity
 							- DID
 							- Handle
@@ -73,9 +73,9 @@
 					- Type - what type of tool is it. if e.g. an open source client also has an official hosted version, it's both a tool and a resource.
 						- Resource - a resource or program meant to be used as-is.
 						- Tool - a library or tool useful for creating other tools- i.e. can be conceivably included as a dependency in something.
-					- Verb - what does it do with the thing.
+					- Verb - what does our tool do with the thing.
 						- Select - can work with many of this thing. 
-						  For example, a client that supported several lexicons would be able to `Select Bluesky Frontpage`
+						  For example, a client that supported several lexicons would be able to `Select Lexicon`, one with an account switcher can `Select Repo`
 						- Aggregate - works with multiple existing records and combines them somehow
 						- Index - like aggregate, but supports queries
 						- Manipulate - create or delete records

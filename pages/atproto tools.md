@@ -73,6 +73,8 @@
 						- Resource - a resource or program meant to be used as-is.
 						- Tool - a library or tool useful for creating other tools- i.e. can be conceivably included as a dependency in something.
 					- Verb - what does it do with records.
+						- Select - can work with many of this thing. 
+						  For example, a client that supported several appviews would be able to `Select Appview``,
 						- Aggregate - works with multiple existing records and combines them somehow
 						- Manipulate - create or delete records
 						- Transform - edits or converts records to another lexicon or protocol

@@ -73,11 +73,11 @@
 					- Type - what type of tool is it. if e.g. an open source client also has an official hosted version, it's both a tool and a resource.
 						- Resource - a resource or program meant to be used as-is.
 						- Tool - a library or tool useful for creating other tools- i.e. can be conceivably included as a dependency in something.
-					- Verb - what does it do with records.
+					- Verb - what does it do with the thing.
 						- Select - can work with many of this thing. 
-						  For example, a client that supported several lexicons would be able to `Select Bluesky Frontpage`,
+						  For example, a client that supported several lexicons would be able to `Select Bluesky Frontpage`
 						- Aggregate - works with multiple existing records and combines them somehow
-						- Index - like aggre
+						- Index - like aggregate, but supports queries
 						- Manipulate - create or delete records
 						- Transform - edits or converts records to another lexicon or protocol
 						- Batch - can manipulate/transform many records at once

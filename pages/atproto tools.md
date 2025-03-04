@@ -67,8 +67,8 @@
 							- Feedgen
 							- DM
 						- Frontpage
-							- Post
 							- Comment
+							- Post
 							- Vote
 					- Type - what type of tool is it. meaning if e.g. an open source client also has an official hosted version, it's both a tool and a resource.
 						- Resource - a resource or program meant to be used as-is.

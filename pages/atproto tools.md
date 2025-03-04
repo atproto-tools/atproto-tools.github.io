@@ -47,7 +47,7 @@
 						- PDS
 							- Record
 							- Repo
-						- Client - shorthand for `Record aggregate/manipulate, often also a resource
+						- Client - shorthand for `Record+Aggregate/Manipulate`, often also a `Resource`
 						- Client mod - browser extensions, userscripts
 						- Oauth
 						- Sync

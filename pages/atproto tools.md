@@ -80,16 +80,19 @@
 						- Index - like aggregate, but supports queries
 						- Manipulate - create or delete records
 							- Batch Manipulate
-						- Transform - edits or converts records to another lexicon or protocol
+						- Transform - edits or converts records
 							- Batch Transform
 					- Tags - other common tool attributes
 						- Documentation - for when a project is documentation or has good documenation (subjective)
-						- Bridging - tools/services that provide interop with other lexicons/protocols
 						- Analytics
 							- Small scale
 							- Large scale (lots of repos)
 							- Visualization
 						- Complex/dev-oriented
+					- Interop target
+						- Twitter
+						- Mastodon
+						- Nostr
 			- Repos
 			  id:: 67767430-00f2-4a86-81b0-84828fbfc695
 				- [fetch basic info about the repos](https://github.com/atproto-tools/atproto-tools-scripts/blob/main/f/main/get_repos_data.py) with graphql

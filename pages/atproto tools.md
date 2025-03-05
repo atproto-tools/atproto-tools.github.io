@@ -250,5 +250,6 @@
 		      return urlunparse(parsed._replace(netloc=netloc, path=path, scheme=scheme, query=query)) #type: ignore
 		  ```
 - mindset:
+  collapsed:: true
 	- ![image.png](../assets/image_1735320252579_0.png) 
 	  source: https://x.com/gf_256/status/1514131084702797827

@@ -45,7 +45,6 @@
 							- DID
 							- Handle
 						- PDS
-						  collapsed:: true
 							- Record
 							- Repo
 							- Oauth

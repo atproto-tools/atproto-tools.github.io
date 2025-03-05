@@ -68,7 +68,6 @@
 							- Feedgen
 							- DM
 						- Frontpage
-						  collapsed:: true
 							- Comment
 							- Post
 							- Vote

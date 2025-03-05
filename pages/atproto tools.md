@@ -58,9 +58,7 @@
 						- Labeler
 						- Protocol-wide
 					- Lexicon - with subcategories for record types
-					  collapsed:: true
 						- Bluesky
-						  collapsed:: true
 							- Post
 							- Follow
 							- Block

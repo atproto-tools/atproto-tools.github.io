@@ -39,26 +39,29 @@
 						- maybe automatically grab the page title from the html tags (title or meta/ogl tags).
 						- flag for review (is site inactive?) based on the http resp code
 				- tagging schema
-				  collapsed:: true
 					- Concept - what thing is the tool working with
 						- Identity
+						  collapsed:: true
 							- DID
 							- Handle
-						- Lexicon
 						- PDS
+						  collapsed:: true
 							- Record
 							- Repo
+							- Oauth
 						- Client - shorthand for `Record, Aggregate+Manipulate`, often also a `Resource`
-						- Client mod - browser extensions, userscripts
-						- Oauth
+							- Client mod - browser extensions, userscripts
 						- Sync
+						  collapsed:: true
 							- Relay
 							- Jetstream
 						- Appview
 						- Labeler
 						- Protocol-wide
 					- Lexicon - with subcategories for record types
+					  collapsed:: true
 						- Bluesky
+						  collapsed:: true
 							- Post
 							- Follow
 							- Block
@@ -68,6 +71,7 @@
 							- Feedgen
 							- DM
 						- Frontpage
+						  collapsed:: true
 							- Comment
 							- Post
 							- Vote
@@ -76,24 +80,30 @@
 						- Resource - a resource or program meant to be used as-is.
 						- Tool - a library or tool useful for creating other tools- i.e. can be conceivably included as a dependency in something.
 					- Verb - what does our tool do with the thing.
+					  collapsed:: true
 						- Select - can work with many of this thing and switch between them.
 						  collapsed:: true
 						  For example, a client that supported several lexicons would be able to `Select Lexicon`, one with an account switcher can `Select Repo`
 						- Aggregate - works with multiple existing records and combines them somehow
 						- Manipulate - create or delete records
+						  collapsed:: true
 							- Batch Manipulate
 						- Transform - edits or converts records
+						  collapsed:: true
 							- Batch Transform
 					- Tags - other common tool attributes
+					  collapsed:: true
 						- Documentation - for when a project is documentation or has good documenation (subjective)
 						- Bridging - resources that continuously bridge protocols
 						- Migration - tools or resources that let you convert records between lexicons/protocols
 						- Analytics
+						  collapsed:: true
 							- Small scale
 							- Large scale (lots of repos)
 							- Visualization
 						- Complex/dev-oriented
 					- Interop with
+					  collapsed:: true
 						- Twitter
 						- Mastodon
 						- Nostr

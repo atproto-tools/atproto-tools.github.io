@@ -39,6 +39,7 @@
 						- maybe automatically grab the page title from the html tags (title or meta/ogl tags).
 						- flag for review (is site inactive?) based on the http resp code
 				- tagging schema
+				  collapsed:: true
 					- Concept - what thing is the tool working with
 						- Identity
 						  collapsed:: true
@@ -126,17 +127,16 @@
 - relevant docs for contributing:
 	- [windmill](https://www.windmill.dev/docs/intro)
 		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
-		  collapsed:: true
 			- https://www.windmill.dev/docs/advanced/cli/installation
 			- windmill local setup:
-			  collapsed:: true
 				- add to launch config:
 				  ```json
 				  "env": {
 				    "BASE_INTERNAL_URL": "https://app.windmill.dev",
-				    "WM_TOKEN": "your_token",
+				    "WM_TOKEN": "your token",
 				    "WM_WORKSPACE": "atproto-tools-scripts",
-				    "PYTHONPATH": "${workspaceFolder}"
+				    "PYTHONPATH": "${workspaceFolder}",
+				    "WM_USERNAME": "your username"
 				  }
 				  ```
 	- getting data

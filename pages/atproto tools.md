@@ -80,9 +80,7 @@
 						- Resource - a resource or program meant to be used as-is.
 						- Tool - a library or tool useful for creating other tools- i.e. can be conceivably included as a dependency in something.
 					- Verb - what does our tool do with the thing.
-					  collapsed:: true
-						- Select - can work with many of this thing and switch between them.
-						  collapsed:: true
+						- | Select | can work with many of this thing and switch between them.|
 						  For example, a client that supported several lexicons would be able to `Select Lexicon`, one with an account switcher can `Select Repo`
 						- Aggregate - works with multiple existing records and combines them somehow
 						- Manipulate - create or delete records
@@ -127,8 +125,10 @@
 - relevant docs for contributing:
 	- [windmill](https://www.windmill.dev/docs/intro)
 		- [local dev setup](https://www.windmill.dev/docs/advanced/local_development#develop-locally)
+		  collapsed:: true
 			- https://www.windmill.dev/docs/advanced/cli/installation
 			- windmill local setup:
+			  collapsed:: true
 				- add to launch config:
 				  ```json
 				  "env": {

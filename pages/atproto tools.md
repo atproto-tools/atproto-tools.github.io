@@ -171,6 +171,12 @@
 		- https://support.getgrist.com/webhooks/#webhooks
 		- self hosted version [apparently supports](https://github.com/gristlabs/grist-core/pull/588#pullrequestreview-1546296858) network requests from formulas?
 - tasks for further development: #buildinpublic
+	- merge conflicting author records when opening
+		- list all records
+			- check did
+				- yes
+				- no
+					-
 	- an opt-out mechanism:
 	  collapsed:: true
 		- a special 'opted-out' column on Sites, Repos, Authors

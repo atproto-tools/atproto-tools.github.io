@@ -176,7 +176,9 @@
 			- check did
 				- yes
 				- no
-					-
+					- check handle
+						- handle seen already? (from previously resolved did)
+							-
 	- an opt-out mechanism:
 	  collapsed:: true
 		- a special 'opted-out' column on Sites, Repos, Authors

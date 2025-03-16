@@ -180,7 +180,6 @@
 						- handle seen already? (from previously resolved did)
 							-
 	- an opt-out mechanism:
-	  collapsed:: true
 		- a special 'opted-out' column on Sites, Repos, Authors
 			- when set, the (url, did) of that record is set to an encrypted version of itself
 				- key is stored with other secrets like api tokens
@@ -211,9 +210,11 @@
 						- https://community.getgrist.com/t/how-to-combine-two-tables-into-single-one/257/8
 				- https://community.getgrist.com/t/lookuprecords-where-column-value-in-multiple-value/1656/2
 	- access control for better crowdsourced editing
+	  collapsed:: true
 		- basically add a secret column that tracks SessionIDs (from direct edits) and uuid from linkKeys (in the submission form) https://support.getgrist.com/access-rules/
 			- however having secret data prevents forking. would also need to add automation to regularly copy the main doc to a separate version with stripped secret data, and let people copy from that. clunky!
 				- would be fixed by https://github.com/gristlabs/grist-core/issues/791
+				- for now just keep everything public
 		- template https://templates.getgrist.com/dKztiPYamcCp/Crowdsourced-List/p/1
 - done tasks:
 	- so what determines the default layout of a record card?

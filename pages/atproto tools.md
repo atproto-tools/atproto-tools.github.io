@@ -216,6 +216,8 @@
 				- would be fixed by https://github.com/gristlabs/grist-core/issues/791
 				- for now just keep everything public
 		- template https://templates.getgrist.com/dKztiPYamcCp/Crowdsourced-List/p/1
+	- self host
+		- discussion https://github.com/gristlabs/grist-core/issues/733
 - done tasks:
 	- so what determines the default layout of a record card?
 		- go to raw data > click card icon on a table

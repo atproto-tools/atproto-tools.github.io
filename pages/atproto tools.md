@@ -209,6 +209,7 @@
 						- https://public.getgrist.com/71GRe6EuiRtm/Combined-Tables/m/fork
 						- https://community.getgrist.com/t/how-to-combine-two-tables-into-single-one/257/8
 				- https://community.getgrist.com/t/lookuprecords-where-column-value-in-multiple-value/1656/2
+				- https://pgloader.readthedocs.io/en/latest/ ?
 	- access control for better crowdsourced editing
 	  collapsed:: true
 		- basically add a secret column that tracks SessionIDs (from direct edits) and uuid from linkKeys (in the submission form) https://support.getgrist.com/access-rules/
@@ -218,6 +219,8 @@
 		- template https://templates.getgrist.com/dKztiPYamcCp/Crowdsourced-List/p/1
 	- self host
 		- discussion https://github.com/gristlabs/grist-core/issues/733
+		- https://community.getgrist.com/t/install-third-party-libraries/1087
+		-
 - done tasks:
 	- so what determines the default layout of a record card?
 		- go to raw data > click card icon on a table

@@ -221,7 +221,6 @@
 		- discussion https://github.com/gristlabs/grist-core/issues/733
 		- https://community.getgrist.com/t/install-third-party-libraries/1087
 			- https://community.getgrist.com/t/custom-python-packages-in-docker-image/1309/4
-		-
 - done tasks:
 	- so what determines the default layout of a record card?
 		- go to raw data > click card icon on a table

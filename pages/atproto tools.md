@@ -171,27 +171,18 @@
 		- https://support.getgrist.com/webhooks/#webhooks
 		- self hosted version [apparently supports](https://github.com/gristlabs/grist-core/pull/588#pullrequestreview-1546296858) network requests from formulas?
 - tasks for further development: #buildinpublic
-	- merge conflicting author records when opening
-		- list all records
-			- check did
-				- yes
-				- no
-					- check handle
-						- handle seen already? (from previously resolved did)
-							-
 	- an opt-out mechanism:
 		- a special 'opted-out' column on Sites, Repos, Authors
 			- when set, the (url, did) of that record is set to an encrypted version of itself
-				- key is stored with other secrets like api tokens
-				- encrypted records is excluded from all queries by default- add that to ATPTGrister
-			- add handling when adding entries
-				- author- abort adding anything by author- propagating to linked sites/repos
-				- site- if adding from form, warn the submitter.
-					- or not? idk, ask for design help
-				- repo-
-					- this one's difficult. probably just silently abort
-				- all these would need significant refactoring, cuz we rely on the add functions returning a value
-					- i guess now we see the benefits of functional programming lmao
+				- key is stored with other secrets such as api tokens
+				- add handling when adding entries
+					- author- abort adding anything by author- propagating to linked sites/repos
+					- site- if adding from form, warn the submitter. otherwise just log an error
+						- TODO idk, ask for design help
+					- repo-
+						- this one's difficult. probably just silently abort
+					- all these would need significant refactoring, cuz we rely on the add functions returning a value
+						- i guess now we see the benefits of functional programming lmao
 	- transform and prettify presentation
 		- come up with a logo for social media
 		- possible ideas for the db:

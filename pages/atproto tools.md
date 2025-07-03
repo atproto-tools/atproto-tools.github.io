@@ -216,11 +216,9 @@
 	- so what determines the default layout of a record card?
 		- go to raw data > click card icon on a table
 - common formulas/snippets:
-  collapsed:: true
 	- joining urls:
 		- `" ".join((f"[{i[8:]}]({i})" if i.startswith("https://") else i) for i in <list of urls>)`
 	- normalizing a url:
-	  collapsed:: true
 		- for grist formulas:
 		  ```python
 		  from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
